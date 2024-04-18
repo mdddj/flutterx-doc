@@ -1,0 +1,19 @@
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <variables>
+
+
+        <header-logo>
+            logo.svg
+        </header-logo>
+    </variables>
+    <build-profile instance="FlutterX"/>
+    <footer>
+        <copyright>梁典典FlutterX @2023</copyright>
+        <social type="blog" href="https://itbug.shop"/>
+        <social type="email" href="hlxsmail@gmail.com"/>
+        <social type="twitter" href="https://twitter.com/hlx40708255" />
+    </footer>
+
+
+</buildprofiles>
