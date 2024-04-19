@@ -21,7 +21,7 @@
 
 `DdPluginHiveBox`类的定义
 
-```Dart
+```Javascript
 abstract class DdPluginHiveBox<T> {
   final String boxName;
 
