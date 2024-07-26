@@ -10,12 +10,14 @@
     <toc-element topic="安装.topic"/>
     <toc-element topic="Starter.md">
     </toc-element>
+    <toc-element topic="Project-Library-scan.topic"/>
     <toc-element topic="Hive缓存工具.md"/>
     <toc-element topic="Shared_preferences.md"/>
     <toc-element topic="参数类型内联显示.md"/>
     <toc-element topic="Riverpod-Widget-Tool.md"/>
     <toc-element topic="第三方包工具.md"/>
     <toc-element topic="generate.topic"/>
+    <toc-element topic="Json-to-Freezed.topic"/>
     <toc-element topic="ios-17-隐私扫描工具.md"/>
     <toc-element topic="打赏.md"/>
     <toc-element topic="还有更多功能文档编写中.md"/>

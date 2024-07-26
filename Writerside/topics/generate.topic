@@ -8,7 +8,7 @@
    <p>Flutterx内置了一些自动补全的语句</p>
 
 
-    <procedure title="pf">
+    <procedure title="pf" id="pf">
         <step>
             键入<shortcut>pf</shortcut>,自动生成<code>文件名.freezed.dart</code>
         </step>

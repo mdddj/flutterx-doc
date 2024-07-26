@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Project Library scan" id="Project-Library-scan">
+
+
+    <p>dart library auto suggestions completion</p>
+
+    <chapter title="Preview" id="start">
+        <primary-label ref="library" />
+        <note>Addad in v4.9.0, <a href="https://plugins.jetbrains.com/plugin/18986-flutterx/edit/versions/stable/576724" >Go to download</a></note>
+        <p>enter the <shortcut>part</shortcut> trigger recommendations</p>
+        <img src="../videos/DartLibraryScanGif.gif" alt="Preview Gif" width="450"/>
+    </chapter>
+
+    <chapter title="How to close" id="how-to-close">
+        <img src="../images/dart_library/close.png" alt="close" width="450"/>
+    </chapter>
+</topic>
