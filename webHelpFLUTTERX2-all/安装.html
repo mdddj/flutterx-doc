@@ -1,0 +1,59 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-07-27T11:14:03.900995"><title>开始使用 | FlutterX文档</title><script type="application/json" id="virtual-toc-data">[{"id":"source","level":0,"title":"编译源码","anchor":"#source"},{"id":"idea-as","level":0,"title":"编译其他idea版本,AS版本","anchor":"#idea-as"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="开始使用 | FlutterX文档"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="FlutterX文档 Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/安装.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="开始使用 | FlutterX文档"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/安装.html#webpage",
+    "url": "writerside-documentation/安装.html",
+    "name": "开始使用 | FlutterX文档",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "FlutterX文档 Help"
+}</script><!-- End Schema.org --></head><body data-id="安装" data-main-title="开始使用" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>FlutterX文档  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="安装" id="安装.topic">开始使用</h1><p id="m4pq6i_2"><a href="https://flutterx.itbug.shop" id="m4pq6i_7" data-external="true" rel="noopener noreferrer">FlutterX</a> 是一个Flutter开发者快速开发的辅助工具插件,支持dio请求监听,json快速生成freezed对象,Hive可视化查看对象,shared_preferences可视化浏览等等强大功能</p><aside class="prompt" data-type="note" data-title="" id="m4pq6i_3"><p id="m4pq6i_8">它是开源且免费的,由<span class="control" id="m4pq6i_9">梁典典</span>开发维护,如果你想查看源码,请查看<a href="https://github.com/mdddj/dd_flutter_idea_plugin" id="m4pq6i_10" data-external="true" rel="noopener noreferrer">Github</a></p></aside><section class="procedure-steps"><h3 id="m4pq6i_4" data-toc="m4pq6i_4">在idea市场安装</h3><ol class="list _decimal"><li class="list__item" id="m4pq6i_11"><p>打开idea插件市场搜索<code class="code" id="m4pq6i_13">flutterx</code> ,第一个就是</p></li><li class="list__item" id="m4pq6i_12"><figure id="m4pq6i_14"><img alt="flutterx" src="flutterx-doc/start_01.png" title="flutterx" width="922" height="718"></figure></li></ol></section><section class="chapter"><h2 id="source" data-toc="source">编译源码</h2><aside class="prompt" data-type="note" data-title="" id="m4pq6i_15"><p>注意:插件使用Kotlin语言编写,gradle构建</p></aside><p id="m4pq6i_16">1.拉取源码</p><div class="code-block" data-lang="bash">
+            git clone https://github.com/mdddj/dd_flutter_idea_plugin
+        </div><p id="m4pq6i_18">2.拉取依赖</p><div class="code-block" data-lang="bash">
+            cd dd_flutter_idea_plugin &amp;&amp; ./gradlew -i --info
+        </div><p id="m4pq6i_20">3.打包</p><div class="code-block" data-lang="bash">
+            ./gradlew buildPlugin --info
+        </div></section><section class="chapter"><h2 id="idea-as" data-toc="idea-as">编译其他idea版本,AS版本</h2><p>查看要编译版本对应的版本号 修改对应的<code class="code" id="m4pq6i_22">sinceBuildVersion</code>和<code class="code" id="m4pq6i_23">untilBuildVersion</code> ,重新构建就好了 </p><aside class="prompt" data-type="warning" data-title="" id="m4pq6i_24"><p>修改后可能要进行JBR适配</p></aside><div class="code-block" data-lang="kotlin">
+            kotlin.stdlib.default.dependency=true
+            kotlin.incremental.useClasspathSnapshot=false
+            kotlin.experimental.tryK2=true
+            kapt.use.k2=true
+            pluginVersion=4.0.1
+            #===============================&gt; 223 AS release version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html
+            #===============================&gt; 正式版本最新 Giraffe
+            #dartVersion=223.8977
+            #flutterVersion=76.3.2
+            #sinceBuildVersion=223
+            #untilBuildVersion=223.*
+            #ideaVersion=2022.3.1.18
+            #ideaType=AI
+            #===============================&gt; 231 AS Hedgehog version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html
+            #dartVersion=231.9402
+            #flutterVersion=76.3.3
+            #sinceBuildVersion=231
+            #untilBuildVersion=231.*
+            #ideaVersion=2023.1.1.24
+            #ideaType=AI
+            #===============================&gt; 232 AS   Iguana
+            #dartVersion=232.10248
+            #flutterVersion=76.3.4
+            #sinceBuildVersion=232
+            #untilBuildVersion=232.*
+            #ideaVersion=2023.2.1.11
+            #ideaType=AI
+            #===============================&gt; 233 idea IU  2023.3
+            dartVersion=233.11799.172
+            flutterVersion=77.0.1
+            sinceBuildVersion=233
+            untilBuildVersion=233.*
+            ideaVersion=2023.3
+            ideaType=IU
+            #===============================================
+
+        </div></section><div class="last-modified">Last modified: 27 七月 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="starter.html" class="navigation-links__next">Dio接口监听</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.js"></script></body></html>

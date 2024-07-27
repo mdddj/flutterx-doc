@@ -6,21 +6,29 @@
        title="Dio Api Window (Apple App)" id="Dio-Api-Window-Apple-App">
 
     <p>
-        使用FlutterX App来监听请求
+        Use FlutterX App listen app api list
     </p>
 
 
+    <chapter title="Start" id="start">
+        in flutter project<code>pubspec.yaml</code> add package
 
+        <code-block lang="yaml">
+            dd_check_plugin: ^lastversion
+        </code-block>
+    </chapter>
+
+
+    // Initialize in the right place
     <code-block lang="java">
         final dioCheckPlugin = DdCheckPlugin();
 
-        //...
         await dioCheckPlugin
         .init(dio!,
-            initHost: '192.168.199.75', //输入监听的IP,在窗口中可以找到
-            port: 9999, // 监听的端口,暂时不能自定义
-            version: DataFormatVersions.appleApp, // 固定设置,默认是AS的数据结构
-            projectName: '典典的小卖部',
+            initHost: '192.168.199.75', //Enter the IP address of the listener, which can be found in the window
+            port: 9999, // The port on which the listener is being heard
+            version: DataFormatVersions.appleApp, // Fixed settings, the default is the data structure of the AS
+            projectName: 'Your app name',
             timeOut: const Duration(milliseconds: 1200))
         .catchError((e) => debugPrint('$e'));
     </code-block>

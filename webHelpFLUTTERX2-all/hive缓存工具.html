@@ -1,0 +1,50 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-07-27T11:14:03.943984"><title>Hive 缓存查看工具 | FlutterX文档</title><script type="application/json" id="virtual-toc-data">[{"id":"1","level":0,"title":"1.开始使用","anchor":"#1"},{"id":"2","level":0,"title":"2. 使用示例","anchor":"#2"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Hive 缓存查看工具 | FlutterX文档"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="FlutterX文档 Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/hive缓存工具.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Hive 缓存查看工具 | FlutterX文档"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/hive缓存工具.html#webpage",
+    "url": "writerside-documentation/hive缓存工具.html",
+    "name": "Hive 缓存查看工具 | FlutterX文档",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "FlutterX文档 Help"
+}</script><!-- End Schema.org --></head><body data-id="Hive缓存工具" data-main-title="Hive 缓存查看工具" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs=""><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>FlutterX文档  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Hive缓存工具" id="Hive缓存工具.md">Hive 缓存查看工具</h1><section class="chapter"><h2 id="1" data-toc="1">1.开始使用</h2><p id="hwe9dd_5">你需要在项目中添加依赖<code class="code" id="hwe9dd_11">dd_check_plugin</code> ,并在合适的位置初始化连接</p><div class="code-block" data-lang="javascript">
+    void main(){
+    DdCheckPlugin().init(Dio(),
+        initHost: &quot;192.168.100.63&quot;, //换成你的电脑 ip
+        port: 9999, //插件监听端口
+        projectName: 'App Name',
+        extend: [
+            HiveToolManager(boxList: [
+              // 关键的代码添加到这里,需要实现DdPluginHiveBox抽象类
+            ])
+    ]);
+}
+</div><p id="hwe9dd_7"><code class="code" id="hwe9dd_12">DdPluginHiveBox</code>类的定义</p><div class="code-block" data-lang="javascript">
+abstract class DdPluginHiveBox&lt;T&gt; {
+  final String boxName;
+
+  DdPluginHiveBox(this.boxName);
+
+  Future&lt;Box&lt;T&gt;&gt; get getBox;
+}
+
+</div><aside class="prompt" data-type="tip" data-title="" id="hwe9dd_9"><p id="hwe9dd_13">这里解释一下为什么要手动实现一个 <code class="code" id="hwe9dd_14">getBox</code>函数,因为Hive打开一个盒子,默认不传 T 泛型,就是默认的一个 dynamic类型,这样打开Hive会报错.</p></aside><div class="table-wrapper"><table class="wide" id="hwe9dd_10"><thead><tr class="ijRowHead" id="hwe9dd_15"><th id="hwe9dd_18"><p>属性</p></th><th id="hwe9dd_19"><p>说明</p></th></tr></thead><tbody><tr id="hwe9dd_16"><td id="hwe9dd_20"><p>boxName</p></td><td id="hwe9dd_21"><p>你的 Hive盒子名称</p></td></tr><tr id="hwe9dd_17"><td id="hwe9dd_22"><p>getBox</p></td><td id="hwe9dd_23"><p>返回盒子对象</p></td></tr></tbody></table></div></section><section class="chapter"><h2 id="2" data-toc="2">2. 使用示例</h2><p id="hwe9dd_24">面板中有 3 列,第一列是盒子列表, 第二列是第一列选中盒子里面所有的 key, 第三列是第 2 列选中的 key对应的 value</p><aside class="prompt" data-type="tip" data-title="" id="hwe9dd_25"><p id="hwe9dd_31">如果想改变key对应的 value值,可以重写它的 toString 函数</p></aside><figure id="hwe9dd_26"><img alt="_hive_img_01.png" src="flutterx-doc/_hive_img_01.png" title="_hive_img_01.png" width="1789" height="644"></figure><p id="hwe9dd_27">对应的代码</p><div class="code-block" data-lang="javascript">
+    await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: [
+      HiveToolManager(boxList: [MyCategoryCache()])
+    ]);
+    
+</div><p id="hwe9dd_29">实现DdPluginHiveBox接口就可以了</p><div class="code-block" data-lang="javascript">
+class MyCategoryCache extends DdPluginHiveBox&lt;CategoryWrapper&gt; {
+  MyCategoryCache() : super(&quot;dd_category_box&quot;);
+
+  @override
+  Future&lt;Box&lt;CategoryWrapper&gt;&gt; get getBox =&gt; Hive.isBoxOpen(boxName) ? Future.value(Hive.box(boxName)) : Hive.openBox(boxName);
+}
+
+</div></section><div class="last-modified">Last modified: 27 七月 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="project-library-scan.html" class="navigation-links__prev">Project Library scan</a><a href="shared-preferences.html" class="navigation-links__next">shared_preferences工具</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b408/app.js"></script></body></html>
