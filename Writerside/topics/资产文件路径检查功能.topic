@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="资产文件路径检查功能" id="资产文件路径检查功能">
+
+    <p>编辑器会对资产路径进行检查</p>
+
+    <p>如果这个路径不对，会爆红</p>
+
+    <img alt="image_13.png" src="image_13.png"/>
+
+    <p>上面图中就是路径不对，所以红了，补全后正常</p>
+</topic>

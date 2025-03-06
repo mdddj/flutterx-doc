@@ -3,24 +3,82 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="FlutterX"
-                 name="FlutterX文档"
-                 start-page="Starter.md">
-
+                  name="FlutterX文档"
+                  start-page="Starter.md">
 
     <toc-element topic="安装.topic"/>
-    <toc-element topic="Starter.md">
+
+    <!--  dio  -->
+    <toc-element toc-title="Dio">
+        <toc-element topic="Starter.md"/>
+        <toc-element topic="接口信息截图.md"/>
     </toc-element>
-    <toc-element topic="Project-Library-scan.topic"/>
-    <toc-element topic="Hive缓存工具.md"/>
-    <toc-element topic="Shared_preferences.md"/>
-    <toc-element topic="参数类型内联显示.md"/>
-    <toc-element topic="Riverpod-Widget-Tool.md"/>
-    <toc-element topic="第三方包工具.md"/>
-    <toc-element topic="generate.topic"/>
-    <toc-element topic="Json-to-Freezed.topic"/>
-    <toc-element topic="ios-17-隐私扫描工具.md"/>
-    <toc-element topic="Dio-Api-Window-Apple-App.topic"/>
+
+    <!--   shared 缓存 -->
+    <toc-element toc-title="Shared_p">
+        <toc-element topic="Shared_preferences.md"/>
+    </toc-element>
+
+
+    <!--    hive 缓存  -->
+    <toc-element toc-title="Hive">
+        <toc-element topic="Hive缓存工具.md"/>
+    </toc-element>
+
+
+    <!--    riverpod -->
+    <toc-element toc-title="Riverpod">
+        <toc-element topic="Riverpod-Widget-Tool.md"/>
+
+    </toc-element>
+
+    <!--    freezed-->
+    <toc-element toc-title="Freezed">
+        <toc-element topic="freezed-3-x版本迁移工具.topic"/>
+        <toc-element topic="Json-to-Freezed.topic"/>
+        <toc-element topic="generate.topic"/>
+        <toc-element topic="Freezed-Class-Tool-Menu.md"/>
+    </toc-element>
+
+
+    <!--    dart-->
+    <toc-element toc-title="Dart File">
+        <toc-element topic="资产文件路径检查功能.topic"/>
+        <toc-element topic="资产字符串快速打开文件.md"/>
+        <toc-element topic="资产图片预览功能.md"/>
+        <toc-element topic="Project-Library-scan.topic"/>
+        <toc-element topic="参数类型内联显示.md"/>
+    </toc-element>
+
+
+    <!--    pubspec.yaml-->
+    <toc-element toc-title="Pubspec.yaml">
+        <toc-element topic="不再更新的三方包检测.topic"/>
+        <toc-element topic="第三方包工具.md"/>
+    </toc-element>
+
+
+    <toc-element toc-title="Other">
+        <toc-element topic="flutter3-29-0安卓迁移gradle工具.topic"/>
+        <toc-element topic="ios-17-隐私扫描工具.md"/>
+        <toc-element topic="flutter新版本检测.md"/>
+    </toc-element>
+
+    <toc-element toc-title="Assets">
+
+        <toc-element topic="资产预览.md"/>
+        <toc-element topic="资产生成类调用.md"/>
+    </toc-element>
+
+    <toc-element toc-title="设置">
+        <toc-element topic="riverpod.md">
+        </toc-element>
+        <toc-element topic="快速打开子目录文件夹.md"/>
+        <toc-element topic="Links.md"/>
+        <toc-element topic="内联资产显示.md"/>
+    </toc-element>
+
+
     <toc-element topic="打赏.md"/>
-    <toc-element topic="还有更多功能文档编写中.md"/>
 
 </instance-profile>

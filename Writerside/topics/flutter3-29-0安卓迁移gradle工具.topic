@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="flutter3.29.0安卓迁移gradle工具" id="flutter3-29-0安卓迁移gradle工具">
+
+    <p>flutter3.29.0版本要迁移到新的 gradle版本</p>
+
+
+    <p>这个工具在这里</p>
+
+    <img alt="image_14.png" src="image_14.png"/>
+
+    <p>点击这个打勾，就可以应用这些更改</p>
+
+    <img alt="image_15.png" src="image_15.png"/>
+
+    <note>
+        注意这3 个文件都要改，只改一个不行的，如果出现错误，可能还要自己微调，这个是按照 flutter官方迁移博客来制作的。
+    </note>
+</topic>

@@ -10,4 +10,12 @@
         <description>Created after removal of "How to" from FlutterX文档</description>
         <accepts>How-to.html</accepts>
     </rule>
+    <rule id="67267967">
+        <description>Created after removal of "Dio Api Window (Apple App)" from FlutterX文档</description>
+        <accepts>Dio-Api-Window-Apple-App.html</accepts>
+    </rule>
+    <rule id="12c0d2c1">
+        <description>Created after removal of "还有更多功能文档编写中" from FlutterX文档</description>
+        <accepts>还有更多功能文档编写中.html</accepts>
+    </rule>
 </rules>
