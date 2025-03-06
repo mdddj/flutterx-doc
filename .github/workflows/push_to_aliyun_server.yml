@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: 同步文件到阿里云服务器
+      - name: 京东云 1panel上传
         uses: easingthemes/ssh-deploy@v5.1.0
         env:
           REMOTE_HOST: ${{ secrets.HOST }}
