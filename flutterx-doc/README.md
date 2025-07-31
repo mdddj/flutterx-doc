@@ -28,3 +28,16 @@ npm run build
 ## 部署
 
 文档通过 GitHub Actions 自动部署到 GitHub Pages。每次推送到 `main` 分支时都会触发部署流程。
+
+### 手动设置 GitHub Pages（如果自动部署失败）
+
+如果 GitHub Actions 部署失败，您可以手动设置 GitHub Pages：
+
+1. 访问仓库的 Settings 页面
+2. 在左侧菜单中点击 "Pages"
+3. 在 "Build and deployment" 部分：
+   - Source: 选择 "GitHub Actions"
+4. 保存设置
+
+部署成功后，您可以通过以下链接访问文档：
+[https://mdddj.github.io/flutterx-doc/](https://mdddj.github.io/flutterx-doc/)
