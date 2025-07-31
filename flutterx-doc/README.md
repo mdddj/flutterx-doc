@@ -29,6 +29,14 @@ npm run build
 
 文档通过 GitHub Actions 自动部署到 GitHub Pages。每次推送到 `main` 分支时都会触发部署流程。
 
+### 手动部署
+
+您也可以使用提供的部署脚本来手动触发部署：
+
+```bash
+./deploy.sh
+```
+
 ### 手动设置 GitHub Pages（如果自动部署失败）
 
 如果 GitHub Actions 部署失败，您可以手动设置 GitHub Pages：
