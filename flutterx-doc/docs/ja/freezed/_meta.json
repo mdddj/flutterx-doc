@@ -1,0 +1,22 @@
+[
+  {
+    "type": "file",
+    "name": "freezed-3-x版本迁移工具",
+    "label": "Freezed 3.x移行ツール"
+  },
+  {
+    "type": "file",
+    "name": "Json-to-Freezed",
+    "label": "Json to Freezed"
+  },
+  {
+    "type": "file",
+    "name": "generate",
+    "label": "コード生成"
+  },
+  {
+    "type": "file",
+    "name": "Freezed-Class-Tool-Menu",
+    "label": "Freezedクラスツールメニュー"
+  }
+]
