@@ -4,7 +4,7 @@ FlutterX 是一个为 Flutter 开发者提供快速开发辅助工具的插件�
 
 ## 文档网站
 
-文档已部署到 GitHub Pages，可以通过以下链接访问：
+文档已通过 GitHub Actions 部署到 GitHub Pages，可以通过以下链接访问：
 
 [https://mdddj.github.io/flutterx-doc/](https://mdddj.github.io/flutterx-doc/)
 
