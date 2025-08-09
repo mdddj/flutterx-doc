@@ -11,9 +11,7 @@ export default defineConfig({
     dark: "/images/logo.svg",
   },
   lang: "zh",
-  build: {
-    outDir: "doc_build",
-  },
+  outDir: "doc_build",
   themeConfig: {
     locales: [
       {
