@@ -1,0 +1,12 @@
+[
+  {
+    "text": "Home",
+    "link": "/en/",
+    "activeMatch": "^/en/$"
+  },
+  {
+    "text": "Documentation",
+    "link": "/en/installation",
+    "activeMatch": "^/en/(?!$)"
+  }
+]

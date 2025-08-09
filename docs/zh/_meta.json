@@ -1,0 +1,12 @@
+[
+  {
+    "text": "首页",
+    "link": "/",
+    "activeMatch": "^/$"
+  },
+  {
+    "text": "文档",
+    "link": "/安装",
+    "activeMatch": "^/(?!$)"
+  }
+]

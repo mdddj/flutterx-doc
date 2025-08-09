@@ -1,0 +1,22 @@
+[
+  {
+    "type": "file",
+    "name": "riverpod",
+    "label": "Riverpod設定"
+  },
+  {
+    "type": "file",
+    "name": "快速打开子目录文件夹",
+    "label": "サブディレクトリクイックオープン"
+  },
+  {
+    "type": "file",
+    "name": "Links",
+    "label": "リンク"
+  },
+  {
+    "type": "file",
+    "name": "内联资产显示",
+    "label": "インラインアセット表示"
+  }
+]
