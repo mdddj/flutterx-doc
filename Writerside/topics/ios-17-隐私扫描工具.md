@@ -16,13 +16,13 @@
 
 > 如果没有显示列表,点击扫描按钮,它可能需要一点时间来扫描
 
-![scan_ios.png](../../flutter/images/scan_ios.png)
+![scan_ios.png](../../flutter/images/ios隐私扫描窗口.png)
 
 ## 执行批量修复功能
 
 点击`批量修复`按钮,在弹窗中确认即可
 
-![ios-17-scan-dialog.png](../../flutter/images/ios-17-scan-dialog.png)
+
 
 ## 打开隐私文件确认
 

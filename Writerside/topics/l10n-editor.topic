@@ -5,5 +5,47 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="l10n editor" id="l10n-editor">
 
-    <p>Start typing here...</p>
+    <chapter title="1.Config l10n folder" id="setup-01">
+
+        <p>open flutterx setting panel</p>
+
+        <img alt="image_23.png" src="image_23.png"/>
+        <img alt="image_24.png" src="image_24.png"/>
+
+        <note>
+            In my project , it is `$projectPath/lib/l10n`
+        </note>
+
+    </chapter>
+
+
+    <chapter title="2.Use l10n panel" id="setup-02">
+        <img alt="image_25.png" src="image_25.png"/>
+        <img alt="image_26.png" src="image_26.png"/>
+        <p>Enter your new key</p>
+        <img alt="image_27.png" src="image_27.png"/>
+        <p>Click ok button,it will inset key to your all arb files</p>
+        <img alt="image_28.png" src="image_28.png"/>
+
+    </chapter>
+
+    <chapter title="Extract l10n key" id="extract-l10n-key">
+        <p>
+            Quickly extract strings as l10n keys
+        </p>
+        <img alt="image_29.png" src="image_29.png"/>
+        <img alt="image_30.png" src="image_30.png"/>
+        <p>
+            It will insert a new json node in app_en.arb
+        </p>
+        <img alt="image_31.png" src="image_31.png"/>
+    </chapter>
+
+    <chapter title="More features are being added.." id="features">
+
+    </chapter>
+
+
+
+
 </topic>

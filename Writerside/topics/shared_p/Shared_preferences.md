@@ -12,3 +12,13 @@
 右侧显示的key对应的value值
 
 ![_sp_main.png](_sp_main.png)
+
+
+## 右键菜单
+
+> 需要`dd_check_plugin`版本大于等于 4.0.2，`flutterX`版本大于等于5.7.0
+
+你可以在这里操作 SP 缓存
+
+![f9eec0d177a511a1333ac284043f2246.png](f9eec0d177a511a1333ac284043f2246.png)
+

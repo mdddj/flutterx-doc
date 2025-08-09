@@ -59,6 +59,8 @@
 
 
     <toc-element toc-title="Other">
+        <toc-element topic="Log.topic"/>
+        <toc-element topic="l10n-editor.topic"/>
         <toc-element topic="flutter3-29-0安卓迁移gradle工具.topic"/>
         <toc-element topic="ios-17-隐私扫描工具.md"/>
         <toc-element topic="flutter新版本检测.md"/>
@@ -66,6 +68,7 @@
 
     <toc-element toc-title="Assets">
 
+        <toc-element topic="资产预览窗口.md"/>
         <toc-element topic="资产预览.md"/>
         <toc-element topic="资产生成类调用.md"/>
     </toc-element>
@@ -80,5 +83,6 @@
 
 
     <toc-element topic="打赏.md"/>
+    <toc-element topic="更新日志.topic"/>
 
 </instance-profile>

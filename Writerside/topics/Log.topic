@@ -5,5 +5,68 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Log" id="Log">
 
-    <p>Start typing here...</p>
+    <chapter title="Log Window" id="01">
+        <note>
+            这个功能在FlutterX 5.6.0版本新增，还有dd_check_plugin包需要更新到4.0.0+，不更新有一些函数没办法用
+        </note>
+        <p>
+            有一些数据在控制台看起来不直观，也不方便，所以做了这个日志面板
+        </p>
+        <img alt="image_32.png" src="image_32.png"/>
+    </chapter>
+
+    <chapter title="怎么用?" id="02">
+        <p>
+            在你的项目中导入 <a href="https://pub.dev/packages/dd_check_plugin">dd_check_plugin(v4.0.0+)</a> 这个包
+        </p>
+
+        <p>
+            连接到FlutterX插件
+        </p>
+        <code-block lang="Dart">
+            DdCheckPlugin().init(Dio(),
+                    initHost: "192.168.199.1", // 切换到你的局域网ip
+                    port: 9999, // socket 端口，默认 9999
+                    connectSuccess: (socket,SocketConnect connect) {
+                // FlutterX 连接成功回调
+            }, connectDisconnected: (connect) {
+                //断开连接回调
+            }, extend: [
+                HiveToolManager(boxList: [DevCache.instance, AppMapCache(), UserCache()])
+            ]);
+        </code-block>
+
+        <p>
+            连接 idea插件成功后，会返回一个 <code>SocketConnect</code> 对象，这个对象封装了一些函数，可以对 FlutterX进行一些操作
+        </p>
+
+        <p>
+            把 SocketConnect 示例存起来，然后调用这个发送日志函数
+        </p>
+
+        <code-block lang="Dart">
+            connect.sendJsonLog(
+                "测试日志", //标题
+                {"hello":"world"}, // 数据
+                subTitle: "sub title", // 副标题
+                type: FlutterXLogType.info // 图标
+            );
+        </code-block>
+
+
+
+    </chapter>
+
+
+    <chapter title="使用自带封装的函数发送日志" id="03">
+        <p>
+            dd_check_plugin 封装了一个连接实例管理类，可以直接使用
+        </p>
+        <code-block lang="Dart">
+            FlutterXConnectManager.instance.getFirstConnect()?.sendJsonLog("测试日志${DateTime.now().toIso8601String()}", {
+                "hello":"world",
+                "bool":true
+              },type: FlutterXLogType.success);
+        </code-block>
+    </chapter>
 </topic>
