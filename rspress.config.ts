@@ -11,6 +11,7 @@ export default defineConfig({
     dark: "/images/logo.svg",
   },
   lang: "zh",
+  base: "/flutterx-doc/",
   outDir: "doc_build",
   themeConfig: {
     locales: [
