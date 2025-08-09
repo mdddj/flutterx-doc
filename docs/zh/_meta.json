@@ -1,12 +1,12 @@
 [
   {
     "text": "首页",
-    "link": "/",
-    "activeMatch": "^/$"
+    "link": "/zh/",
+    "activeMatch": "^/zh/$"
   },
   {
     "text": "文档",
-    "link": "/安装",
-    "activeMatch": "^/(?!$)"
+    "link": "/zh/安装",
+    "activeMatch": "^/zh/(?!$)"
   }
 ]

@@ -1,72 +1,12 @@
 [
   {
-    "type": "file",
-    "name": "index",
-    "label": "ホーム"
+    "text": "ホーム",
+    "link": "/ja/",
+    "activeMatch": "^/ja/$"
   },
   {
-    "type": "file",
-    "name": "安装",
-    "label": "インストール"
-  },
-  {
-    "type": "dir",
-    "name": "dio",
-    "label": "Dio"
-  },
-  {
-    "type": "dir",
-    "name": "shared_p",
-    "label": "Shared Preferences"
-  },
-  {
-    "type": "dir",
-    "name": "hive",
-    "label": "Hive"
-  },
-  {
-    "type": "dir",
-    "name": "riverpod",
-    "label": "Riverpod"
-  },
-  {
-    "type": "dir",
-    "name": "freezed",
-    "label": "Freezed"
-  },
-  {
-    "type": "dir",
-    "name": "dart-file",
-    "label": "Dartファイル"
-  },
-  {
-    "type": "dir",
-    "name": "pubspec",
-    "label": "Pubspec.yaml"
-  },
-  {
-    "type": "dir",
-    "name": "other",
-    "label": "その他の機能"
-  },
-  {
-    "type": "dir",
-    "name": "assets",
-    "label": "アセット管理"
-  },
-  {
-    "type": "dir",
-    "name": "settings",
-    "label": "設定"
-  },
-  {
-    "type": "file",
-    "name": "打赏",
-    "label": "寄付"
-  },
-  {
-    "type": "file",
-    "name": "更新日志",
-    "label": "更新履歴"
+    "text": "ドキュメント",
+    "link": "/ja/安装",
+    "activeMatch": "^/ja/(?!$)"
   }
 ]

@@ -51,13 +51,13 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      "/": [
+      "/zh/": [
         {
           text: "开始使用",
           items: [
             {
               text: "安装",
-              link: "/安装",
+              link: "/zh/安装",
             },
           ],
         },
@@ -66,11 +66,11 @@ export default defineConfig({
           items: [
             {
               text: "Dio接口监听",
-              link: "/dio/Starter",
+              link: "/zh/dio/Starter",
             },
             {
               text: "接口信息截图",
-              link: "/dio/接口信息截图",
+              link: "/zh/dio/接口信息截图",
             },
           ],
         },
@@ -79,7 +79,7 @@ export default defineConfig({
           items: [
             {
               text: "Shared Preferences",
-              link: "/shared_p/Shared_preferences",
+              link: "/zh/shared_p/Shared_preferences",
             },
           ],
         },
@@ -88,7 +88,7 @@ export default defineConfig({
           items: [
             {
               text: "Hive缓存工具",
-              link: "/hive/Hive缓存工具",
+              link: "/zh/hive/Hive缓存工具",
             },
           ],
         },
@@ -97,7 +97,7 @@ export default defineConfig({
           items: [
             {
               text: "Riverpod Widget Tool",
-              link: "/riverpod/Riverpod-Widget-Tool",
+              link: "/zh/riverpod/Riverpod-Widget-Tool",
             },
           ],
         },
@@ -106,19 +106,19 @@ export default defineConfig({
           items: [
             {
               text: "Freezed 3.x版本迁移工具",
-              link: "/freezed/freezed-3-x版本迁移工具",
+              link: "/zh/freezed/freezed-3-x版本迁移工具",
             },
             {
               text: "Json to Freezed",
-              link: "/freezed/Json-to-Freezed",
+              link: "/zh/freezed/Json-to-Freezed",
             },
             {
               text: "代码生成",
-              link: "/freezed/generate",
+              link: "/zh/freezed/generate",
             },
             {
               text: "Freezed Class Tool Menu",
-              link: "/freezed/Freezed-Class-Tool-Menu",
+              link: "/zh/freezed/Freezed-Class-Tool-Menu",
             },
           ],
         },
@@ -127,23 +127,23 @@ export default defineConfig({
           items: [
             {
               text: "资产文件路径检查功能",
-              link: "/dart-file/资产文件路径检查功能",
+              link: "/zh/dart-file/资产文件路径检查功能",
             },
             {
               text: "资产字符串快速打开文件",
-              link: "/dart-file/资产字符串快速打开文件",
+              link: "/zh/dart-file/资产字符串快速打开文件",
             },
             {
               text: "资产图片预览功能",
-              link: "/dart-file/资产图片预览功能",
+              link: "/zh/dart-file/资产图片预览功能",
             },
             {
               text: "Project Library Scan",
-              link: "/dart-file/Project-Library-scan",
+              link: "/zh/dart-file/Project-Library-scan",
             },
             {
               text: "参数类型内联显示",
-              link: "/dart-file/参数类型内联显示",
+              link: "/zh/dart-file/参数类型内联显示",
             },
           ],
         },
@@ -152,11 +152,11 @@ export default defineConfig({
           items: [
             {
               text: "不再更新的三方包检测",
-              link: "/pubspec/不再更新的三方包检测",
+              link: "/zh/pubspec/不再更新的三方包检测",
             },
             {
               text: "第三方包工具",
-              link: "/pubspec/第三方包工具",
+              link: "/zh/pubspec/第三方包工具",
             },
           ],
         },
@@ -165,23 +165,23 @@ export default defineConfig({
           items: [
             {
               text: "日志工具",
-              link: "/other/Log",
+              link: "/zh/other/Log",
             },
             {
               text: "L10n编辑器",
-              link: "/other/l10n-editor",
+              link: "/zh/other/l10n-editor",
             },
             {
               text: "Flutter 3.29.0 安卓迁移 Gradle 工具",
-              link: "/other/flutter3-29-0安卓迁移gradle工具",
+              link: "/zh/other/flutter3-29-0安卓迁移gradle工具",
             },
             {
               text: "iOS 17 隐私扫描工具",
-              link: "/other/ios-17-隐私扫描工具",
+              link: "/zh/other/ios-17-隐私扫描工具",
             },
             {
               text: "Flutter新版本检测",
-              link: "/other/flutter新版本检测",
+              link: "/zh/other/flutter新版本检测",
             },
           ],
         },
@@ -190,15 +190,15 @@ export default defineConfig({
           items: [
             {
               text: "资产预览窗口",
-              link: "/assets/资产预览窗口",
+              link: "/zh/assets/资产预览窗口",
             },
             {
               text: "资产预览",
-              link: "/assets/资产预览",
+              link: "/zh/assets/资产预览",
             },
             {
               text: "资产生成类调用",
-              link: "/assets/资产生成类调用",
+              link: "/zh/assets/资产生成类调用",
             },
           ],
         },
@@ -207,19 +207,19 @@ export default defineConfig({
           items: [
             {
               text: "Riverpod设置",
-              link: "/settings/riverpod",
+              link: "/zh/settings/riverpod",
             },
             {
               text: "快速打开子目录文件夹",
-              link: "/settings/快速打开子目录文件夹",
+              link: "/zh/settings/快速打开子目录文件夹",
             },
             {
               text: "链接",
-              link: "/settings/Links",
+              link: "/zh/settings/Links",
             },
             {
               text: "内联资产显示",
-              link: "/settings/内联资产显示",
+              link: "/zh/settings/内联资产显示",
             },
           ],
         },
@@ -228,11 +228,11 @@ export default defineConfig({
           items: [
             {
               text: "打赏",
-              link: "/打赏",
+              link: "/zh/打赏",
             },
             {
               text: "更新日志",
-              link: "/更新日志",
+              link: "/zh/更新日志",
             },
           ],
         },
