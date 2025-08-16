@@ -14,15 +14,9 @@ Flutterプロジェクトを開く際にデフォルトでプロセスが起動�
 
 ## スクリーンショットプレビュー
 
-<<<<<<< HEAD
 ![image_9.png](../../assets/images/image_9.png)
 
 ![image_10.png](../../assets/images/image_10.png)
-=======
-![image_9.png](/images/image_9.png)
-
-![image_10.png](/images/image_10.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 whats new はFlutter GitHubリポジトリのCHANGELOG.mdファイルにジャンプします。
 
@@ -35,8 +29,4 @@ whats new はFlutter GitHubリポジトリのCHANGELOG.mdファイルにジャ�
 
 ## この機能が不要な場合、ここで無効化してください。
 
-<<<<<<< HEAD
 ![image_8.png](../../assets/images/image_8.png)
-=======
-![image_8.png](/images/image_8.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

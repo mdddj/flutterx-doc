@@ -10,11 +10,7 @@ The left side shows all your key lists
 
 The right side displays the value corresponding to the selected key
 
-<<<<<<< HEAD
 ![_sp_main.png](../../assets/images/_sp_main.png)
-=======
-![_sp_main.png](/images/sp/_sp_main.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## Right-click Menu
 
@@ -22,8 +18,4 @@ The right side displays the value corresponding to the selected key
 
 You can operate on SP cache here
 
-<<<<<<< HEAD
 ![f9eec0d177a511a1333ac284043f2246.png](../../assets/images/f9eec0d177a511a1333ac284043f2246.png)
-=======
-![f9eec0d177a511a1333ac284043f2246.png](/images/f9eec0d177a511a1333ac284043f2246.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

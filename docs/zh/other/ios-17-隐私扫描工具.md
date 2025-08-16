@@ -15,11 +15,7 @@
 
 > 如果没有显示列表,点击扫描按钮,它可能需要一点时间来扫描
 
-<<<<<<< HEAD
 ![scan_ios.png](../../assets/images/ios隐私扫描窗口.png)
-=======
-![scan_ios.png](/images/ios隐私扫描窗口.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 执行批量修复功能
 

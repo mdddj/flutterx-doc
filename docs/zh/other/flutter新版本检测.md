@@ -14,15 +14,9 @@
 
 ## 截图预览
 
-<<<<<<< HEAD
 ![image_9.png](../../assets/images/image_9.png)
 
 ![image_10.png](../../assets/images/image_10.png)
-=======
-![image_9.png](/images/image_9.png)
-
-![image_10.png](/images/image_10.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 whats new 会跳转到flutter github仓库的CHANGELOG.md文件
 
@@ -35,8 +29,4 @@ whats new 会跳转到flutter github仓库的CHANGELOG.md文件
 
 ## 不需要这个功能,在这里关闭它
 
-<<<<<<< HEAD
 ![image_8.png](../../assets/images/image_8.png)
-=======
-![image_8.png](/images/image_8.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

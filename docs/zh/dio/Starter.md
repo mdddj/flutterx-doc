@@ -4,21 +4,13 @@
 
 如果找不到这个窗口,可能是默认没有显示,需要在菜单栏中手动打开: `View -> Tool Windows -> Dio Request`
 
-<<<<<<< HEAD
 ![dio windows](../../assets/images/_dio_01.png)
-=======
-![dio windows](/images/dio/_dio_01.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 2.服务运行状态
 
 如果出现小绿点,标识服务正在运行,可以开始连接使用了
 
-<<<<<<< HEAD
 ![status](../../assets/images/img_2.png)
-=======
-![status](/images/dio/img_2.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 3.开始使用
 
@@ -73,11 +65,7 @@ flutter pub get
 
 插件会自动识别你的 IP 地址,并给出提示
 
-<<<<<<< HEAD
 ![img_3.png](../../assets/images/img_3.png)
-=======
-![img_3.png](/images/dio/img_3.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 5.给接口添加备注
 
@@ -110,7 +98,6 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 
 效果如图,`SendResponseModel#extendNotes`里面的字符串数组会在 url循环遍历成标签显示
 
-<<<<<<< HEAD
 ![img_4.png](../../assets/images/img_4.png)
 
 如果备注太多,建议使用宽松模式来显示
@@ -120,17 +107,6 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 这是我的配置
 
 ![img_6.png](../../assets/images/img_6.png)
-=======
-![img_4.png](/images/dio/img_4.png)
-
-如果备注太多,建议使用宽松模式来显示
-
-![img_5.png](/images/dio/img_5.png)
-
-这是我的配置
-
-![img_6.png](/images/dio/img_6.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 6. Json 转 Freezed 模型
 
@@ -139,18 +115,10 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 选中某个接口后,点击这个图标,会弹出 json 转 freezed 模型的配置弹窗
 或者右键点击接口弹出菜单里面也有这个选项
 
-<<<<<<< HEAD
 ![img_7.png](../../assets/images/img_7.png)
 
 ![img_8.png](../../assets/images/img_8.png)
 
 ![img_9.png](../../assets/images/img_9.png)
-=======
-![img_7.png](/images/dio/img_7.png)
-
-![img_8.png](/images/dio/img_8.png)
-
-![img_9.png](/images/dio/img_9.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 

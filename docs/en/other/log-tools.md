@@ -7,11 +7,7 @@
 
 Some data in the console doesn't look intuitive and is not convenient, so this log panel was created.
 
-<<<<<<< HEAD
 ![image_32.png](../../assets/images/image_32.png)
-=======
-![image_32.png](/images/image_32.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## How to use?
 

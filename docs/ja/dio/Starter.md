@@ -4,21 +4,13 @@
 
 このウィンドウが見つからない場合は、デフォルトで表示されていない可能性があります。メニューバーで手動で開く必要があります: `View -> Tool Windows -> Dio Request`
 
-<<<<<<< HEAD
 ![dio windows](../../assets/images/_dio_01.png)
-=======
-![dio windows](/images/dio/_dio_01.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 2.サービス実行状態
 
 緑の点が表示されている場合、サービスが実行中であることを示し、接続して使用を開始できます。
 
-<<<<<<< HEAD
 ![status](../../assets/images/img_2.png)
-=======
-![status](/images/dio/img_2.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 3.使用開始
 
@@ -73,11 +65,7 @@ Dioのシングルトンクラスを渡してください。プラグインは�
 
 プラグインは自動的にIPアドレスを識別し、ヒントを提供します。
 
-<<<<<<< HEAD
 ![img_3.png](../../assets/images/img_3.png)
-=======
-![img_3.png](/images/dio/img_3.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 5.インターフェースに備考を追加
 
@@ -110,7 +98,6 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 
 効果は図の通りです。`SendResponseModel#extendNotes`内の文字列配列がURLでループされ、タグとして表示されます。
 
-<<<<<<< HEAD
 ![img_4.png](../../assets/images/img_4.png)
 
 備考が多すぎる場合は、ワイドモードで表示することをお勧めします。
@@ -120,17 +107,6 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 これは私の設定です。
 
 ![img_6.png](../../assets/images/img_6.png)
-=======
-![img_4.png](/images/dio/img_4.png)
-
-備考が多すぎる場合は、ワイドモードで表示することをお勧めします。
-
-![img_5.png](/images/dio/img_5.png)
-
-これは私の設定です。
-
-![img_6.png](/images/dio/img_6.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 6. Json to Freezed モデル
 
@@ -139,16 +115,8 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 特定のインターフェースを選択し、このアイコンをクリックすると、json to freezedモデルの設定ポップアップが表示されます。
 または、インターフェースを右クリックしてポップアップメニューからもこのオプションを選択できます。
 
-<<<<<<< HEAD
 ![img_7.png](../../assets/images/img_7.png)
 
 ![img_8.png](../../assets/images/img_8.png)
 
 ![img_9.png](../../assets/images/img_9.png)
-=======
-![img_7.png](/images/dio/img_7.png)
-
-![img_8.png](/images/dio/img_8.png)
-
-![img_9.png](/images/dio/img_9.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

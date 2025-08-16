@@ -48,11 +48,7 @@ abstract class DdPluginHiveBox<T> {
 > キーに対応する値を変更したい場合は、toString関数をオーバーライドできます。
 
 
-<<<<<<< HEAD
 ![_hive_img_01.png](../../assets/images/_hive_img_01.png)
-=======
-![_hive_img_01.png](/images/hive/_hive_img_01.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 対応するコード
 

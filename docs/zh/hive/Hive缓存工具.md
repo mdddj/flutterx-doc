@@ -48,11 +48,7 @@ abstract class DdPluginHiveBox<T> {
 > 如果想改变key对应的 value值,可以重写它的 toString 函数
 
 
-<<<<<<< HEAD
 ![_hive_img_01.png](../../assets/images/_hive_img_01.png)
-=======
-![_hive_img_01.png](/images/hive/_hive_img_01.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 对应的代码
 
