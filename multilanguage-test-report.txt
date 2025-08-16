@@ -1,0 +1,42 @@
+FlutterX Documentation Test Report
+==================================================
+
+Overall Summary:
+--------------------
+Total suites: 1
+Total tests: 8
+Passed: 8
+Failed: 0
+Success rate: 100.0%
+
+Suite: Multi-Language Tests
+------------------------------
+Tests: 8
+Passed: 8
+Failed: 0
+Success rate: 100.0%
+
+  ✅ PASS language_directories_exist
+    Message: All language directories exist
+  ✅ PASS language_config
+    Message: i18n plugin: True, Language configs: ['zh', 'en', 'ja']
+    Details: {'has_i18n': True, 'configured_languages': ['zh', 'en', 'ja']}
+  ✅ PASS language_navigation
+    Message: Navigation sections: {'zh': True, 'en': True, 'ja': True}
+    Details: {'zh': True, 'en': True, 'ja': True}
+  ✅ PASS language_content_structure
+    Message: Structure consistency: 10/10 directories consistent
+    Details: {'structure_comparison': {'zh': ['hive', 'other', 'freezed', 'riverpod', 'assets', 'dio', 'settings', 'shared_p', 'dart-file', 'pubspec'], 'en': ['hive', 'other', 'freezed', 'riverpod', 'assets', 'dio', 'settings', 'shared_p', 'dart-file', 'pubspec'], 'ja': ['hive', 'other', 'freezed', 'riverpod', 'assets', 'dio', 'settings', 'shared_p', 'dart-file', 'pubspec']}, 'consistency_score': 10, 'total_directories': 10}
+  ✅ PASS language_switcher_config
+    Message: Language switcher: True, Entries: ['zh', 'en', 'ja']
+    Details: {'has_alternate': True, 'language_entries': ['zh', 'en', 'ja']}
+  ✅ PASS index_files_exist
+    Message: All language index files exist
+    Details: {'missing_indexes': []}
+  ✅ PASS cross_language_consistency
+    Message: Cross-language consistency: 100.0%
+    Details: {'section_availability': {'zh': ['dio', 'freezed', 'settings', 'assets'], 'en': ['dio', 'freezed', 'settings', 'assets'], 'ja': ['dio', 'freezed', 'settings', 'assets']}, 'consistency_score': 1.0}
+  ✅ PASS language_specific_content
+    Message: Localization quality: 58.3%
+    Details: {'localization_checks': [{'language': 'zh', 'found_keywords': 3, 'total_keywords': 4, 'score': 0.75}, {'language': 'en', 'found_keywords': 1, 'total_keywords': 4, 'score': 0.25}, {'language': 'ja', 'found_keywords': 3, 'total_keywords': 4, 'score': 0.75}]}
+

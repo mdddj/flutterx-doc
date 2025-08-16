@@ -1,0 +1,28 @@
+Cross-Language Links Fix Report
+==================================================
+
+Total files fixed: 3
+
+Fixed Files:
+------------------------------
+docs/en/settings/index.md
+docs/zh/settings/index.md
+docs/ja/settings/index.md
+
+Fix Log:
+------------------------------
+Starting cross-language links fix...
+Docs directory: docs
+Fixing cross-language links...
+✅ Fixed docs/en/settings/index.md (1 changes)
+✅ Fixed docs/zh/settings/index.md (1 changes)
+✅ Fixed docs/ja/settings/index.md (1 changes)
+✅ Fixed cross-language links in 3 files
+Validating fixed links...
+⚠️  Found 85 validation issues after fixing
+  • docs/en/settings/index.md: Invalid link to ./quick-open-subdirectory
+  • docs/en/settings/index.md: Invalid link to ../en/riverpod
+  • docs/en/settings/index.md: Invalid link to ./inline-asset-display
+  • docs/en/settings/index.md: Invalid link to ./Links
+  • docs/en/dart-file/index.md: Invalid link to ./asset-image-preview
+  ... and 80 more

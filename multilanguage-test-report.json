@@ -1,0 +1,184 @@
+{
+  "summary": {
+    "total_suites": 1,
+    "total_tests": 8,
+    "total_passed": 8,
+    "total_failed": 0,
+    "overall_success_rate": 100.0,
+    "timestamp": 1755242826.412069
+  },
+  "suites": [
+    {
+      "name": "Multi-Language Tests",
+      "summary": {
+        "suite_name": "Multi-Language Tests",
+        "total_tests": 8,
+        "passed": 8,
+        "failed": 0,
+        "success_rate": 100.0
+      },
+      "tests": [
+        {
+          "name": "language_directories_exist",
+          "passed": true,
+          "message": "All language directories exist",
+          "details": {},
+          "timestamp": 1755242826.4092329
+        },
+        {
+          "name": "language_config",
+          "passed": true,
+          "message": "i18n plugin: True, Language configs: ['zh', 'en', 'ja']",
+          "details": {
+            "has_i18n": true,
+            "configured_languages": [
+              "zh",
+              "en",
+              "ja"
+            ]
+          },
+          "timestamp": 1755242826.409367
+        },
+        {
+          "name": "language_navigation",
+          "passed": true,
+          "message": "Navigation sections: {'zh': True, 'en': True, 'ja': True}",
+          "details": {
+            "zh": true,
+            "en": true,
+            "ja": true
+          },
+          "timestamp": 1755242826.409462
+        },
+        {
+          "name": "language_content_structure",
+          "passed": true,
+          "message": "Structure consistency: 10/10 directories consistent",
+          "details": {
+            "structure_comparison": {
+              "zh": [
+                "hive",
+                "other",
+                "freezed",
+                "riverpod",
+                "assets",
+                "dio",
+                "settings",
+                "shared_p",
+                "dart-file",
+                "pubspec"
+              ],
+              "en": [
+                "hive",
+                "other",
+                "freezed",
+                "riverpod",
+                "assets",
+                "dio",
+                "settings",
+                "shared_p",
+                "dart-file",
+                "pubspec"
+              ],
+              "ja": [
+                "hive",
+                "other",
+                "freezed",
+                "riverpod",
+                "assets",
+                "dio",
+                "settings",
+                "shared_p",
+                "dart-file",
+                "pubspec"
+              ]
+            },
+            "consistency_score": 10,
+            "total_directories": 10
+          },
+          "timestamp": 1755242826.411393
+        },
+        {
+          "name": "language_switcher_config",
+          "passed": true,
+          "message": "Language switcher: True, Entries: ['zh', 'en', 'ja']",
+          "details": {
+            "has_alternate": true,
+            "language_entries": [
+              "zh",
+              "en",
+              "ja"
+            ]
+          },
+          "timestamp": 1755242826.411484
+        },
+        {
+          "name": "index_files_exist",
+          "passed": true,
+          "message": "All language index files exist",
+          "details": {
+            "missing_indexes": []
+          },
+          "timestamp": 1755242826.411508
+        },
+        {
+          "name": "cross_language_consistency",
+          "passed": true,
+          "message": "Cross-language consistency: 100.0%",
+          "details": {
+            "section_availability": {
+              "zh": [
+                "dio",
+                "freezed",
+                "settings",
+                "assets"
+              ],
+              "en": [
+                "dio",
+                "freezed",
+                "settings",
+                "assets"
+              ],
+              "ja": [
+                "dio",
+                "freezed",
+                "settings",
+                "assets"
+              ]
+            },
+            "consistency_score": 1.0
+          },
+          "timestamp": 1755242826.411947
+        },
+        {
+          "name": "language_specific_content",
+          "passed": true,
+          "message": "Localization quality: 58.3%",
+          "details": {
+            "localization_checks": [
+              {
+                "language": "zh",
+                "found_keywords": 3,
+                "total_keywords": 4,
+                "score": 0.75
+              },
+              {
+                "language": "en",
+                "found_keywords": 1,
+                "total_keywords": 4,
+                "score": 0.25
+              },
+              {
+                "language": "ja",
+                "found_keywords": 3,
+                "total_keywords": 4,
+                "score": 0.75
+              }
+            ]
+          },
+          "timestamp": 1755242826.4120588
+        }
+      ]
+    }
+  ]
+}

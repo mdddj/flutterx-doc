@@ -1,0 +1,44 @@
+Asset Validation Report
+==================================================
+
+Summary:
+  Total markdown files: 133
+  Files with images: 4
+  Total image references: 267
+  Valid references: 263
+  Broken references: 4
+
+Broken Image References (4):
+----------------------------------------
+docs/en/other/ios-privacy-scanning.md: Missing image ../../assets/images/scan_ios.png
+docs/en/dio/starter.md: Missing image https://img.shields.io/pub/v/dd_check_plugin
+docs/zh/dio/Starter.md: Missing image https://img.shields.io/pub/v/dd_check_plugin
+docs/ja/dio/Starter.md: Missing image https://img.shields.io/pub/v/dd_check_plugin
+
+Missing Asset Files (1):
+----------------------------------------
+/Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/scan_ios.png
+
+Valid References (sample of 20):
+----------------------------------------
+docs/ja/打赏.md: ../assets/images/ff.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/ff.png
+docs/ja/打赏.md: ../assets/images/pd.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/pd.png
+docs/zh/打赏.md: ../assets/images/IMG_1316.jpeg -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/IMG_1316.jpeg
+docs/zh/安装.md: ../assets/images/start_01.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/start_01.png
+docs/en/donate.md: ../assets/images/IMG_1316.jpeg -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/IMG_1316.jpeg
+docs/en/installation.md: ../assets/images/start_01.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/start_01.png
+docs/en/settings/inline-asset-display.md: ../../assets/images/image_s_i1.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_i1.png
+docs/en/settings/inline-asset-display.md: ../../assets/images/image_s_i2.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_i2.png
+docs/en/settings/inline-asset-display.md: ../../assets/images/image_s_i3.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_i3.png
+docs/en/settings/quick-open-subdirectory.md: ../../assets/images/image_comm_01.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_comm_01.png
+docs/en/settings/quick-open-subdirectory.md: ../../assets/images/image.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image.png
+docs/en/settings/quick-open-subdirectory.md: ../../assets/images/image_s_o1.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_o1.png
+docs/en/settings/quick-open-subdirectory.md: ../../assets/images/image_s_o2.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_o2.png
+docs/en/settings/riverpod.md: ../../assets/images/image_s_r_1.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_r_1.png
+docs/en/settings/riverpod.md: ../../assets/images/image_s_r_2.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_r_2.png
+docs/en/settings/riverpod.md: ../../assets/images/image_s_r_3.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_r_3.png
+docs/en/settings/riverpod.md: ../../assets/gif/Kapture_2024-10-30_at_11.24.11.gif -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/gif/Kapture_2024-10-30_at_11.24.11.gif
+docs/en/settings/riverpod.md: ../../assets/images/image_s_r_4.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_r_4.png
+docs/en/settings/links.md: ../../assets/images/image_s_l1.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_l1.png
+docs/en/settings/links.md: ../../assets/images/image_s_l2.png -> /Users/ldd/WritersideProjects/flutterx/mkdocs-flutterx/docs/assets/images/image_s_l2.png
+

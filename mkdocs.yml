@@ -1,0 +1,252 @@
+site_name: FlutterX 插件文档
+site_description: FlutterX - Flutter开发者快速开发的辅助工具插件
+site_url: https://your-domain.com
+repo_url: https://github.com/mdddj/dd_flutter_idea_plugin
+repo_name: mdddj/dd_flutter_idea_plugin
+edit_uri: edit/main/mkdocs-flutterx/docs/
+copyright: Copyright &copy; 2024 FlutterX Plugin
+
+theme:
+  name: material
+  language: zh
+  logo: assets/images/logo.svg
+  favicon: assets/images/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - toc.follow
+    - toc.integrate
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/flutter
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+        - ja
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - abbr
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mdddj/dd_flutter_idea_plugin
+      name: GitHub Repository
+  alternate:
+    - name: 简体中文
+      link: /zh/
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
+
+# Multi-language navigation structure
+nav:
+  - 首页: index.md
+  - 简体中文:
+    - 首页: zh/index.md
+    - 开始使用:
+      - 安装: zh/安装.md
+    - Dio:
+      - Dio接口监听: zh/dio/Starter.md
+      - 接口信息截图: zh/dio/接口信息截图.md
+    - Shared Preferences:
+      - Shared Preferences: zh/shared_p/Shared_preferences.md
+    - Hive:
+      - Hive缓存工具: zh/hive/Hive缓存工具.md
+    - Riverpod:
+      - Riverpod Widget Tool: zh/riverpod/Riverpod-Widget-Tool.md
+      - Riverpod设置: zh/settings/riverpod.md
+    - Freezed:
+      - Freezed 3.x版本迁移工具: zh/freezed/freezed-3-x版本迁移工具.md
+      - Freezed Class Tool Menu: zh/freezed/Freezed-Class-Tool-Menu.md
+      - Json to Freezed: zh/freezed/Json-to-Freezed.md
+      - 代码生成: zh/freezed/generate.md
+    - Dart File:
+      - 资产文件路径检查功能: zh/dart-file/资产文件路径检查功能.md
+      - 资产字符串快速打开文件: zh/dart-file/资产字符串快速打开文件.md
+      - 资产图片预览功能: zh/dart-file/资产图片预览功能.md
+      - Project Library Scan: zh/dart-file/Project-Library-scan.md
+      - 参数类型内联显示: zh/dart-file/参数类型内联显示.md
+    - Pubspec.yaml:
+      - 不再更新的三方包检测: zh/pubspec/不再更新的三方包检测.md
+      - 第三方包工具: zh/pubspec/第三方包工具.md
+    - 其他功能:
+      - 日志工具: zh/other/Log.md
+      - Flutter新版本检测: zh/other/flutter新版本检测.md
+      - L10n编辑器: zh/other/l10n-editor.md
+      - Flutter 3.29.0 安卓迁移 Gradle 工具: zh/other/flutter3-29-0安卓迁移gradle工具.md
+      - iOS 17 隐私扫描工具: zh/other/ios-17-隐私扫描工具.md
+    - 资产管理:
+      - 资产预览窗口: zh/assets/资产预览窗口.md
+      - 资产预览: zh/assets/资产预览.md
+      - 资产生成类调用: zh/assets/资产生成类调用.md
+    - 设置:
+      - 快速打开子目录文件夹: zh/settings/快速打开子目录文件夹.md
+      - 链接: zh/settings/Links.md
+      - 内联资产显示: zh/settings/内联资产显示.md
+    - 其他:
+      - 打赏: zh/打赏.md
+      - 更新日志: zh/更新日志.md
+  - English:
+    - Home: en/index.md
+    - Getting Started:
+      - Installation: en/installation.md
+    - Dio:
+      - Dio Request Monitoring: en/dio/starter.md
+      - Request Screenshot: en/dio/request-screenshot.md
+    - Shared Preferences:
+      - Shared Preferences: en/shared_p/shared-preferences.md
+    - Hive:
+      - Hive Cache Tool: en/hive/hive-cache-tool.md
+    - Riverpod:
+      - Riverpod Settings: en/settings/riverpod.md
+      - Riverpod Widget Tool: en/riverpod/riverpod-widget-tool.md
+    - Freezed:
+      - Freezed 3.x Migration Tool: en/freezed/migration-tool.md
+      - Json to Freezed: en/freezed/json-to-freezed.md
+      - Code Generation: en/freezed/code-generation.md
+      - Freezed Class Tool Menu: en/freezed/Freezed-Class-Tool-Menu.md
+    - Dart File:
+      - Asset File Path Checking: en/dart-file/asset-path-checking.md
+      - Quick Open Asset Files: en/dart-file/quick-open-asset-files.md
+      - Asset Image Preview: en/dart-file/asset-image-preview.md
+      - Project Library Scan: en/dart-file/project-library-scan.md
+      - Parameter Type Inline Display: en/dart-file/parameter-type-inline-display.md
+    - Pubspec.yaml:
+      - Outdated Package Detection: en/pubspec/outdated-package-detection.md
+      - Third-party Package Tools: en/pubspec/third-party-package-tools.md
+    - Other Features:
+      - Log Tools: en/other/log-tools.md
+      - L10n Editor: en/other/l10n-editor.md
+      - Flutter 3.29.0 Android Migration Gradle Tool: en/other/flutter-gradle-migration.md
+      - iOS 17 Privacy Scanning Tool: en/other/ios-privacy-scanning.md
+      - Flutter Version Detection: en/other/flutter-version-detection.md
+    - Asset Management:
+      - Asset Preview Window: en/assets/asset-preview-window.md
+      - Asset Preview: en/assets/asset-preview.md
+      - Asset Generation Class: en/assets/asset-generation-class.md
+    - Settings:
+      - Riverpod Settings: en/settings/riverpod.md
+      - Quick Open Subdirectory: en/settings/quick-open-subdirectory.md
+      - Links: en/settings/links.md
+      - Inline Asset Display: en/settings/inline-asset-display.md
+    - Others:
+      - Donate: en/donate.md
+      - Changelog: en/changelog.md
+  - 日本語:
+    - ホーム: ja/index.md
+    - はじめに:
+      - インストール: ja/安装.md
+    - Dio:
+      - Dioリクエスト監視: ja/dio/Starter.md
+      - リクエスト情報スクリーンショット: ja/dio/接口信息截图.md
+    - Shared Preferences:
+      - Shared Preferences: ja/shared_p/Shared_preferences.md
+    - Hive:
+      - Hiveキャッシュツール: ja/hive/Hive缓存工具.md
+    - Riverpod:
+      - Riverpodウィジェットツール: ja/riverpod/Riverpod-Widget-Tool.md
+      - Riverpod設定: ja/settings/riverpod.md
+    - Freezed:
+      - Freezed 3.x移行ツール: ja/freezed/freezed-3-x版本迁移工具.md
+      - JsonからFreezedへ: ja/freezed/json-to-freezed.md
+      - コード生成: ja/freezed/generate.md
+      - Freezedクラスツールメニュー: ja/freezed/Freezed-Class-Tool-Menu.md
+    - Dartファイル:
+      - アセットファイルパスチェック機能: ja/dart-file/资产文件路径检查功能.md
+      - アセット文字列クイックオープンファイル: ja/dart-file/资产字符串快速打开文件.md
+      - アセット画像プレビュー機能: ja/dart-file/资产图片预览功能.md
+      - プロジェクトライブラリスキャン: ja/dart-file/Project-Library-scan.md
+      - パラメータ型インライン表示: ja/dart-file/参数类型内联显示.md
+    - Pubspec.yaml:
+      - 更新されていないサードパーティパッケージの検出: ja/pubspec/不再更新的三方包检测.md
+      - サードパーティパッケージツール: ja/pubspec/第三方包工具.md
+    - その他の機能:
+      - ログツール: ja/other/Log.md
+      - L10nエディタ: ja/other/l10n-editor.md
+      - Flutter 3.29.0 Android Gradle移行ツール: ja/other/flutter3-29-0安卓迁移gradle工具.md
+      - iOS 17プライバシースキャンツール: ja/other/ios-17-隐私扫描工具.md
+      - Flutter新バージョン検出: ja/other/flutter新版本检测.md
+    - アセット管理:
+      - アセットプレビューウィンドウ: ja/assets/资产预览窗口.md
+      - アセットプレビュー: ja/assets/资产预览.md
+      - アセット生成クラス呼び出し: ja/assets/资产生成类调用.md
+    - 設定:
+      - Riverpod設定: ja/settings/riverpod.md
+      - サブディレクトリクイックオープンフォルダ: ja/settings/快速打开子目录文件夹.md
+      - リンク: ja/settings/Links.md
+      - インラインアセット表示: ja/settings/内联资产显示.md
+    - その他:
+      - 打赏: ja/打赏.md
+      - 更新日志: ja/更新日志.md

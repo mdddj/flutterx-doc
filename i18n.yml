@@ -1,0 +1,72 @@
+# Multi-language configuration for FlutterX Documentation
+
+languages:
+  zh:
+    name: 简体中文
+    code: zh
+    default: true
+    site_name: FlutterX 插件文档
+    site_description: FlutterX - Flutter开发者快速开发的辅助工具插件
+    nav_translations:
+      home: 首页
+      getting_started: 开始使用
+      installation: 安装
+      dio: Dio
+      shared_preferences: Shared Preferences
+      hive: Hive
+      riverpod: Riverpod
+      freezed: Freezed
+      dart_file: Dart File
+      pubspec: Pubspec.yaml
+      other_features: 其他功能
+      asset_management: 资产管理
+      settings: 设置
+      others: 其他
+      donate: 打赏
+      changelog: 更新日志
+
+  en:
+    name: English
+    code: en
+    site_name: FlutterX Plugin Documentation
+    site_description: FlutterX - Auxiliary tool plugin for Flutter developers to develop quickly
+    nav_translations:
+      home: Home
+      getting_started: Getting Started
+      installation: Installation
+      dio: Dio
+      shared_preferences: Shared Preferences
+      hive: Hive
+      riverpod: Riverpod
+      freezed: Freezed
+      dart_file: Dart File
+      pubspec: Pubspec.yaml
+      other_features: Other Features
+      asset_management: Asset Management
+      settings: Settings
+      others: Others
+      donate: Donate
+      changelog: Changelog
+
+  ja:
+    name: 日本語
+    code: ja
+    site_name: FlutterX プラグインドキュメント
+    site_description: FlutterX - Flutter開発者が迅速に開発できる補助ツールプラグイン
+    nav_translations:
+      home: ホーム
+      getting_started: はじめに
+      installation: インストール
+      dio: Dio
+      shared_preferences: Shared Preferences
+      hive: Hive
+      riverpod: Riverpod
+      freezed: Freezed
+      dart_file: Dartファイル
+      pubspec: Pubspec.yaml
+      other_features: その他の機能
+      asset_management: アセット管理
+      settings: 設定
+      others: その他
+      donate: 打赏
+      changelog: 更新日志

@@ -1,0 +1,48 @@
+{
+  "migration_date": "2025-08-15 15:24:28",
+  "overall_success_rate": 100.0,
+  "status": "SUCCESS",
+  "metrics": {
+    "content_migration": {
+      "languages_migrated": 3,
+      "total_markdown_files": 132,
+      "files_per_language": {
+        "zh": 44,
+        "en": 44,
+        "ja": 44
+      },
+      "content_structure_complete": true
+    },
+    "asset_migration": {
+      "assets_directory_exists": true,
+      "total_images": 205,
+      "image_types": {
+        ".png": 186,
+        ".jpeg": 2,
+        ".gif": 15,
+        ".svg": 2
+      },
+      "total_size_mb": 169.63134574890137
+    },
+    "navigation_structure": {
+      "config_exists": true,
+      "has_navigation": true,
+      "multi_language_nav": true,
+      "navigation_items": 330
+    },
+    "theme_customization": {
+      "custom_css_exists": true,
+      "overrides_directory": true,
+      "theme_configured": true
+    },
+    "build_readiness": {
+      "requirements_file": true,
+      "build_scripts": 4,
+      "test_scripts": 5,
+      "site_buildable": false
+    }
+  },
+  "recommendations": [
+    "Migration is complete and ready for production!"
+  ]
+}

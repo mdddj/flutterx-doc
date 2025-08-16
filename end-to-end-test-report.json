@@ -1,0 +1,333 @@
+{
+  "start_time": 1755242824.968448,
+  "steps": [
+    {
+      "timestamp": "15:27:04",
+      "level": "INFO",
+      "message": "🎯 Starting end-to-end migration test..."
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "INFO",
+      "message": "\n📋 Step: Check prerequisites"
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "INFO",
+      "message": "🔍 Checking prerequisites..."
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "ERROR",
+      "message": "Missing Python dependencies: No module named 'yaml'"
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "ERROR",
+      "message": "Step failed: Check prerequisites"
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "INFO",
+      "message": "\n📋 Step: Run full migration"
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "INFO",
+      "message": "🚀 Starting full migration process..."
+    },
+    {
+      "timestamp": "15:27:04",
+      "level": "INFO",
+      "message": "Running: Content migration"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Content migration completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Asset migration"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Asset migration completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Navigation building"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Navigation building completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Image link fixing"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Image link fixing completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Cross-language link fixing"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Cross-language link fixing completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Theme customization"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Theme customization completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Full migration process completed"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "\n📋 Step: Validate migration results"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "🔍 Validating migration results..."
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Content validation"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "ERROR",
+      "message": "❌ Content validation failed: ..."
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "WARNING",
+      "message": "Content validation failed"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Navigation validation"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Navigation validation completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Asset validation"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Asset validation completed successfully"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "✅ Migration validation completed"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "\n📋 Step: Test build process"
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "🔨 Testing build process..."
+    },
+    {
+      "timestamp": "15:27:05",
+      "level": "INFO",
+      "message": "Running: Development build"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "ERROR",
+      "message": "❌ Development build failed: ..."
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "ERROR",
+      "message": "Step failed: Test build process"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "\n📋 Step: Test multi-language functionality"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "🌐 Testing multi-language functionality..."
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "Running: Multi-language tests"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "✅ Multi-language tests completed successfully"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "✅ Multi-language functionality test passed"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "\n📋 Step: Test image and asset loading"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "🖼️  Testing image and asset loading..."
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "Found 306 images in assets directory"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "WARNING",
+      "message": "Found 1 broken image references"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "WARNING",
+      "message": "  - docs/en/other/ios-privacy-scanning.md: ../../assets/images/scan_ios.png"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "✅ Image and asset loading test completed"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "\n📋 Step: Test navigation functionality"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "🧭 Testing navigation functionality..."
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "✅ Navigation functionality test passed"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "\n📋 Step: Run comprehensive tests"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "🧪 Running comprehensive test suite..."
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "Running: Content migration tests"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "ERROR",
+      "message": "❌ Content migration tests failed: ..."
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "Running: Multi-language tests"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "✅ Multi-language tests completed successfully"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "Running: Framework tests"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "✅ Framework tests completed successfully"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "Test suite results: 2/3 passed (66.7%)"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "ERROR",
+      "message": "❌ Comprehensive test suite failed"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "ERROR",
+      "message": "Step failed: Run comprehensive tests"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "\n📋 Step: Generate final report"
+    },
+    {
+      "timestamp": "15:27:06",
+      "level": "INFO",
+      "message": "📊 Generating final report..."
+    }
+  ],
+  "success": false,
+  "errors": [
+    "Missing Python dependencies: No module named 'yaml'",
+    "Step failed: Check prerequisites",
+    "❌ Content validation failed: ...",
+    "❌ Development build failed: ...",
+    "Step failed: Test build process",
+    "❌ Content migration tests failed: ...",
+    "❌ Comprehensive test suite failed",
+    "Step failed: Run comprehensive tests"
+  ],
+  "warnings": [
+    "Content validation failed",
+    "Found 1 broken image references",
+    "  - docs/en/other/ios-privacy-scanning.md: ../../assets/images/scan_ios.png"
+  ],
+  "end_time": 1755242826.464672,
+  "total_time": 1.4962241649627686
+}

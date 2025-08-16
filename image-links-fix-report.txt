@@ -1,0 +1,103 @@
+Image Links Fix Report
+==================================================
+
+Total files fixed: 29
+Total image mappings: 303
+
+Fixed Files:
+------------------------------
+docs/zh/安装.md
+docs/en/installation.md
+docs/en/settings/riverpod.md
+docs/en/dart-file/parameter-type-inline-display.md
+docs/en/dart-file/project-library-scan.md
+docs/en/pubspec/third-party-package-tools.md
+docs/en/dio/starter.md
+docs/en/shared_p/shared-preferences.md
+docs/en/hive/hive-cache-tool.md
+docs/en/assets/asset-preview.md
+docs/en/freezed/json-to-freezed.md
+docs/zh/settings/riverpod.md
+docs/zh/dart-file/参数类型内联显示.md
+docs/zh/dart-file/Project-Library-scan.md
+docs/zh/pubspec/第三方包工具.md
+docs/zh/dio/Starter.md
+docs/zh/shared_p/Shared_preferences.md
+docs/zh/hive/Hive缓存工具.md
+docs/zh/assets/资产预览.md
+docs/zh/freezed/Json-to-Freezed.md
+docs/ja/settings/riverpod.md
+docs/ja/dart-file/参数类型内联显示.md
+docs/ja/dart-file/Project-Library-scan.md
+docs/ja/pubspec/第三方包工具.md
+docs/ja/dio/Starter.md
+docs/ja/shared_p/Shared_preferences.md
+docs/ja/hive/Hive缓存工具.md
+docs/ja/assets/资产预览.md
+docs/ja/freezed/json-to-freezed.md
+
+Image Mappings (sample):
+------------------------------
+image_15.png -> assets/images/image_15.png
+image_29.png -> assets/images/image_29.png
+image_s_r_1_1.png -> assets/images/image_s_r_1_1.png
+img_9_1.png -> assets/images/img_9_1.png
+f9eec0d177a511a1333ac284043f2246.png -> assets/images/f9eec0d177a511a1333ac284043f2246.png
+new_topic_options.png -> assets/images/new_topic_options.png
+image_22_2.png -> assets/images/image_22_2.png
+img_1.png -> assets/images/img_1.png
+image_6_1.png -> assets/images/image_6_1.png
+_type_02.png -> assets/images/_type_02.png
+image_20_1.png -> assets/images/image_20_1.png
+new_topic_options_dark_2.png -> assets/images/new_topic_options_dark_2.png
+_type_03.png -> assets/images/_type_03.png
+convert_table_to_xml_2.png -> assets/images/convert_table_to_xml_2.png
+image_4_2.png -> assets/images/image_4_2.png
+image_s_o1.png -> assets/images/image_s_o1.png
+image_s_r_3_2.png -> assets/images/image_s_r_3_2.png
+image_view_1_2.png -> assets/images/image_view_1_2.png
+pubspec_02_2.png -> assets/images/pubspec_02_2.png
+completion_procedure_dark_1.png -> assets/images/completion_procedure_dark_1.png
+
+Fix Log:
+------------------------------
+Starting image links fix...
+Docs directory: docs
+Assets directory: docs/assets
+Fixing image links in all markdown files...
+Building image mappings...
+✅ Built mappings for 303 images
+✅ Fixed docs/zh/安装.md (1 image link changes)
+✅ Fixed docs/en/installation.md (1 image link changes)
+✅ Fixed docs/en/settings/riverpod.md (1 image link changes)
+✅ Fixed docs/en/dart-file/parameter-type-inline-display.md (3 image link changes)
+✅ Fixed docs/en/dart-file/project-library-scan.md (1 image link changes)
+✅ Fixed docs/en/pubspec/third-party-package-tools.md (5 image link changes)
+✅ Fixed docs/en/dio/starter.md (9 image link changes)
+✅ Fixed docs/en/shared_p/shared-preferences.md (1 image link changes)
+✅ Fixed docs/en/hive/hive-cache-tool.md (1 image link changes)
+✅ Fixed docs/en/assets/asset-preview.md (1 image link changes)
+✅ Fixed docs/en/freezed/json-to-freezed.md (2 image link changes)
+✅ Fixed docs/zh/settings/riverpod.md (1 image link changes)
+✅ Fixed docs/zh/dart-file/参数类型内联显示.md (3 image link changes)
+✅ Fixed docs/zh/dart-file/Project-Library-scan.md (1 image link changes)
+✅ Fixed docs/zh/pubspec/第三方包工具.md (5 image link changes)
+✅ Fixed docs/zh/dio/Starter.md (9 image link changes)
+✅ Fixed docs/zh/shared_p/Shared_preferences.md (1 image link changes)
+✅ Fixed docs/zh/hive/Hive缓存工具.md (1 image link changes)
+✅ Fixed docs/zh/assets/资产预览.md (1 image link changes)
+✅ Fixed docs/zh/freezed/Json-to-Freezed.md (2 image link changes)
+✅ Fixed docs/ja/settings/riverpod.md (1 image link changes)
+✅ Fixed docs/ja/dart-file/参数类型内联显示.md (3 image link changes)
+✅ Fixed docs/ja/dart-file/Project-Library-scan.md (1 image link changes)
+✅ Fixed docs/ja/pubspec/第三方包工具.md (5 image link changes)
+✅ Fixed docs/ja/dio/Starter.md (9 image link changes)
+✅ Fixed docs/ja/shared_p/Shared_preferences.md (1 image link changes)
+✅ Fixed docs/ja/hive/Hive缓存工具.md (1 image link changes)
+✅ Fixed docs/ja/assets/资产预览.md (1 image link changes)
+✅ Fixed docs/ja/freezed/json-to-freezed.md (2 image link changes)
+✅ Fixed image links in 29 files
+Validating fixed image links...
+✅ Validated 263 image links
+⚠️  Found 1 image validation issues
+  • docs/en/other/ios-privacy-scanning.md: Missing image ../../assets/images/scan_ios.png

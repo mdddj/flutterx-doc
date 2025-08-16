@@ -1,0 +1,75 @@
+Navigation Validation Report
+==================================================
+
+Summary:
+  Total navigation items: 99
+  Valid file references: 99
+  Broken file references: 0
+  Orphaned files: 36
+
+Orphaned Files (36):
+------------------------------
+en/shared_p/index.md
+en/settings/index.md
+ja/dart-file/index.md
+en/assets/index.md
+en/other/index.md
+ja/image_index.md
+ja/pubspec/index.md
+zh/riverpod/index.md
+en/hive/index.md
+ja/riverpod/index.md
+ja/settings/index.md
+en/dart-file/index.md
+zh/hello.md
+zh/shared_p/index.md
+en/dio/index.md
+en/riverpod/index.md
+ja/freezed/index.md
+zh/dio/index.md
+en/freezed/index.md
+ja/hello.md
+ja/other/index.md
+zh/other/index.md
+en/pubspec/index.md
+ja/hive/index.md
+ja/assets/index.md
+zh/freezed/index.md
+en/image_index.md
+zh/dart-file/index.md
+zh/hive/index.md
+en/hello.md
+zh/pubspec/index.md
+ja/dio/index.md
+zh/assets/index.md
+zh/image_index.md
+ja/shared_p/index.md
+zh/settings/index.md
+
+Structure Issues (1):
+------------------------------
+Found 3 nav sections - should be only 1
+
+Valid Files (sample of 20):
+------------------------------
+index.md
+zh/index.md
+zh/安装.md
+zh/dio/Starter.md
+zh/dio/接口信息截图.md
+zh/shared_p/Shared_preferences.md
+zh/hive/Hive缓存工具.md
+zh/riverpod/Riverpod-Widget-Tool.md
+zh/settings/riverpod.md
+zh/freezed/freezed-3-x版本迁移工具.md
+zh/freezed/Freezed-Class-Tool-Menu.md
+zh/freezed/Json-to-Freezed.md
+zh/freezed/generate.md
+zh/dart-file/资产文件路径检查功能.md
+zh/dart-file/资产字符串快速打开文件.md
+zh/dart-file/资产图片预览功能.md
+zh/dart-file/Project-Library-scan.md
+zh/dart-file/参数类型内联显示.md
+zh/pubspec/不再更新的三方包检测.md
+zh/pubspec/第三方包工具.md
+

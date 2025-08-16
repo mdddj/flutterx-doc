@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-08-15 15:26:51",
+  "overall": {
+    "suites": 2,
+    "tests": 16,
+    "passed": 15,
+    "failed": 1,
+    "success_rate": 93.75
+  },
+  "suites": [
+    {
+      "name": "Content Migration Tests",
+      "tests": 8,
+      "passed": 7,
+      "failed": 1,
+      "success_rate": 87.5
+    },
+    {
+      "name": "Multi-Language Tests",
+      "tests": 8,
+      "passed": 8,
+      "failed": 0,
+      "success_rate": 100.0
+    }
+  ]
+}

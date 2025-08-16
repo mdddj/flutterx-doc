@@ -1,0 +1,231 @@
+Asset Migration Report
+==================================================
+
+Total assets migrated: 102
+
+Asset Mappings:
+------------------------------
+rspress-light-logo.png -> assets/images/rspress-light-logo_2.png
+rspress-icon.png -> assets/images/rspress-icon_2.png
+rspress-dark-logo.png -> assets/images/rspress-dark-logo_2.png
+images/image_15.png -> assets/images/image_15_2.png
+images/image_29.png -> assets/images/image_29_2.png
+images/f9eec0d177a511a1333ac284043f2246.png -> assets/images/f9eec0d177a511a1333ac284043f2246_2.png
+images/new_topic_options.png -> assets/images/new_topic_options_2.png
+images/image_s_o1.png -> assets/images/image_s_o1_2.png
+images/image_28.png -> assets/images/image_28_2.png
+images/image_14.png -> assets/images/image_14_2.png
+images/completion_procedure.png -> assets/images/completion_procedure_2.png
+images/image_16.png -> assets/images/image_16_2.png
+images/image_s_o2.png -> assets/images/image_s_o2_2.png
+images/convert_table_to_xml_dark.png -> assets/images/convert_table_to_xml_dark_2.png
+images/image_17.png -> assets/images/image_17_2.png
+images/image_13.png -> assets/images/image_13_2.png
+images/image_comm_01.png -> assets/images/image_comm_01_2.png
+images/image_12.png -> assets/images/image_12_2.png
+images/image_10.png -> assets/images/image_10_2.png
+images/image_json_to_freezed_2.png -> assets/images/image_json_to_freezed_2_2.png
+images/image_11.png -> assets/images/image_11_2.png
+images/image_check_2.png -> assets/images/image_check_2_2.png
+images/image_s_i3.png -> assets/images/image_s_i3_2.png
+images/image_view_1.png -> assets/images/image_view_1_2.png
+images/image_s_i2.png -> assets/images/image_s_i2_2.png
+images/image_s_r_1.png -> assets/images/image_s_r_1_2.png
+images/image_8.png -> assets/images/image_8_2.png
+images/image_s_r_3.png -> assets/images/image_s_r_3_2.png
+images/ios隐私扫描窗口.png -> assets/images/ios隐私扫描窗口_2.png
+images/image_g_ass.png -> assets/images/image_g_ass_2.png
+images/image_view_2.png -> assets/images/image_view_2_2.png
+images/image_s_i1.png -> assets/images/image_s_i1_2.png
+images/image_s_r_2.png -> assets/images/image_s_r_2_2.png
+images/new_topic_options_dark.png -> assets/images/new_topic_options_dark_2.png
+images/image_9.png -> assets/images/image_9_2.png
+images/image.g_ass2.png -> assets/images/image.g_ass2_2.png
+images/ff.png -> assets/images/ff_2.png
+images/IMG_1316.jpeg -> assets/images/IMG_1316_2.jpeg
+images/dd_check_plugin -> assets/images/dd_check_plugin_2
+images/image_s_r_4.png -> assets/images/image_s_r_4_2.png
+images/image_2.png -> assets/images/image_2_2.png
+images/image.g.ass5.png -> assets/images/image.g.ass5_2.png
+images/image_3.png -> assets/images/image_3_2.png
+images/pd.png -> assets/images/pd_2.png
+images/image_1.png -> assets/images/image_1_2.png
+images/pg.png -> assets/images/pg_2.png
+images/convert_table_to_xml.png -> assets/images/convert_table_to_xml_2.png
+images/image_4.png -> assets/images/image_4_2.png
+images/image_a_prev.png -> assets/images/image_a_prev_2.png
+images/image.g.ass3.png -> assets/images/image.g.ass3_2.png
+images/image_5.png -> assets/images/image_5_2.png
+images/image_7.png -> assets/images/image_7_2.png
+images/image_6.png -> assets/images/image_6_2.png
+images/image_20.png -> assets/images/image_20_2.png
+images/completion_procedure_dark.png -> assets/images/completion_procedure_dark_2.png
+images/image_21.png -> assets/images/image_21_2.png
+images/Kapture_2024-10-30_at_11.24.11.gif -> assets/gif/Kapture_2024-10-30_at_11.24.11_2.gif
+images/image_23.png -> assets/images/image_23_2.png
+images/image_22.png -> assets/images/image_22_2.png
+images/image_32.png -> assets/images/image_32_2.png
+images/image_26.png -> assets/images/image_26_2.png
+images/logo.svg -> assets/images/logo_2.svg
+images/image_s_l2.png -> assets/images/image_s_l2_2.png
+images/Kapture_2024-10-29_at_09.05.47.gif -> assets/gif/Kapture_2024-10-29_at_09.05.47_2.gif
+images/image_27.png -> assets/images/image_27_2.png
+images/image_pubspec.chaeck_package.png -> assets/images/image_pubspec.chaeck_package_2.png
+images/image_19.png -> assets/images/image_19_2.png
+images/image_25.png -> assets/images/image_25_2.png
+images/image_31.png -> assets/images/image_31_2.png
+images/image.png -> assets/images/image_34.png
+images/image_s_l1.png -> assets/images/image_s_l1_2.png
+images/image_30.png -> assets/images/image_30_2.png
+images/image_24.png -> assets/images/image_24_2.png
+images/image_18.png -> assets/images/image_18_2.png
+videos/DartLibraryScanGif.gif -> assets/gif/DartLibraryScanGif_2.gif
+gif/riverpod_2.gif -> assets/gif/riverpod_2_2.gif
+gif/riverpod_1.gif -> assets/gif/riverpod_1_2.gif
+images/sp/_sp_main.png -> assets/images/_sp_main_2.png
+images/dart_library/close.png -> assets/images/close_2.png
+images/json_to_freezed/01.png -> assets/images/01_2.png
+images/json_to_freezed/v1.gif -> assets/gif/v1_2.gif
+images/json_to_freezed/02.png -> assets/images/02_2.png
+images/pubspec/pubspec_05.png -> assets/images/pubspec_05_2.png
+images/pubspec/pubspec_04.png -> assets/images/pubspec_04_2.png
+images/pubspec/pubspec_03.png -> assets/images/pubspec_03_2.png
+images/pubspec/pubspec_02.png -> assets/images/pubspec_02_2.png
+images/pubspec/pubspec_01.png -> assets/images/pubspec_01_2.png
+images/start/start_01.png -> assets/images/start_01_2.png
+images/type/_type_02.png -> assets/images/_type_02_2.png
+images/type/_type_03.png -> assets/images/_type_03_2.png
+images/type/_type_01.png -> assets/images/_type_01_2.png
+images/dio/img_1.png -> assets/images/img_1_2.png
+images/dio/img_2.png -> assets/images/img_2_2.png
+images/dio/img_3.png -> assets/images/img_3_2.png
+images/dio/img_7.png -> assets/images/img_7_2.png
+images/dio/img_6.png -> assets/images/img_6_2.png
+images/dio/img_4.png -> assets/images/img_4_2.png
+images/dio/img_5.png -> assets/images/img_5_2.png
+images/dio/img_8.png -> assets/images/img_8_2.png
+images/dio/img_9.png -> assets/images/img_9_2.png
+images/dio/_dio_01.png -> assets/images/_dio_01_2.png
+images/hive/_hive_img_01.png -> assets/images/_hive_img_01_2.png
+
+Migration Log:
+------------------------------
+Starting asset migration from rspress to mkdocs...
+Source: ../rspress-template
+Target: .
+Starting asset migration...
+Discovering assets in: ../rspress-template/docs/public
+✅ Discovered 102 assets
+✅ Created directory: docs/assets/images
+✅ Created directory: docs/assets/videos
+✅ Created directory: docs/assets/gif
+✅ Created directory: docs/assets/documents
+✅ Migrated: rspress-light-logo.png -> assets/images/rspress-light-logo_2.png
+✅ Migrated: rspress-icon.png -> assets/images/rspress-icon_2.png
+✅ Migrated: rspress-dark-logo.png -> assets/images/rspress-dark-logo_2.png
+✅ Migrated: images/image_15.png -> assets/images/image_15_2.png
+✅ Migrated: images/image_29.png -> assets/images/image_29_2.png
+✅ Migrated: images/f9eec0d177a511a1333ac284043f2246.png -> assets/images/f9eec0d177a511a1333ac284043f2246_2.png
+✅ Migrated: images/new_topic_options.png -> assets/images/new_topic_options_2.png
+✅ Migrated: images/image_s_o1.png -> assets/images/image_s_o1_2.png
+✅ Migrated: images/image_28.png -> assets/images/image_28_2.png
+✅ Migrated: images/image_14.png -> assets/images/image_14_2.png
+✅ Migrated: images/completion_procedure.png -> assets/images/completion_procedure_2.png
+✅ Migrated: images/image_16.png -> assets/images/image_16_2.png
+✅ Migrated: images/image_s_o2.png -> assets/images/image_s_o2_2.png
+✅ Migrated: images/convert_table_to_xml_dark.png -> assets/images/convert_table_to_xml_dark_2.png
+✅ Migrated: images/image_17.png -> assets/images/image_17_2.png
+✅ Migrated: images/image_13.png -> assets/images/image_13_2.png
+✅ Migrated: images/image_comm_01.png -> assets/images/image_comm_01_2.png
+✅ Migrated: images/image_12.png -> assets/images/image_12_2.png
+✅ Migrated: images/image_10.png -> assets/images/image_10_2.png
+✅ Migrated: images/image_json_to_freezed_2.png -> assets/images/image_json_to_freezed_2_2.png
+✅ Migrated: images/image_11.png -> assets/images/image_11_2.png
+✅ Migrated: images/image_check_2.png -> assets/images/image_check_2_2.png
+✅ Migrated: images/image_s_i3.png -> assets/images/image_s_i3_2.png
+✅ Migrated: images/image_view_1.png -> assets/images/image_view_1_2.png
+✅ Migrated: images/image_s_i2.png -> assets/images/image_s_i2_2.png
+✅ Migrated: images/image_s_r_1.png -> assets/images/image_s_r_1_2.png
+✅ Migrated: images/image_8.png -> assets/images/image_8_2.png
+✅ Migrated: images/image_s_r_3.png -> assets/images/image_s_r_3_2.png
+✅ Migrated: images/ios隐私扫描窗口.png -> assets/images/ios隐私扫描窗口_2.png
+✅ Migrated: images/image_g_ass.png -> assets/images/image_g_ass_2.png
+✅ Migrated: images/image_view_2.png -> assets/images/image_view_2_2.png
+✅ Migrated: images/image_s_i1.png -> assets/images/image_s_i1_2.png
+✅ Migrated: images/image_s_r_2.png -> assets/images/image_s_r_2_2.png
+✅ Migrated: images/new_topic_options_dark.png -> assets/images/new_topic_options_dark_2.png
+✅ Migrated: images/image_9.png -> assets/images/image_9_2.png
+✅ Migrated: images/image.g_ass2.png -> assets/images/image.g_ass2_2.png
+✅ Migrated: images/ff.png -> assets/images/ff_2.png
+✅ Migrated: images/IMG_1316.jpeg -> assets/images/IMG_1316_2.jpeg
+✅ Migrated: images/dd_check_plugin -> assets/images/dd_check_plugin_2
+✅ Migrated: images/image_s_r_4.png -> assets/images/image_s_r_4_2.png
+✅ Migrated: images/image_2.png -> assets/images/image_2_2.png
+✅ Migrated: images/image.g.ass5.png -> assets/images/image.g.ass5_2.png
+✅ Migrated: images/image_3.png -> assets/images/image_3_2.png
+✅ Migrated: images/pd.png -> assets/images/pd_2.png
+✅ Migrated: images/image_1.png -> assets/images/image_1_2.png
+✅ Migrated: images/pg.png -> assets/images/pg_2.png
+✅ Migrated: images/convert_table_to_xml.png -> assets/images/convert_table_to_xml_2.png
+✅ Migrated: images/image_4.png -> assets/images/image_4_2.png
+✅ Migrated: images/image_a_prev.png -> assets/images/image_a_prev_2.png
+✅ Migrated: images/image.g.ass3.png -> assets/images/image.g.ass3_2.png
+✅ Migrated: images/image_5.png -> assets/images/image_5_2.png
+✅ Migrated: images/image_7.png -> assets/images/image_7_2.png
+✅ Migrated: images/image_6.png -> assets/images/image_6_2.png
+✅ Migrated: images/image_20.png -> assets/images/image_20_2.png
+✅ Migrated: images/completion_procedure_dark.png -> assets/images/completion_procedure_dark_2.png
+✅ Migrated: images/image_21.png -> assets/images/image_21_2.png
+✅ Migrated: images/Kapture_2024-10-30_at_11.24.11.gif -> assets/gif/Kapture_2024-10-30_at_11.24.11_2.gif
+✅ Migrated: images/image_23.png -> assets/images/image_23_2.png
+✅ Migrated: images/image_22.png -> assets/images/image_22_2.png
+✅ Migrated: images/image_32.png -> assets/images/image_32_2.png
+✅ Migrated: images/image_26.png -> assets/images/image_26_2.png
+✅ Migrated: images/logo.svg -> assets/images/logo_2.svg
+✅ Migrated: images/image_s_l2.png -> assets/images/image_s_l2_2.png
+✅ Migrated: images/Kapture_2024-10-29_at_09.05.47.gif -> assets/gif/Kapture_2024-10-29_at_09.05.47_2.gif
+✅ Migrated: images/image_27.png -> assets/images/image_27_2.png
+✅ Migrated: images/image_pubspec.chaeck_package.png -> assets/images/image_pubspec.chaeck_package_2.png
+✅ Migrated: images/image_19.png -> assets/images/image_19_2.png
+✅ Migrated: images/image_25.png -> assets/images/image_25_2.png
+✅ Migrated: images/image_31.png -> assets/images/image_31_2.png
+✅ Migrated: images/image.png -> assets/images/image_34.png
+✅ Migrated: images/image_s_l1.png -> assets/images/image_s_l1_2.png
+✅ Migrated: images/image_30.png -> assets/images/image_30_2.png
+✅ Migrated: images/image_24.png -> assets/images/image_24_2.png
+✅ Migrated: images/image_18.png -> assets/images/image_18_2.png
+✅ Migrated: videos/DartLibraryScanGif.gif -> assets/gif/DartLibraryScanGif_2.gif
+✅ Migrated: gif/riverpod_2.gif -> assets/gif/riverpod_2_2.gif
+✅ Migrated: gif/riverpod_1.gif -> assets/gif/riverpod_1_2.gif
+✅ Migrated: images/sp/_sp_main.png -> assets/images/_sp_main_2.png
+✅ Migrated: images/dart_library/close.png -> assets/images/close_2.png
+✅ Migrated: images/json_to_freezed/01.png -> assets/images/01_2.png
+✅ Migrated: images/json_to_freezed/v1.gif -> assets/gif/v1_2.gif
+✅ Migrated: images/json_to_freezed/02.png -> assets/images/02_2.png
+✅ Migrated: images/pubspec/pubspec_05.png -> assets/images/pubspec_05_2.png
+✅ Migrated: images/pubspec/pubspec_04.png -> assets/images/pubspec_04_2.png
+✅ Migrated: images/pubspec/pubspec_03.png -> assets/images/pubspec_03_2.png
+✅ Migrated: images/pubspec/pubspec_02.png -> assets/images/pubspec_02_2.png
+✅ Migrated: images/pubspec/pubspec_01.png -> assets/images/pubspec_01_2.png
+✅ Migrated: images/start/start_01.png -> assets/images/start_01_2.png
+✅ Migrated: images/type/_type_02.png -> assets/images/_type_02_2.png
+✅ Migrated: images/type/_type_03.png -> assets/images/_type_03_2.png
+✅ Migrated: images/type/_type_01.png -> assets/images/_type_01_2.png
+✅ Migrated: images/dio/img_1.png -> assets/images/img_1_2.png
+✅ Migrated: images/dio/img_2.png -> assets/images/img_2_2.png
+✅ Migrated: images/dio/img_3.png -> assets/images/img_3_2.png
+✅ Migrated: images/dio/img_7.png -> assets/images/img_7_2.png
+✅ Migrated: images/dio/img_6.png -> assets/images/img_6_2.png
+✅ Migrated: images/dio/img_4.png -> assets/images/img_4_2.png
+✅ Migrated: images/dio/img_5.png -> assets/images/img_5_2.png
+✅ Migrated: images/dio/img_8.png -> assets/images/img_8_2.png
+✅ Migrated: images/dio/img_9.png -> assets/images/img_9_2.png
+✅ Migrated: images/dio/_dio_01.png -> assets/images/_dio_01_2.png
+✅ Migrated: images/hive/_hive_img_01.png -> assets/images/_hive_img_01_2.png
+Copying logo files...
+✅ Copied logo: logo.svg
+✅ Copied logo: rspress-icon.png
+✅ Copied logo: rspress-light-logo.png
+✅ Copied logo: rspress-dark-logo.png
+Updating markdown file references...
+✅ Updated 0 markdown files

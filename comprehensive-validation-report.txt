@@ -1,0 +1,455 @@
+Comprehensive Content Validation Report
+==================================================
+
+Summary:
+--------------------
+Total files: 133
+Total words: 6,236
+Total images: 267
+Total links: 377
+Total issues: 351
+Errors: 86
+Warnings: 164
+
+Markdown Issues (76):
+------------------------------
+[INFO] docs/ja/打赏.md: Line 9: Trailing whitespace
+  Content: '1. **Alipay (支付宝)**: '
+[WARNING] docs/ja/index.md: Missing main title (h1)
+[WARNING] docs/zh/index.md: Missing main title (h1)
+[WARNING] docs/zh/安装.md: Line 52: Malformed header (missing space after #)
+  Content: #===============================> 223 AS release version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html
+[WARNING] docs/zh/安装.md: Line 53: Malformed header (missing space after #)
+  Content: #===============================> 正式版本最新 Giraffe
+[WARNING] docs/zh/安装.md: Line 54: Malformed header (missing space after #)
+  Content: #dartVersion=223.8977
+[WARNING] docs/zh/安装.md: Line 55: Malformed header (missing space after #)
+  Content: #flutterVersion=76.3.2
+[WARNING] docs/zh/安装.md: Line 56: Malformed header (missing space after #)
+  Content: #sinceBuildVersion=223
+[WARNING] docs/zh/安装.md: Line 57: Malformed header (missing space after #)
+  Content: #untilBuildVersion=223.*
+[WARNING] docs/zh/安装.md: Line 58: Malformed header (missing space after #)
+  Content: #ideaVersion=2022.3.1.18
+[WARNING] docs/zh/安装.md: Line 59: Malformed header (missing space after #)
+  Content: #ideaType=AI
+[WARNING] docs/zh/安装.md: Line 60: Malformed header (missing space after #)
+  Content: #===============================> 231 AS Hedgehog version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html
+[WARNING] docs/zh/安装.md: Line 61: Malformed header (missing space after #)
+  Content: #dartVersion=231.9402
+[WARNING] docs/zh/安装.md: Line 62: Malformed header (missing space after #)
+  Content: #flutterVersion=76.3.3
+[WARNING] docs/zh/安装.md: Line 63: Malformed header (missing space after #)
+  Content: #sinceBuildVersion=231
+[WARNING] docs/zh/安装.md: Line 64: Malformed header (missing space after #)
+  Content: #untilBuildVersion=231.*
+[WARNING] docs/zh/安装.md: Line 65: Malformed header (missing space after #)
+  Content: #ideaVersion=2023.1.1.24
+[WARNING] docs/zh/安装.md: Line 66: Malformed header (missing space after #)
+  Content: #ideaType=AI
+[WARNING] docs/zh/安装.md: Line 67: Malformed header (missing space after #)
+  Content: #===============================> 232 AS   Iguana
+[WARNING] docs/zh/安装.md: Line 68: Malformed header (missing space after #)
+  Content: #dartVersion=232.10248
+[WARNING] docs/zh/安装.md: Line 69: Malformed header (missing space after #)
+  Content: #flutterVersion=76.3.4
+[WARNING] docs/zh/安装.md: Line 70: Malformed header (missing space after #)
+  Content: #sinceBuildVersion=232
+[WARNING] docs/zh/安装.md: Line 71: Malformed header (missing space after #)
+  Content: #untilBuildVersion=232.*
+[WARNING] docs/zh/安装.md: Line 72: Malformed header (missing space after #)
+  Content: #ideaVersion=2023.2.1.11
+[WARNING] docs/zh/安装.md: Line 73: Malformed header (missing space after #)
+  Content: #ideaType=AI
+[WARNING] docs/zh/安装.md: Line 74: Malformed header (missing space after #)
+  Content: #===============================> 233 idea IU  2023.3
+[WARNING] docs/zh/安装.md: Line 81: Malformed header (missing space after #)
+  Content: #===============================================
+[WARNING] docs/en/index.md: Missing main title (h1)
+[WARNING] docs/en/installation.md: Line 52: Malformed header (missing space after #)
+  Content: #===============================> 223 AS release version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html
+[WARNING] docs/en/installation.md: Line 53: Malformed header (missing space after #)
+  Content: #===============================> Latest official version Giraffe
+[WARNING] docs/en/installation.md: Line 54: Malformed header (missing space after #)
+  Content: #dartVersion=223.8977
+[WARNING] docs/en/installation.md: Line 55: Malformed header (missing space after #)
+  Content: #flutterVersion=76.3.2
+[WARNING] docs/en/installation.md: Line 56: Malformed header (missing space after #)
+  Content: #sinceBuildVersion=223
+[WARNING] docs/en/installation.md: Line 57: Malformed header (missing space after #)
+  Content: #untilBuildVersion=223.*
+[WARNING] docs/en/installation.md: Line 58: Malformed header (missing space after #)
+  Content: #ideaVersion=2022.3.1.18
+[WARNING] docs/en/installation.md: Line 59: Malformed header (missing space after #)
+  Content: #ideaType=AI
+[WARNING] docs/en/installation.md: Line 60: Malformed header (missing space after #)
+  Content: #===============================> 231 AS Hedgehog version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html
+[WARNING] docs/en/installation.md: Line 61: Malformed header (missing space after #)
+  Content: #dartVersion=231.9402
+[WARNING] docs/en/installation.md: Line 62: Malformed header (missing space after #)
+  Content: #flutterVersion=76.3.3
+[WARNING] docs/en/installation.md: Line 63: Malformed header (missing space after #)
+  Content: #sinceBuildVersion=231
+[WARNING] docs/en/installation.md: Line 64: Malformed header (missing space after #)
+  Content: #untilBuildVersion=231.*
+[WARNING] docs/en/installation.md: Line 65: Malformed header (missing space after #)
+  Content: #ideaVersion=2023.1.1.24
+[WARNING] docs/en/installation.md: Line 66: Malformed header (missing space after #)
+  Content: #ideaType=AI
+[WARNING] docs/en/installation.md: Line 67: Malformed header (missing space after #)
+  Content: #===============================> 232 AS   Iguana
+[WARNING] docs/en/installation.md: Line 68: Malformed header (missing space after #)
+  Content: #dartVersion=232.10248
+[WARNING] docs/en/installation.md: Line 69: Malformed header (missing space after #)
+  Content: #flutterVersion=76.3.4
+[WARNING] docs/en/installation.md: Line 70: Malformed header (missing space after #)
+  Content: #sinceBuildVersion=232
+[WARNING] docs/en/installation.md: Line 71: Malformed header (missing space after #)
+  Content: #untilBuildVersion=232.*
+[WARNING] docs/en/installation.md: Line 72: Malformed header (missing space after #)
+  Content: #ideaVersion=2023.2.1.11
+[WARNING] docs/en/installation.md: Line 73: Malformed header (missing space after #)
+  Content: #ideaType=AI
+[WARNING] docs/en/installation.md: Line 74: Malformed header (missing space after #)
+  Content: #===============================> 233 idea IU  2023.3
+[WARNING] docs/en/installation.md: Line 81: Malformed header (missing space after #)
+  Content: #===============================================
+[WARNING] docs/en/other/log-tools.md: Line 26: Unmatched square brackets
+  Content: }, extend: [
+[WARNING] docs/en/other/log-tools.md: Line 28: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/en/hive/hive-cache-tool.md: Line 13: Unmatched square brackets
+  Content: extend: [
+[WARNING] docs/en/hive/hive-cache-tool.md: Line 14: Unmatched square brackets
+  Content: HiveToolManager(boxList: [
+[WARNING] docs/en/hive/hive-cache-tool.md: Line 16: Unmatched square brackets
+  Content: ])
+[WARNING] docs/en/hive/hive-cache-tool.md: Line 17: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/en/hive/hive-cache-tool.md: Line 51: Unmatched square brackets
+  Content: await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: [
+[WARNING] docs/en/hive/hive-cache-tool.md: Line 53: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/zh/other/Log.md: Line 34: Unmatched square brackets
+  Content: }, extend: [
+[WARNING] docs/zh/other/Log.md: Line 36: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/zh/hive/Hive缓存工具.md: Line 13: Unmatched square brackets
+  Content: extend: [
+[WARNING] docs/zh/hive/Hive缓存工具.md: Line 14: Unmatched square brackets
+  Content: HiveToolManager(boxList: [
+[WARNING] docs/zh/hive/Hive缓存工具.md: Line 16: Unmatched square brackets
+  Content: ])
+[WARNING] docs/zh/hive/Hive缓存工具.md: Line 17: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/zh/hive/Hive缓存工具.md: Line 56: Unmatched square brackets
+  Content: await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: [
+[WARNING] docs/zh/hive/Hive缓存工具.md: Line 58: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/ja/other/Log.md: Line 34: Unmatched square brackets
+  Content: }, extend: [
+[WARNING] docs/ja/other/Log.md: Line 36: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/ja/hive/Hive缓存工具.md: Line 13: Unmatched square brackets
+  Content: extend: [
+[WARNING] docs/ja/hive/Hive缓存工具.md: Line 14: Unmatched square brackets
+  Content: HiveToolManager(boxList: [
+[WARNING] docs/ja/hive/Hive缓存工具.md: Line 16: Unmatched square brackets
+  Content: ])
+[WARNING] docs/ja/hive/Hive缓存工具.md: Line 17: Unmatched square brackets
+  Content: ]);
+[WARNING] docs/ja/hive/Hive缓存工具.md: Line 56: Unmatched square brackets
+  Content: await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: [
+[WARNING] docs/ja/hive/Hive缓存工具.md: Line 58: Unmatched square brackets
+  Content: ]);
+
+Link Issues (85):
+------------------------------
+[ERROR] docs/en/settings/index.md: Broken internal link: ./quick-open-subdirectory
+[ERROR] docs/en/settings/index.md: Broken internal link: ../en/riverpod
+[ERROR] docs/en/settings/index.md: Broken internal link: ./inline-asset-display
+[ERROR] docs/en/settings/index.md: Broken internal link: ./Links
+[ERROR] docs/en/dart-file/index.md: Broken internal link: ./asset-image-preview
+[ERROR] docs/en/dart-file/index.md: Broken internal link: ./quick-open-asset-files
+[ERROR] docs/en/dart-file/index.md: Broken internal link: ./parameter-type-inline-display
+[ERROR] docs/en/dart-file/index.md: Broken internal link: ./Project-Library-scan
+[ERROR] docs/en/dart-file/index.md: Broken internal link: ./asset-path-checking
+[ERROR] docs/en/pubspec/index.md: Broken internal link: ./outdated-package-detection
+[ERROR] docs/en/pubspec/index.md: Broken internal link: ./third-party-package-tools
+[ERROR] docs/en/other/ios-privacy-scanning.md: Broken internal link: ../../assets/images/scan_ios.png
+[ERROR] docs/en/other/index.md: Broken internal link: ./flutter-version-detection
+[ERROR] docs/en/other/index.md: Broken internal link: ./l10n-editor
+[ERROR] docs/en/other/index.md: Broken internal link: ./Log
+[ERROR] docs/en/other/index.md: Broken internal link: ./ios-privacy-scanning
+[ERROR] docs/en/other/index.md: Broken internal link: ./flutter-gradle-migration
+[ERROR] docs/en/riverpod/index.md: Broken internal link: ./Riverpod-Widget-Tool
+[ERROR] docs/en/dio/index.md: Broken internal link: ./Starter
+[ERROR] docs/en/dio/index.md: Broken internal link: ./api-information-screenshot
+[ERROR] docs/en/shared_p/index.md: Broken internal link: ./Shared_preferences
+[ERROR] docs/en/hive/index.md: Broken internal link: ./hive-cache-tool
+[ERROR] docs/en/assets/index.md: Broken internal link: ./asset-preview
+[ERROR] docs/en/assets/index.md: Broken internal link: ./asset-generation-class
+[ERROR] docs/en/assets/index.md: Broken internal link: ./asset-preview-window
+[ERROR] docs/en/freezed/index.md: Broken internal link: ./Json-to-Freezed
+[ERROR] docs/en/freezed/index.md: Broken internal link: ./generate
+[ERROR] docs/en/freezed/index.md: Broken internal link: ./migration-tool
+[ERROR] docs/en/freezed/index.md: Broken internal link: ./Freezed-Class-Tool-Menu
+[ERROR] docs/zh/settings/index.md: Broken internal link: ./快速打开子目录文件夹
+[ERROR] docs/zh/settings/index.md: Broken internal link: ../zh/riverpod
+[ERROR] docs/zh/settings/index.md: Broken internal link: ./内联资产显示
+[ERROR] docs/zh/settings/index.md: Broken internal link: ./Links
+[ERROR] docs/zh/dart-file/index.md: Broken internal link: ./资产图片预览功能
+[ERROR] docs/zh/dart-file/index.md: Broken internal link: ./资产字符串快速打开文件
+[ERROR] docs/zh/dart-file/index.md: Broken internal link: ./参数类型内联显示
+[ERROR] docs/zh/dart-file/index.md: Broken internal link: ./Project-Library-scan
+[ERROR] docs/zh/dart-file/index.md: Broken internal link: ./资产文件路径检查功能
+[ERROR] docs/zh/pubspec/index.md: Broken internal link: ./不再更新的三方包检测
+[ERROR] docs/zh/pubspec/index.md: Broken internal link: ./第三方包工具
+[ERROR] docs/zh/other/index.md: Broken internal link: ./flutter新版本检测
+[ERROR] docs/zh/other/index.md: Broken internal link: ./l10n-editor
+[ERROR] docs/zh/other/index.md: Broken internal link: ./Log
+[ERROR] docs/zh/other/index.md: Broken internal link: ./ios-17-隐私扫描工具
+[ERROR] docs/zh/other/index.md: Broken internal link: ./flutter3-29-0安卓迁移gradle工具
+[ERROR] docs/zh/riverpod/index.md: Broken internal link: ./Riverpod-Widget-Tool
+[ERROR] docs/zh/dio/index.md: Broken internal link: ./Starter
+[ERROR] docs/zh/dio/index.md: Broken internal link: ./接口信息截图
+[ERROR] docs/zh/shared_p/index.md: Broken internal link: ./Shared_preferences
+[ERROR] docs/zh/hive/index.md: Broken internal link: ./Hive缓存工具
+[ERROR] docs/zh/assets/index.md: Broken internal link: ./资产预览
+[ERROR] docs/zh/assets/index.md: Broken internal link: ./资产生成类调用
+[ERROR] docs/zh/assets/index.md: Broken internal link: ./资产预览窗口
+[ERROR] docs/zh/freezed/index.md: Broken internal link: ./Json-to-Freezed
+[ERROR] docs/zh/freezed/index.md: Broken internal link: ./generate
+[ERROR] docs/zh/freezed/index.md: Broken internal link: ./freezed-3-x版本迁移工具
+[ERROR] docs/zh/freezed/index.md: Broken internal link: ./Freezed-Class-Tool-Menu
+[ERROR] docs/ja/settings/index.md: Broken internal link: ./快速打开子目录文件夹
+[ERROR] docs/ja/settings/index.md: Broken internal link: ../ja/riverpod
+[ERROR] docs/ja/settings/index.md: Broken internal link: ./内联资产显示
+[ERROR] docs/ja/settings/index.md: Broken internal link: ./Links
+[ERROR] docs/ja/dart-file/index.md: Broken internal link: ./资产图片预览功能
+[ERROR] docs/ja/dart-file/index.md: Broken internal link: ./资产字符串快速打开文件
+[ERROR] docs/ja/dart-file/index.md: Broken internal link: ./参数类型内联显示
+[ERROR] docs/ja/dart-file/index.md: Broken internal link: ./Project-Library-scan
+[ERROR] docs/ja/dart-file/index.md: Broken internal link: ./资产文件路径检查功能
+[ERROR] docs/ja/pubspec/index.md: Broken internal link: ./不再更新的三方包检测
+[ERROR] docs/ja/pubspec/index.md: Broken internal link: ./第三方包工具
+[ERROR] docs/ja/other/index.md: Broken internal link: ./flutter新版本检测
+[ERROR] docs/ja/other/index.md: Broken internal link: ./l10n-editor
+[ERROR] docs/ja/other/index.md: Broken internal link: ./Log
+[ERROR] docs/ja/other/index.md: Broken internal link: ./ios-17-隐私扫描工具
+[ERROR] docs/ja/other/index.md: Broken internal link: ./flutter3-29-0安卓迁移gradle工具
+[ERROR] docs/ja/riverpod/index.md: Broken internal link: ./Riverpod-Widget-Tool
+[ERROR] docs/ja/dio/index.md: Broken internal link: ./Starter
+[ERROR] docs/ja/dio/index.md: Broken internal link: ./接口信息截图
+[ERROR] docs/ja/shared_p/index.md: Broken internal link: ./Shared_preferences
+[ERROR] docs/ja/hive/index.md: Broken internal link: ./Hive缓存工具
+[ERROR] docs/ja/assets/index.md: Broken internal link: ./资产预览
+[ERROR] docs/ja/assets/index.md: Broken internal link: ./资产生成类调用
+[ERROR] docs/ja/assets/index.md: Broken internal link: ./资产预览窗口
+[ERROR] docs/ja/freezed/index.md: Broken internal link: ./Json-to-Freezed
+[ERROR] docs/ja/freezed/index.md: Broken internal link: ./generate
+[ERROR] docs/ja/freezed/index.md: Broken internal link: ./freezed-3-x版本迁移工具
+[ERROR] docs/ja/freezed/index.md: Broken internal link: ./Freezed-Class-Tool-Menu
+
+Image Issues (1):
+------------------------------
+[ERROR] docs/en/other/ios-privacy-scanning.md: Missing image: ../../assets/images/scan_ios.png
+
+Structure Issues (2):
+------------------------------
+[WARNING] Empty directory: assets/videos
+[WARNING] Empty directory: assets/documents
+
+Language Issues (84):
+------------------------------
+[WARNING] other/ios-privacy-scanning.md: Missing translation in zh: other/ios-privacy-scanning.md
+[WARNING] other/flutter-gradle-migration.md: Missing translation in zh: other/flutter-gradle-migration.md
+[WARNING] dart-file/parameter-type-inline-display.md: Missing translation in zh: dart-file/parameter-type-inline-display.md
+[WARNING] dio/starter.md: Missing translation in zh: dio/starter.md
+[WARNING] assets/asset-preview-window.md: Missing translation in zh: assets/asset-preview-window.md
+[WARNING] pubspec/third-party-package-tools.md: Missing translation in zh: pubspec/third-party-package-tools.md
+[WARNING] dart-file/project-library-scan.md: Missing translation in zh: dart-file/project-library-scan.md
+[WARNING] dart-file/asset-image-preview.md: Missing translation in zh: dart-file/asset-image-preview.md
+[WARNING] dio/request-screenshot.md: Missing translation in zh: dio/request-screenshot.md
+[WARNING] donate.md: Missing translation in zh: donate.md
+[WARNING] installation.md: Missing translation in zh: installation.md
+[WARNING] riverpod/riverpod-widget-tool.md: Missing translation in zh: riverpod/riverpod-widget-tool.md
+[WARNING] shared_p/shared-preferences.md: Missing translation in zh: shared_p/shared-preferences.md
+[WARNING] freezed/migration-tool.md: Missing translation in zh: freezed/migration-tool.md
+[WARNING] settings/links.md: Missing translation in zh: settings/links.md
+[WARNING] assets/asset-preview.md: Missing translation in zh: assets/asset-preview.md
+[WARNING] assets/asset-generation-class.md: Missing translation in zh: assets/asset-generation-class.md
+[WARNING] settings/quick-open-subdirectory.md: Missing translation in zh: settings/quick-open-subdirectory.md
+[WARNING] hive/hive-cache-tool.md: Missing translation in zh: hive/hive-cache-tool.md
+[WARNING] other/flutter-version-detection.md: Missing translation in zh: other/flutter-version-detection.md
+[WARNING] dart-file/quick-open-asset-files.md: Missing translation in zh: dart-file/quick-open-asset-files.md
+[WARNING] other/log-tools.md: Missing translation in zh: other/log-tools.md
+[WARNING] changelog.md: Missing translation in zh: changelog.md
+[WARNING] dart-file/asset-path-checking.md: Missing translation in zh: dart-file/asset-path-checking.md
+[WARNING] freezed/json-to-freezed.md: Missing translation in zh: freezed/json-to-freezed.md
+[WARNING] pubspec/outdated-package-detection.md: Missing translation in zh: pubspec/outdated-package-detection.md
+[WARNING] settings/inline-asset-display.md: Missing translation in zh: settings/inline-asset-display.md
+[WARNING] freezed/code-generation.md: Missing translation in zh: freezed/code-generation.md
+[WARNING] dio/Starter.md: Missing translation in en: dio/Starter.md
+[WARNING] other/Log.md: Missing translation in en: other/Log.md
+[WARNING] settings/内联资产显示.md: Missing translation in en: settings/内联资产显示.md
+[WARNING] assets/资产预览窗口.md: Missing translation in en: assets/资产预览窗口.md
+[WARNING] pubspec/不再更新的三方包检测.md: Missing translation in en: pubspec/不再更新的三方包检测.md
+[WARNING] dart-file/参数类型内联显示.md: Missing translation in en: dart-file/参数类型内联显示.md
+[WARNING] dio/接口信息截图.md: Missing translation in en: dio/接口信息截图.md
+[WARNING] assets/资产预览.md: Missing translation in en: assets/资产预览.md
+[WARNING] shared_p/Shared_preferences.md: Missing translation in en: shared_p/Shared_preferences.md
+[WARNING] dart-file/Project-Library-scan.md: Missing translation in en: dart-file/Project-Library-scan.md
+[WARNING] dart-file/资产字符串快速打开文件.md: Missing translation in en: dart-file/资产字符串快速打开文件.md
+[WARNING] freezed/Json-to-Freezed.md: Missing translation in en: freezed/Json-to-Freezed.md
+[WARNING] freezed/generate.md: Missing translation in en: freezed/generate.md
+[WARNING] assets/资产生成类调用.md: Missing translation in en: assets/资产生成类调用.md
+[WARNING] hive/Hive缓存工具.md: Missing translation in en: hive/Hive缓存工具.md
+[WARNING] 更新日志.md: Missing translation in en: 更新日志.md
+[WARNING] dart-file/资产图片预览功能.md: Missing translation in en: dart-file/资产图片预览功能.md
+[WARNING] other/flutter3-29-0安卓迁移gradle工具.md: Missing translation in en: other/flutter3-29-0安卓迁移gradle工具.md
+[WARNING] 打赏.md: Missing translation in en: 打赏.md
+[WARNING] riverpod/Riverpod-Widget-Tool.md: Missing translation in en: riverpod/Riverpod-Widget-Tool.md
+[WARNING] settings/快速打开子目录文件夹.md: Missing translation in en: settings/快速打开子目录文件夹.md
+[WARNING] pubspec/第三方包工具.md: Missing translation in en: pubspec/第三方包工具.md
+[WARNING] freezed/freezed-3-x版本迁移工具.md: Missing translation in en: freezed/freezed-3-x版本迁移工具.md
+[WARNING] settings/Links.md: Missing translation in en: settings/Links.md
+[WARNING] dart-file/资产文件路径检查功能.md: Missing translation in en: dart-file/资产文件路径检查功能.md
+[WARNING] 安装.md: Missing translation in en: 安装.md
+[WARNING] other/flutter新版本检测.md: Missing translation in en: other/flutter新版本检测.md
+[WARNING] other/ios-17-隐私扫描工具.md: Missing translation in en: other/ios-17-隐私扫描工具.md
+[WARNING] other/ios-privacy-scanning.md: Missing translation in ja: other/ios-privacy-scanning.md
+[WARNING] other/flutter-gradle-migration.md: Missing translation in ja: other/flutter-gradle-migration.md
+[WARNING] dart-file/parameter-type-inline-display.md: Missing translation in ja: dart-file/parameter-type-inline-display.md
+[WARNING] dio/starter.md: Missing translation in ja: dio/starter.md
+[WARNING] assets/asset-preview-window.md: Missing translation in ja: assets/asset-preview-window.md
+[WARNING] pubspec/third-party-package-tools.md: Missing translation in ja: pubspec/third-party-package-tools.md
+[WARNING] dart-file/project-library-scan.md: Missing translation in ja: dart-file/project-library-scan.md
+[WARNING] dart-file/asset-image-preview.md: Missing translation in ja: dart-file/asset-image-preview.md
+[WARNING] dio/request-screenshot.md: Missing translation in ja: dio/request-screenshot.md
+[WARNING] donate.md: Missing translation in ja: donate.md
+[WARNING] installation.md: Missing translation in ja: installation.md
+[WARNING] riverpod/riverpod-widget-tool.md: Missing translation in ja: riverpod/riverpod-widget-tool.md
+[WARNING] shared_p/shared-preferences.md: Missing translation in ja: shared_p/shared-preferences.md
+[WARNING] freezed/migration-tool.md: Missing translation in ja: freezed/migration-tool.md
+[WARNING] settings/links.md: Missing translation in ja: settings/links.md
+[WARNING] assets/asset-preview.md: Missing translation in ja: assets/asset-preview.md
+[WARNING] assets/asset-generation-class.md: Missing translation in ja: assets/asset-generation-class.md
+[WARNING] freezed/Json-to-Freezed.md: Missing translation in ja: freezed/Json-to-Freezed.md
+[WARNING] settings/quick-open-subdirectory.md: Missing translation in ja: settings/quick-open-subdirectory.md
+[WARNING] hive/hive-cache-tool.md: Missing translation in ja: hive/hive-cache-tool.md
+[WARNING] other/flutter-version-detection.md: Missing translation in ja: other/flutter-version-detection.md
+[WARNING] dart-file/quick-open-asset-files.md: Missing translation in ja: dart-file/quick-open-asset-files.md
+[WARNING] other/log-tools.md: Missing translation in ja: other/log-tools.md
+[WARNING] changelog.md: Missing translation in ja: changelog.md
+[WARNING] dart-file/asset-path-checking.md: Missing translation in ja: dart-file/asset-path-checking.md
+[WARNING] pubspec/outdated-package-detection.md: Missing translation in ja: pubspec/outdated-package-detection.md
+[WARNING] settings/inline-asset-display.md: Missing translation in ja: settings/inline-asset-display.md
+[WARNING] freezed/code-generation.md: Missing translation in ja: freezed/code-generation.md
+
+Seo Issues (103):
+------------------------------
+[INFO] docs/ja/打赏.md: Very short content (31 words)
+[WARNING] docs/ja/index.md: Missing main heading (important for SEO)
+[INFO] docs/ja/hello.md: Very short content (6 words)
+[INFO] docs/zh/更新日志.md: Very short content (5 words)
+[INFO] docs/zh/打赏.md: Very short content (4 words)
+[WARNING] docs/zh/index.md: Missing main heading (important for SEO)
+[INFO] docs/zh/hello.md: Very short content (13 words)
+[INFO] docs/en/changelog.md: Very short content (5 words)
+[INFO] docs/en/donate.md: Very short content (8 words)
+[WARNING] docs/en/index.md: Missing main heading (important for SEO)
+[INFO] docs/en/hello.md: Very short content (13 words)
+[INFO] docs/en/settings/riverpod.md: Very short content (47 words)
+[INFO] docs/en/settings/index.md: Very short content (25 words)
+[INFO] docs/en/settings/links.md: Very short content (31 words)
+[INFO] docs/en/dart-file/asset-path-checking.md: Very short content (42 words)
+[INFO] docs/en/dart-file/asset-image-preview.md: Very short content (24 words)
+[INFO] docs/en/dart-file/quick-open-asset-files.md: Very short content (20 words)
+[INFO] docs/en/dart-file/index.md: Very short content (36 words)
+[INFO] docs/en/dart-file/project-library-scan.md: Very short content (29 words)
+[INFO] docs/en/pubspec/index.md: Very short content (20 words)
+[INFO] docs/en/pubspec/outdated-package-detection.md: Very short content (46 words)
+[INFO] docs/en/other/index.md: Very short content (34 words)
+[INFO] docs/en/other/flutter-gradle-migration.md: Very short content (31 words)
+[INFO] docs/en/riverpod/index.md: Very short content (14 words)
+[INFO] docs/en/dio/index.md: Very short content (18 words)
+[INFO] docs/en/shared_p/index.md: Very short content (15 words)
+[INFO] docs/en/hive/index.md: Very short content (16 words)
+[INFO] docs/en/assets/asset-preview.md: Very short content (13 words)
+[INFO] docs/en/assets/index.md: Very short content (23 words)
+[INFO] docs/en/assets/asset-generation-class.md: Very short content (31 words)
+[INFO] docs/en/freezed/json-to-freezed.md: Very short content (23 words)
+[INFO] docs/en/freezed/index.md: Very short content (24 words)
+[INFO] docs/en/freezed/Freezed-Class-Tool-Menu.md: Very short content (13 words)
+[INFO] docs/en/freezed/code-generation.md: Very short content (39 words)
+[INFO] docs/zh/settings/快速打开子目录文件夹.md: Very short content (25 words)
+[INFO] docs/zh/settings/riverpod.md: Very short content (14 words)
+[INFO] docs/zh/settings/index.md: Very short content (15 words)
+[INFO] docs/zh/settings/内联资产显示.md: Very short content (10 words)
+[INFO] docs/zh/settings/Links.md: Very short content (7 words)
+[INFO] docs/zh/dart-file/资产图片预览功能.md: Very short content (4 words)
+[INFO] docs/zh/dart-file/资产字符串快速打开文件.md: Very short content (6 words)
+[INFO] docs/zh/dart-file/index.md: Very short content (17 words)
+[INFO] docs/zh/dart-file/参数类型内联显示.md: Very short content (20 words)
+[INFO] docs/zh/dart-file/Project-Library-scan.md: Very short content (29 words)
+[INFO] docs/zh/dart-file/资产文件路径检查功能.md: Very short content (6 words)
+[INFO] docs/zh/pubspec/不再更新的三方包检测.md: Very short content (7 words)
+[INFO] docs/zh/pubspec/第三方包工具.md: Very short content (35 words)
+[INFO] docs/zh/pubspec/index.md: Very short content (11 words)
+[INFO] docs/zh/other/flutter新版本检测.md: Very short content (27 words)
+[INFO] docs/zh/other/index.md: Very short content (17 words)
+[INFO] docs/zh/other/ios-17-隐私扫描工具.md: Very short content (25 words)
+[INFO] docs/zh/other/flutter3-29-0安卓迁移gradle工具.md: Very short content (8 words)
+[INFO] docs/zh/riverpod/Riverpod-Widget-Tool.md: Very short content (26 words)
+[INFO] docs/zh/riverpod/index.md: Very short content (9 words)
+[INFO] docs/zh/dio/index.md: Very short content (11 words)
+[INFO] docs/zh/dio/接口信息截图.md: Very short content (15 words)
+[INFO] docs/zh/shared_p/index.md: Very short content (9 words)
+[INFO] docs/zh/shared_p/Shared_preferences.md: Very short content (23 words)
+[INFO] docs/zh/hive/index.md: Very short content (9 words)
+[INFO] docs/zh/assets/资产预览.md: Very short content (7 words)
+[INFO] docs/zh/assets/资产生成类调用.md: Very short content (10 words)
+[INFO] docs/zh/assets/index.md: Very short content (13 words)
+[INFO] docs/zh/assets/资产预览窗口.md: Very short content (22 words)
+[INFO] docs/zh/freezed/Json-to-Freezed.md: Very short content (23 words)
+[INFO] docs/zh/freezed/generate.md: Very short content (15 words)
+[INFO] docs/zh/freezed/index.md: Very short content (15 words)
+[INFO] docs/zh/freezed/freezed-3-x版本迁移工具.md: Very short content (22 words)
+[INFO] docs/zh/freezed/Freezed-Class-Tool-Menu.md: Very short content (13 words)
+[INFO] docs/ja/settings/快速打开子目录文件夹.md: Very short content (25 words)
+[INFO] docs/ja/settings/riverpod.md: Very short content (14 words)
+[INFO] docs/ja/settings/index.md: Very short content (15 words)
+[INFO] docs/ja/settings/内联资产显示.md: Very short content (10 words)
+[INFO] docs/ja/settings/Links.md: Very short content (7 words)
+[INFO] docs/ja/dart-file/资产图片预览功能.md: Very short content (4 words)
+[INFO] docs/ja/dart-file/资产字符串快速打开文件.md: Very short content (4 words)
+[INFO] docs/ja/dart-file/index.md: Very short content (17 words)
+[INFO] docs/ja/dart-file/参数类型内联显示.md: Very short content (16 words)
+[INFO] docs/ja/dart-file/Project-Library-scan.md: Very short content (15 words)
+[INFO] docs/ja/dart-file/资产文件路径检查功能.md: Very short content (6 words)
+[INFO] docs/ja/pubspec/不再更新的三方包检测.md: Very short content (6 words)
+[INFO] docs/ja/pubspec/第三方包工具.md: Very short content (33 words)
+[INFO] docs/ja/pubspec/index.md: Very short content (11 words)
+[INFO] docs/ja/other/flutter新版本检测.md: Very short content (27 words)
+[INFO] docs/ja/other/l10n-editor.md: Very short content (28 words)
+[INFO] docs/ja/other/index.md: Very short content (17 words)
+[INFO] docs/ja/other/ios-17-隐私扫描工具.md: Very short content (25 words)
+[INFO] docs/ja/other/flutter3-29-0安卓迁移gradle工具.md: Very short content (9 words)
+[INFO] docs/ja/riverpod/Riverpod-Widget-Tool.md: Very short content (18 words)
+[INFO] docs/ja/riverpod/index.md: Very short content (9 words)
+[INFO] docs/ja/dio/index.md: Very short content (11 words)
+[INFO] docs/ja/dio/接口信息截图.md: Very short content (16 words)
+[INFO] docs/ja/shared_p/index.md: Very short content (9 words)
+[INFO] docs/ja/shared_p/Shared_preferences.md: Very short content (16 words)
+[INFO] docs/ja/hive/index.md: Very short content (9 words)
+[INFO] docs/ja/assets/资产预览.md: Very short content (7 words)
+[INFO] docs/ja/assets/资产生成类调用.md: Very short content (10 words)
+[INFO] docs/ja/assets/index.md: Very short content (13 words)
+[INFO] docs/ja/assets/资产预览窗口.md: Very short content (19 words)
+[INFO] docs/ja/freezed/json-to-freezed.md: Very short content (19 words)
+[INFO] docs/ja/freezed/generate.md: Very short content (15 words)
+[INFO] docs/ja/freezed/index.md: Very short content (15 words)
+[INFO] docs/ja/freezed/freezed-3-x版本迁移工具.md: Very short content (14 words)
+[INFO] docs/ja/freezed/Freezed-Class-Tool-Menu.md: Very short content (6 words)
+

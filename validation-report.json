@@ -1,0 +1,2180 @@
+{
+  "summary": {
+    "total_files": 133,
+    "total_words": 6236,
+    "total_images": 267,
+    "total_links": 377,
+    "total_issues": 351,
+    "error_count": 86,
+    "warning_count": 164
+  },
+  "issues": {
+    "markdown_issues": [
+      {
+        "file": "docs/ja/打赏.md",
+        "line": 9,
+        "issue": "Trailing whitespace",
+        "severity": "info",
+        "content": "'1. **Alipay (支付宝)**: '"
+      },
+      {
+        "file": "docs/ja/index.md",
+        "issue": "Missing main title (h1)",
+        "severity": "warning"
+      },
+      {
+        "file": "docs/zh/index.md",
+        "issue": "Missing main title (h1)",
+        "severity": "warning"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 52,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 223 AS release version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 53,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 正式版本最新 Giraffe"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 54,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#dartVersion=223.8977"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 55,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#flutterVersion=76.3.2"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 56,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#sinceBuildVersion=223"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 57,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#untilBuildVersion=223.*"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 58,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaVersion=2022.3.1.18"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 59,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaType=AI"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 60,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 231 AS Hedgehog version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 61,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#dartVersion=231.9402"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 62,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#flutterVersion=76.3.3"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 63,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#sinceBuildVersion=231"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 64,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#untilBuildVersion=231.*"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 65,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaVersion=2023.1.1.24"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 66,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaType=AI"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 67,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 232 AS   Iguana"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 68,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#dartVersion=232.10248"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 69,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#flutterVersion=76.3.4"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 70,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#sinceBuildVersion=232"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 71,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#untilBuildVersion=232.*"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 72,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaVersion=2023.2.1.11"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 73,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaType=AI"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 74,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 233 idea IU  2023.3"
+      },
+      {
+        "file": "docs/zh/安装.md",
+        "line": 81,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#==============================================="
+      },
+      {
+        "file": "docs/en/index.md",
+        "issue": "Missing main title (h1)",
+        "severity": "warning"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 52,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 223 AS release version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 53,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> Latest official version Giraffe"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 54,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#dartVersion=223.8977"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 55,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#flutterVersion=76.3.2"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 56,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#sinceBuildVersion=223"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 57,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#untilBuildVersion=223.*"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 58,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaVersion=2022.3.1.18"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 59,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaType=AI"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 60,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 231 AS Hedgehog version : https://plugins.jetbrains.com/docs/intellij/android-studio-releases-list.html"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 61,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#dartVersion=231.9402"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 62,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#flutterVersion=76.3.3"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 63,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#sinceBuildVersion=231"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 64,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#untilBuildVersion=231.*"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 65,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaVersion=2023.1.1.24"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 66,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaType=AI"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 67,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 232 AS   Iguana"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 68,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#dartVersion=232.10248"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 69,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#flutterVersion=76.3.4"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 70,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#sinceBuildVersion=232"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 71,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#untilBuildVersion=232.*"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 72,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaVersion=2023.2.1.11"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 73,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#ideaType=AI"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 74,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#===============================> 233 idea IU  2023.3"
+      },
+      {
+        "file": "docs/en/installation.md",
+        "line": 81,
+        "issue": "Malformed header (missing space after #)",
+        "severity": "warning",
+        "content": "#==============================================="
+      },
+      {
+        "file": "docs/en/other/log-tools.md",
+        "line": 26,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "}, extend: ["
+      },
+      {
+        "file": "docs/en/other/log-tools.md",
+        "line": 28,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/en/hive/hive-cache-tool.md",
+        "line": 13,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "extend: ["
+      },
+      {
+        "file": "docs/en/hive/hive-cache-tool.md",
+        "line": 14,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "HiveToolManager(boxList: ["
+      },
+      {
+        "file": "docs/en/hive/hive-cache-tool.md",
+        "line": 16,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "])"
+      },
+      {
+        "file": "docs/en/hive/hive-cache-tool.md",
+        "line": 17,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/en/hive/hive-cache-tool.md",
+        "line": 51,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: ["
+      },
+      {
+        "file": "docs/en/hive/hive-cache-tool.md",
+        "line": 53,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/zh/other/Log.md",
+        "line": 34,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "}, extend: ["
+      },
+      {
+        "file": "docs/zh/other/Log.md",
+        "line": 36,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/zh/hive/Hive缓存工具.md",
+        "line": 13,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "extend: ["
+      },
+      {
+        "file": "docs/zh/hive/Hive缓存工具.md",
+        "line": 14,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "HiveToolManager(boxList: ["
+      },
+      {
+        "file": "docs/zh/hive/Hive缓存工具.md",
+        "line": 16,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "])"
+      },
+      {
+        "file": "docs/zh/hive/Hive缓存工具.md",
+        "line": 17,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/zh/hive/Hive缓存工具.md",
+        "line": 56,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: ["
+      },
+      {
+        "file": "docs/zh/hive/Hive缓存工具.md",
+        "line": 58,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/ja/other/Log.md",
+        "line": 34,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "}, extend: ["
+      },
+      {
+        "file": "docs/ja/other/Log.md",
+        "line": 36,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/ja/hive/Hive缓存工具.md",
+        "line": 13,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "extend: ["
+      },
+      {
+        "file": "docs/ja/hive/Hive缓存工具.md",
+        "line": 14,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "HiveToolManager(boxList: ["
+      },
+      {
+        "file": "docs/ja/hive/Hive缓存工具.md",
+        "line": 16,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "])"
+      },
+      {
+        "file": "docs/ja/hive/Hive缓存工具.md",
+        "line": 17,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      },
+      {
+        "file": "docs/ja/hive/Hive缓存工具.md",
+        "line": 56,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "await DdCheckPlugin().init(dio, initHost: '192.168.100.64', port: 9998, projectName: 'shop', extend: ["
+      },
+      {
+        "file": "docs/ja/hive/Hive缓存工具.md",
+        "line": 58,
+        "issue": "Unmatched square brackets",
+        "severity": "warning",
+        "content": "]);"
+      }
+    ],
+    "link_issues": [
+      {
+        "file": "docs/en/settings/index.md",
+        "issue": "Broken internal link: ./quick-open-subdirectory",
+        "severity": "error",
+        "link_text": "Quick Open Subdirectory Folders",
+        "link_url": "./quick-open-subdirectory"
+      },
+      {
+        "file": "docs/en/settings/index.md",
+        "issue": "Broken internal link: ../en/riverpod",
+        "severity": "error",
+        "link_text": "riverpod",
+        "link_url": "../en/riverpod"
+      },
+      {
+        "file": "docs/en/settings/index.md",
+        "issue": "Broken internal link: ./inline-asset-display",
+        "severity": "error",
+        "link_text": "Inline Asset Display",
+        "link_url": "./inline-asset-display"
+      },
+      {
+        "file": "docs/en/settings/index.md",
+        "issue": "Broken internal link: ./Links",
+        "severity": "error",
+        "link_text": "Links",
+        "link_url": "./Links"
+      },
+      {
+        "file": "docs/en/dart-file/index.md",
+        "issue": "Broken internal link: ./asset-image-preview",
+        "severity": "error",
+        "link_text": "Asset Image Preview Feature",
+        "link_url": "./asset-image-preview"
+      },
+      {
+        "file": "docs/en/dart-file/index.md",
+        "issue": "Broken internal link: ./quick-open-asset-files",
+        "severity": "error",
+        "link_text": "Quick Open Asset Files",
+        "link_url": "./quick-open-asset-files"
+      },
+      {
+        "file": "docs/en/dart-file/index.md",
+        "issue": "Broken internal link: ./parameter-type-inline-display",
+        "severity": "error",
+        "link_text": "Parameter Type Inline Display",
+        "link_url": "./parameter-type-inline-display"
+      },
+      {
+        "file": "docs/en/dart-file/index.md",
+        "issue": "Broken internal link: ./Project-Library-scan",
+        "severity": "error",
+        "link_text": "Project-Library-scan",
+        "link_url": "./Project-Library-scan"
+      },
+      {
+        "file": "docs/en/dart-file/index.md",
+        "issue": "Broken internal link: ./asset-path-checking",
+        "severity": "error",
+        "link_text": "Asset File Path Checking Feature",
+        "link_url": "./asset-path-checking"
+      },
+      {
+        "file": "docs/en/pubspec/index.md",
+        "issue": "Broken internal link: ./outdated-package-detection",
+        "severity": "error",
+        "link_text": "Outdated Package Detection",
+        "link_url": "./outdated-package-detection"
+      },
+      {
+        "file": "docs/en/pubspec/index.md",
+        "issue": "Broken internal link: ./third-party-package-tools",
+        "severity": "error",
+        "link_text": "Third-Party Package Tools",
+        "link_url": "./third-party-package-tools"
+      },
+      {
+        "file": "docs/en/other/ios-privacy-scanning.md",
+        "issue": "Broken internal link: ../../assets/images/scan_ios.png",
+        "severity": "error",
+        "link_text": "scan_ios.png",
+        "link_url": "../../assets/images/scan_ios.png"
+      },
+      {
+        "file": "docs/en/other/index.md",
+        "issue": "Broken internal link: ./flutter-version-detection",
+        "severity": "error",
+        "link_text": "Flutter Version Detection",
+        "link_url": "./flutter-version-detection"
+      },
+      {
+        "file": "docs/en/other/index.md",
+        "issue": "Broken internal link: ./l10n-editor",
+        "severity": "error",
+        "link_text": "l10n-editor",
+        "link_url": "./l10n-editor"
+      },
+      {
+        "file": "docs/en/other/index.md",
+        "issue": "Broken internal link: ./Log",
+        "severity": "error",
+        "link_text": "Log",
+        "link_url": "./Log"
+      },
+      {
+        "file": "docs/en/other/index.md",
+        "issue": "Broken internal link: ./ios-privacy-scanning",
+        "severity": "error",
+        "link_text": "iOS 17 Privacy Scanning Tool",
+        "link_url": "./ios-privacy-scanning"
+      },
+      {
+        "file": "docs/en/other/index.md",
+        "issue": "Broken internal link: ./flutter-gradle-migration",
+        "severity": "error",
+        "link_text": "Flutter 3.29.0 Android Gradle Migration Tool",
+        "link_url": "./flutter-gradle-migration"
+      },
+      {
+        "file": "docs/en/riverpod/index.md",
+        "issue": "Broken internal link: ./Riverpod-Widget-Tool",
+        "severity": "error",
+        "link_text": "Riverpod-Widget-Tool",
+        "link_url": "./Riverpod-Widget-Tool"
+      },
+      {
+        "file": "docs/en/dio/index.md",
+        "issue": "Broken internal link: ./Starter",
+        "severity": "error",
+        "link_text": "Starter",
+        "link_url": "./Starter"
+      },
+      {
+        "file": "docs/en/dio/index.md",
+        "issue": "Broken internal link: ./api-information-screenshot",
+        "severity": "error",
+        "link_text": "API Information Screenshot",
+        "link_url": "./api-information-screenshot"
+      },
+      {
+        "file": "docs/en/shared_p/index.md",
+        "issue": "Broken internal link: ./Shared_preferences",
+        "severity": "error",
+        "link_text": "Shared_preferences",
+        "link_url": "./Shared_preferences"
+      },
+      {
+        "file": "docs/en/hive/index.md",
+        "issue": "Broken internal link: ./hive-cache-tool",
+        "severity": "error",
+        "link_text": "Hive Cache Tool",
+        "link_url": "./hive-cache-tool"
+      },
+      {
+        "file": "docs/en/assets/index.md",
+        "issue": "Broken internal link: ./asset-preview",
+        "severity": "error",
+        "link_text": "Asset Preview",
+        "link_url": "./asset-preview"
+      },
+      {
+        "file": "docs/en/assets/index.md",
+        "issue": "Broken internal link: ./asset-generation-class",
+        "severity": "error",
+        "link_text": "Asset Generation Class",
+        "link_url": "./asset-generation-class"
+      },
+      {
+        "file": "docs/en/assets/index.md",
+        "issue": "Broken internal link: ./asset-preview-window",
+        "severity": "error",
+        "link_text": "Asset Preview Window",
+        "link_url": "./asset-preview-window"
+      },
+      {
+        "file": "docs/en/freezed/index.md",
+        "issue": "Broken internal link: ./Json-to-Freezed",
+        "severity": "error",
+        "link_text": "Json-to-Freezed",
+        "link_url": "./Json-to-Freezed"
+      },
+      {
+        "file": "docs/en/freezed/index.md",
+        "issue": "Broken internal link: ./generate",
+        "severity": "error",
+        "link_text": "generate",
+        "link_url": "./generate"
+      },
+      {
+        "file": "docs/en/freezed/index.md",
+        "issue": "Broken internal link: ./migration-tool",
+        "severity": "error",
+        "link_text": "Freezed 3.x Version Migration Tool",
+        "link_url": "./migration-tool"
+      },
+      {
+        "file": "docs/en/freezed/index.md",
+        "issue": "Broken internal link: ./Freezed-Class-Tool-Menu",
+        "severity": "error",
+        "link_text": "Freezed-Class-Tool-Menu",
+        "link_url": "./Freezed-Class-Tool-Menu"
+      },
+      {
+        "file": "docs/zh/settings/index.md",
+        "issue": "Broken internal link: ./快速打开子目录文件夹",
+        "severity": "error",
+        "link_text": "快速打开子目录文件夹",
+        "link_url": "./快速打开子目录文件夹"
+      },
+      {
+        "file": "docs/zh/settings/index.md",
+        "issue": "Broken internal link: ../zh/riverpod",
+        "severity": "error",
+        "link_text": "riverpod",
+        "link_url": "../zh/riverpod"
+      },
+      {
+        "file": "docs/zh/settings/index.md",
+        "issue": "Broken internal link: ./内联资产显示",
+        "severity": "error",
+        "link_text": "内联资产显示",
+        "link_url": "./内联资产显示"
+      },
+      {
+        "file": "docs/zh/settings/index.md",
+        "issue": "Broken internal link: ./Links",
+        "severity": "error",
+        "link_text": "Links",
+        "link_url": "./Links"
+      },
+      {
+        "file": "docs/zh/dart-file/index.md",
+        "issue": "Broken internal link: ./资产图片预览功能",
+        "severity": "error",
+        "link_text": "资产图片预览功能",
+        "link_url": "./资产图片预览功能"
+      },
+      {
+        "file": "docs/zh/dart-file/index.md",
+        "issue": "Broken internal link: ./资产字符串快速打开文件",
+        "severity": "error",
+        "link_text": "资产字符串快速打开文件",
+        "link_url": "./资产字符串快速打开文件"
+      },
+      {
+        "file": "docs/zh/dart-file/index.md",
+        "issue": "Broken internal link: ./参数类型内联显示",
+        "severity": "error",
+        "link_text": "参数类型内联显示",
+        "link_url": "./参数类型内联显示"
+      },
+      {
+        "file": "docs/zh/dart-file/index.md",
+        "issue": "Broken internal link: ./Project-Library-scan",
+        "severity": "error",
+        "link_text": "Project-Library-scan",
+        "link_url": "./Project-Library-scan"
+      },
+      {
+        "file": "docs/zh/dart-file/index.md",
+        "issue": "Broken internal link: ./资产文件路径检查功能",
+        "severity": "error",
+        "link_text": "资产文件路径检查功能",
+        "link_url": "./资产文件路径检查功能"
+      },
+      {
+        "file": "docs/zh/pubspec/index.md",
+        "issue": "Broken internal link: ./不再更新的三方包检测",
+        "severity": "error",
+        "link_text": "不再更新的三方包检测",
+        "link_url": "./不再更新的三方包检测"
+      },
+      {
+        "file": "docs/zh/pubspec/index.md",
+        "issue": "Broken internal link: ./第三方包工具",
+        "severity": "error",
+        "link_text": "第三方包工具",
+        "link_url": "./第三方包工具"
+      },
+      {
+        "file": "docs/zh/other/index.md",
+        "issue": "Broken internal link: ./flutter新版本检测",
+        "severity": "error",
+        "link_text": "flutter新版本检测",
+        "link_url": "./flutter新版本检测"
+      },
+      {
+        "file": "docs/zh/other/index.md",
+        "issue": "Broken internal link: ./l10n-editor",
+        "severity": "error",
+        "link_text": "l10n-editor",
+        "link_url": "./l10n-editor"
+      },
+      {
+        "file": "docs/zh/other/index.md",
+        "issue": "Broken internal link: ./Log",
+        "severity": "error",
+        "link_text": "Log",
+        "link_url": "./Log"
+      },
+      {
+        "file": "docs/zh/other/index.md",
+        "issue": "Broken internal link: ./ios-17-隐私扫描工具",
+        "severity": "error",
+        "link_text": "ios-17-隐私扫描工具",
+        "link_url": "./ios-17-隐私扫描工具"
+      },
+      {
+        "file": "docs/zh/other/index.md",
+        "issue": "Broken internal link: ./flutter3-29-0安卓迁移gradle工具",
+        "severity": "error",
+        "link_text": "flutter3-29-0安卓迁移gradle工具",
+        "link_url": "./flutter3-29-0安卓迁移gradle工具"
+      },
+      {
+        "file": "docs/zh/riverpod/index.md",
+        "issue": "Broken internal link: ./Riverpod-Widget-Tool",
+        "severity": "error",
+        "link_text": "Riverpod-Widget-Tool",
+        "link_url": "./Riverpod-Widget-Tool"
+      },
+      {
+        "file": "docs/zh/dio/index.md",
+        "issue": "Broken internal link: ./Starter",
+        "severity": "error",
+        "link_text": "Starter",
+        "link_url": "./Starter"
+      },
+      {
+        "file": "docs/zh/dio/index.md",
+        "issue": "Broken internal link: ./接口信息截图",
+        "severity": "error",
+        "link_text": "接口信息截图",
+        "link_url": "./接口信息截图"
+      },
+      {
+        "file": "docs/zh/shared_p/index.md",
+        "issue": "Broken internal link: ./Shared_preferences",
+        "severity": "error",
+        "link_text": "Shared_preferences",
+        "link_url": "./Shared_preferences"
+      },
+      {
+        "file": "docs/zh/hive/index.md",
+        "issue": "Broken internal link: ./Hive缓存工具",
+        "severity": "error",
+        "link_text": "Hive缓存工具",
+        "link_url": "./Hive缓存工具"
+      },
+      {
+        "file": "docs/zh/assets/index.md",
+        "issue": "Broken internal link: ./资产预览",
+        "severity": "error",
+        "link_text": "资产预览",
+        "link_url": "./资产预览"
+      },
+      {
+        "file": "docs/zh/assets/index.md",
+        "issue": "Broken internal link: ./资产生成类调用",
+        "severity": "error",
+        "link_text": "资产生成类调用",
+        "link_url": "./资产生成类调用"
+      },
+      {
+        "file": "docs/zh/assets/index.md",
+        "issue": "Broken internal link: ./资产预览窗口",
+        "severity": "error",
+        "link_text": "资产预览窗口",
+        "link_url": "./资产预览窗口"
+      },
+      {
+        "file": "docs/zh/freezed/index.md",
+        "issue": "Broken internal link: ./Json-to-Freezed",
+        "severity": "error",
+        "link_text": "Json-to-Freezed",
+        "link_url": "./Json-to-Freezed"
+      },
+      {
+        "file": "docs/zh/freezed/index.md",
+        "issue": "Broken internal link: ./generate",
+        "severity": "error",
+        "link_text": "generate",
+        "link_url": "./generate"
+      },
+      {
+        "file": "docs/zh/freezed/index.md",
+        "issue": "Broken internal link: ./freezed-3-x版本迁移工具",
+        "severity": "error",
+        "link_text": "freezed-3-x版本迁移工具",
+        "link_url": "./freezed-3-x版本迁移工具"
+      },
+      {
+        "file": "docs/zh/freezed/index.md",
+        "issue": "Broken internal link: ./Freezed-Class-Tool-Menu",
+        "severity": "error",
+        "link_text": "Freezed-Class-Tool-Menu",
+        "link_url": "./Freezed-Class-Tool-Menu"
+      },
+      {
+        "file": "docs/ja/settings/index.md",
+        "issue": "Broken internal link: ./快速打开子目录文件夹",
+        "severity": "error",
+        "link_text": "快速打开子目录文件夹",
+        "link_url": "./快速打开子目录文件夹"
+      },
+      {
+        "file": "docs/ja/settings/index.md",
+        "issue": "Broken internal link: ../ja/riverpod",
+        "severity": "error",
+        "link_text": "riverpod",
+        "link_url": "../ja/riverpod"
+      },
+      {
+        "file": "docs/ja/settings/index.md",
+        "issue": "Broken internal link: ./内联资产显示",
+        "severity": "error",
+        "link_text": "内联资产显示",
+        "link_url": "./内联资产显示"
+      },
+      {
+        "file": "docs/ja/settings/index.md",
+        "issue": "Broken internal link: ./Links",
+        "severity": "error",
+        "link_text": "Links",
+        "link_url": "./Links"
+      },
+      {
+        "file": "docs/ja/dart-file/index.md",
+        "issue": "Broken internal link: ./资产图片预览功能",
+        "severity": "error",
+        "link_text": "资产图片预览功能",
+        "link_url": "./资产图片预览功能"
+      },
+      {
+        "file": "docs/ja/dart-file/index.md",
+        "issue": "Broken internal link: ./资产字符串快速打开文件",
+        "severity": "error",
+        "link_text": "资产字符串快速打开文件",
+        "link_url": "./资产字符串快速打开文件"
+      },
+      {
+        "file": "docs/ja/dart-file/index.md",
+        "issue": "Broken internal link: ./参数类型内联显示",
+        "severity": "error",
+        "link_text": "参数类型内联显示",
+        "link_url": "./参数类型内联显示"
+      },
+      {
+        "file": "docs/ja/dart-file/index.md",
+        "issue": "Broken internal link: ./Project-Library-scan",
+        "severity": "error",
+        "link_text": "Project-Library-scan",
+        "link_url": "./Project-Library-scan"
+      },
+      {
+        "file": "docs/ja/dart-file/index.md",
+        "issue": "Broken internal link: ./资产文件路径检查功能",
+        "severity": "error",
+        "link_text": "资产文件路径检查功能",
+        "link_url": "./资产文件路径检查功能"
+      },
+      {
+        "file": "docs/ja/pubspec/index.md",
+        "issue": "Broken internal link: ./不再更新的三方包检测",
+        "severity": "error",
+        "link_text": "不再更新的三方包检测",
+        "link_url": "./不再更新的三方包检测"
+      },
+      {
+        "file": "docs/ja/pubspec/index.md",
+        "issue": "Broken internal link: ./第三方包工具",
+        "severity": "error",
+        "link_text": "第三方包工具",
+        "link_url": "./第三方包工具"
+      },
+      {
+        "file": "docs/ja/other/index.md",
+        "issue": "Broken internal link: ./flutter新版本检测",
+        "severity": "error",
+        "link_text": "flutter新版本检测",
+        "link_url": "./flutter新版本检测"
+      },
+      {
+        "file": "docs/ja/other/index.md",
+        "issue": "Broken internal link: ./l10n-editor",
+        "severity": "error",
+        "link_text": "l10n-editor",
+        "link_url": "./l10n-editor"
+      },
+      {
+        "file": "docs/ja/other/index.md",
+        "issue": "Broken internal link: ./Log",
+        "severity": "error",
+        "link_text": "Log",
+        "link_url": "./Log"
+      },
+      {
+        "file": "docs/ja/other/index.md",
+        "issue": "Broken internal link: ./ios-17-隐私扫描工具",
+        "severity": "error",
+        "link_text": "ios-17-隐私扫描工具",
+        "link_url": "./ios-17-隐私扫描工具"
+      },
+      {
+        "file": "docs/ja/other/index.md",
+        "issue": "Broken internal link: ./flutter3-29-0安卓迁移gradle工具",
+        "severity": "error",
+        "link_text": "flutter3-29-0安卓迁移gradle工具",
+        "link_url": "./flutter3-29-0安卓迁移gradle工具"
+      },
+      {
+        "file": "docs/ja/riverpod/index.md",
+        "issue": "Broken internal link: ./Riverpod-Widget-Tool",
+        "severity": "error",
+        "link_text": "Riverpod-Widget-Tool",
+        "link_url": "./Riverpod-Widget-Tool"
+      },
+      {
+        "file": "docs/ja/dio/index.md",
+        "issue": "Broken internal link: ./Starter",
+        "severity": "error",
+        "link_text": "Starter",
+        "link_url": "./Starter"
+      },
+      {
+        "file": "docs/ja/dio/index.md",
+        "issue": "Broken internal link: ./接口信息截图",
+        "severity": "error",
+        "link_text": "接口信息截图",
+        "link_url": "./接口信息截图"
+      },
+      {
+        "file": "docs/ja/shared_p/index.md",
+        "issue": "Broken internal link: ./Shared_preferences",
+        "severity": "error",
+        "link_text": "Shared_preferences",
+        "link_url": "./Shared_preferences"
+      },
+      {
+        "file": "docs/ja/hive/index.md",
+        "issue": "Broken internal link: ./Hive缓存工具",
+        "severity": "error",
+        "link_text": "Hive缓存工具",
+        "link_url": "./Hive缓存工具"
+      },
+      {
+        "file": "docs/ja/assets/index.md",
+        "issue": "Broken internal link: ./资产预览",
+        "severity": "error",
+        "link_text": "资产预览",
+        "link_url": "./资产预览"
+      },
+      {
+        "file": "docs/ja/assets/index.md",
+        "issue": "Broken internal link: ./资产生成类调用",
+        "severity": "error",
+        "link_text": "资产生成类调用",
+        "link_url": "./资产生成类调用"
+      },
+      {
+        "file": "docs/ja/assets/index.md",
+        "issue": "Broken internal link: ./资产预览窗口",
+        "severity": "error",
+        "link_text": "资产预览窗口",
+        "link_url": "./资产预览窗口"
+      },
+      {
+        "file": "docs/ja/freezed/index.md",
+        "issue": "Broken internal link: ./Json-to-Freezed",
+        "severity": "error",
+        "link_text": "Json-to-Freezed",
+        "link_url": "./Json-to-Freezed"
+      },
+      {
+        "file": "docs/ja/freezed/index.md",
+        "issue": "Broken internal link: ./generate",
+        "severity": "error",
+        "link_text": "generate",
+        "link_url": "./generate"
+      },
+      {
+        "file": "docs/ja/freezed/index.md",
+        "issue": "Broken internal link: ./freezed-3-x版本迁移工具",
+        "severity": "error",
+        "link_text": "freezed-3-x版本迁移工具",
+        "link_url": "./freezed-3-x版本迁移工具"
+      },
+      {
+        "file": "docs/ja/freezed/index.md",
+        "issue": "Broken internal link: ./Freezed-Class-Tool-Menu",
+        "severity": "error",
+        "link_text": "Freezed-Class-Tool-Menu",
+        "link_url": "./Freezed-Class-Tool-Menu"
+      }
+    ],
+    "image_issues": [
+      {
+        "file": "docs/en/other/ios-privacy-scanning.md",
+        "issue": "Missing image: ../../assets/images/scan_ios.png",
+        "severity": "error",
+        "alt_text": "scan_ios.png",
+        "image_url": "../../assets/images/scan_ios.png"
+      }
+    ],
+    "structure_issues": [
+      {
+        "issue": "Empty directory: assets/videos",
+        "severity": "warning"
+      },
+      {
+        "issue": "Empty directory: assets/documents",
+        "severity": "warning"
+      }
+    ],
+    "language_issues": [
+      {
+        "issue": "Missing translation in zh: other/ios-privacy-scanning.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "other/ios-privacy-scanning.md"
+      },
+      {
+        "issue": "Missing translation in zh: other/flutter-gradle-migration.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "other/flutter-gradle-migration.md"
+      },
+      {
+        "issue": "Missing translation in zh: dart-file/parameter-type-inline-display.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dart-file/parameter-type-inline-display.md"
+      },
+      {
+        "issue": "Missing translation in zh: dio/starter.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dio/starter.md"
+      },
+      {
+        "issue": "Missing translation in zh: assets/asset-preview-window.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "assets/asset-preview-window.md"
+      },
+      {
+        "issue": "Missing translation in zh: pubspec/third-party-package-tools.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "pubspec/third-party-package-tools.md"
+      },
+      {
+        "issue": "Missing translation in zh: dart-file/project-library-scan.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dart-file/project-library-scan.md"
+      },
+      {
+        "issue": "Missing translation in zh: dart-file/asset-image-preview.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dart-file/asset-image-preview.md"
+      },
+      {
+        "issue": "Missing translation in zh: dio/request-screenshot.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dio/request-screenshot.md"
+      },
+      {
+        "issue": "Missing translation in zh: donate.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "donate.md"
+      },
+      {
+        "issue": "Missing translation in zh: installation.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "installation.md"
+      },
+      {
+        "issue": "Missing translation in zh: riverpod/riverpod-widget-tool.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "riverpod/riverpod-widget-tool.md"
+      },
+      {
+        "issue": "Missing translation in zh: shared_p/shared-preferences.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "shared_p/shared-preferences.md"
+      },
+      {
+        "issue": "Missing translation in zh: freezed/migration-tool.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "freezed/migration-tool.md"
+      },
+      {
+        "issue": "Missing translation in zh: settings/links.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "settings/links.md"
+      },
+      {
+        "issue": "Missing translation in zh: assets/asset-preview.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "assets/asset-preview.md"
+      },
+      {
+        "issue": "Missing translation in zh: assets/asset-generation-class.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "assets/asset-generation-class.md"
+      },
+      {
+        "issue": "Missing translation in zh: settings/quick-open-subdirectory.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "settings/quick-open-subdirectory.md"
+      },
+      {
+        "issue": "Missing translation in zh: hive/hive-cache-tool.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "hive/hive-cache-tool.md"
+      },
+      {
+        "issue": "Missing translation in zh: other/flutter-version-detection.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "other/flutter-version-detection.md"
+      },
+      {
+        "issue": "Missing translation in zh: dart-file/quick-open-asset-files.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dart-file/quick-open-asset-files.md"
+      },
+      {
+        "issue": "Missing translation in zh: other/log-tools.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "other/log-tools.md"
+      },
+      {
+        "issue": "Missing translation in zh: changelog.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "changelog.md"
+      },
+      {
+        "issue": "Missing translation in zh: dart-file/asset-path-checking.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "dart-file/asset-path-checking.md"
+      },
+      {
+        "issue": "Missing translation in zh: freezed/json-to-freezed.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "freezed/json-to-freezed.md"
+      },
+      {
+        "issue": "Missing translation in zh: pubspec/outdated-package-detection.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "pubspec/outdated-package-detection.md"
+      },
+      {
+        "issue": "Missing translation in zh: settings/inline-asset-display.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "settings/inline-asset-display.md"
+      },
+      {
+        "issue": "Missing translation in zh: freezed/code-generation.md",
+        "severity": "warning",
+        "language": "zh",
+        "file": "freezed/code-generation.md"
+      },
+      {
+        "issue": "Missing translation in en: dio/Starter.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dio/Starter.md"
+      },
+      {
+        "issue": "Missing translation in en: other/Log.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "other/Log.md"
+      },
+      {
+        "issue": "Missing translation in en: settings/内联资产显示.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "settings/内联资产显示.md"
+      },
+      {
+        "issue": "Missing translation in en: assets/资产预览窗口.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "assets/资产预览窗口.md"
+      },
+      {
+        "issue": "Missing translation in en: pubspec/不再更新的三方包检测.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "pubspec/不再更新的三方包检测.md"
+      },
+      {
+        "issue": "Missing translation in en: dart-file/参数类型内联显示.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dart-file/参数类型内联显示.md"
+      },
+      {
+        "issue": "Missing translation in en: dio/接口信息截图.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dio/接口信息截图.md"
+      },
+      {
+        "issue": "Missing translation in en: assets/资产预览.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "assets/资产预览.md"
+      },
+      {
+        "issue": "Missing translation in en: shared_p/Shared_preferences.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "shared_p/Shared_preferences.md"
+      },
+      {
+        "issue": "Missing translation in en: dart-file/Project-Library-scan.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dart-file/Project-Library-scan.md"
+      },
+      {
+        "issue": "Missing translation in en: dart-file/资产字符串快速打开文件.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dart-file/资产字符串快速打开文件.md"
+      },
+      {
+        "issue": "Missing translation in en: freezed/Json-to-Freezed.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "freezed/Json-to-Freezed.md"
+      },
+      {
+        "issue": "Missing translation in en: freezed/generate.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "freezed/generate.md"
+      },
+      {
+        "issue": "Missing translation in en: assets/资产生成类调用.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "assets/资产生成类调用.md"
+      },
+      {
+        "issue": "Missing translation in en: hive/Hive缓存工具.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "hive/Hive缓存工具.md"
+      },
+      {
+        "issue": "Missing translation in en: 更新日志.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "更新日志.md"
+      },
+      {
+        "issue": "Missing translation in en: dart-file/资产图片预览功能.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dart-file/资产图片预览功能.md"
+      },
+      {
+        "issue": "Missing translation in en: other/flutter3-29-0安卓迁移gradle工具.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "other/flutter3-29-0安卓迁移gradle工具.md"
+      },
+      {
+        "issue": "Missing translation in en: 打赏.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "打赏.md"
+      },
+      {
+        "issue": "Missing translation in en: riverpod/Riverpod-Widget-Tool.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "riverpod/Riverpod-Widget-Tool.md"
+      },
+      {
+        "issue": "Missing translation in en: settings/快速打开子目录文件夹.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "settings/快速打开子目录文件夹.md"
+      },
+      {
+        "issue": "Missing translation in en: pubspec/第三方包工具.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "pubspec/第三方包工具.md"
+      },
+      {
+        "issue": "Missing translation in en: freezed/freezed-3-x版本迁移工具.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "freezed/freezed-3-x版本迁移工具.md"
+      },
+      {
+        "issue": "Missing translation in en: settings/Links.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "settings/Links.md"
+      },
+      {
+        "issue": "Missing translation in en: dart-file/资产文件路径检查功能.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "dart-file/资产文件路径检查功能.md"
+      },
+      {
+        "issue": "Missing translation in en: 安装.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "安装.md"
+      },
+      {
+        "issue": "Missing translation in en: other/flutter新版本检测.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "other/flutter新版本检测.md"
+      },
+      {
+        "issue": "Missing translation in en: other/ios-17-隐私扫描工具.md",
+        "severity": "warning",
+        "language": "en",
+        "file": "other/ios-17-隐私扫描工具.md"
+      },
+      {
+        "issue": "Missing translation in ja: other/ios-privacy-scanning.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "other/ios-privacy-scanning.md"
+      },
+      {
+        "issue": "Missing translation in ja: other/flutter-gradle-migration.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "other/flutter-gradle-migration.md"
+      },
+      {
+        "issue": "Missing translation in ja: dart-file/parameter-type-inline-display.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dart-file/parameter-type-inline-display.md"
+      },
+      {
+        "issue": "Missing translation in ja: dio/starter.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dio/starter.md"
+      },
+      {
+        "issue": "Missing translation in ja: assets/asset-preview-window.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "assets/asset-preview-window.md"
+      },
+      {
+        "issue": "Missing translation in ja: pubspec/third-party-package-tools.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "pubspec/third-party-package-tools.md"
+      },
+      {
+        "issue": "Missing translation in ja: dart-file/project-library-scan.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dart-file/project-library-scan.md"
+      },
+      {
+        "issue": "Missing translation in ja: dart-file/asset-image-preview.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dart-file/asset-image-preview.md"
+      },
+      {
+        "issue": "Missing translation in ja: dio/request-screenshot.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dio/request-screenshot.md"
+      },
+      {
+        "issue": "Missing translation in ja: donate.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "donate.md"
+      },
+      {
+        "issue": "Missing translation in ja: installation.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "installation.md"
+      },
+      {
+        "issue": "Missing translation in ja: riverpod/riverpod-widget-tool.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "riverpod/riverpod-widget-tool.md"
+      },
+      {
+        "issue": "Missing translation in ja: shared_p/shared-preferences.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "shared_p/shared-preferences.md"
+      },
+      {
+        "issue": "Missing translation in ja: freezed/migration-tool.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "freezed/migration-tool.md"
+      },
+      {
+        "issue": "Missing translation in ja: settings/links.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "settings/links.md"
+      },
+      {
+        "issue": "Missing translation in ja: assets/asset-preview.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "assets/asset-preview.md"
+      },
+      {
+        "issue": "Missing translation in ja: assets/asset-generation-class.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "assets/asset-generation-class.md"
+      },
+      {
+        "issue": "Missing translation in ja: freezed/Json-to-Freezed.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "freezed/Json-to-Freezed.md"
+      },
+      {
+        "issue": "Missing translation in ja: settings/quick-open-subdirectory.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "settings/quick-open-subdirectory.md"
+      },
+      {
+        "issue": "Missing translation in ja: hive/hive-cache-tool.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "hive/hive-cache-tool.md"
+      },
+      {
+        "issue": "Missing translation in ja: other/flutter-version-detection.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "other/flutter-version-detection.md"
+      },
+      {
+        "issue": "Missing translation in ja: dart-file/quick-open-asset-files.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dart-file/quick-open-asset-files.md"
+      },
+      {
+        "issue": "Missing translation in ja: other/log-tools.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "other/log-tools.md"
+      },
+      {
+        "issue": "Missing translation in ja: changelog.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "changelog.md"
+      },
+      {
+        "issue": "Missing translation in ja: dart-file/asset-path-checking.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "dart-file/asset-path-checking.md"
+      },
+      {
+        "issue": "Missing translation in ja: pubspec/outdated-package-detection.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "pubspec/outdated-package-detection.md"
+      },
+      {
+        "issue": "Missing translation in ja: settings/inline-asset-display.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "settings/inline-asset-display.md"
+      },
+      {
+        "issue": "Missing translation in ja: freezed/code-generation.md",
+        "severity": "warning",
+        "language": "ja",
+        "file": "freezed/code-generation.md"
+      }
+    ],
+    "seo_issues": [
+      {
+        "file": "docs/ja/打赏.md",
+        "issue": "Very short content (31 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/index.md",
+        "issue": "Missing main heading (important for SEO)",
+        "severity": "warning"
+      },
+      {
+        "file": "docs/ja/hello.md",
+        "issue": "Very short content (6 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/更新日志.md",
+        "issue": "Very short content (5 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/打赏.md",
+        "issue": "Very short content (4 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/index.md",
+        "issue": "Missing main heading (important for SEO)",
+        "severity": "warning"
+      },
+      {
+        "file": "docs/zh/hello.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/changelog.md",
+        "issue": "Very short content (5 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/donate.md",
+        "issue": "Very short content (8 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/index.md",
+        "issue": "Missing main heading (important for SEO)",
+        "severity": "warning"
+      },
+      {
+        "file": "docs/en/hello.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/settings/riverpod.md",
+        "issue": "Very short content (47 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/settings/index.md",
+        "issue": "Very short content (25 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/settings/links.md",
+        "issue": "Very short content (31 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/dart-file/asset-path-checking.md",
+        "issue": "Very short content (42 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/dart-file/asset-image-preview.md",
+        "issue": "Very short content (24 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/dart-file/quick-open-asset-files.md",
+        "issue": "Very short content (20 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/dart-file/index.md",
+        "issue": "Very short content (36 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/dart-file/project-library-scan.md",
+        "issue": "Very short content (29 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/pubspec/index.md",
+        "issue": "Very short content (20 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/pubspec/outdated-package-detection.md",
+        "issue": "Very short content (46 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/other/index.md",
+        "issue": "Very short content (34 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/other/flutter-gradle-migration.md",
+        "issue": "Very short content (31 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/riverpod/index.md",
+        "issue": "Very short content (14 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/dio/index.md",
+        "issue": "Very short content (18 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/shared_p/index.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/hive/index.md",
+        "issue": "Very short content (16 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/assets/asset-preview.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/assets/index.md",
+        "issue": "Very short content (23 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/assets/asset-generation-class.md",
+        "issue": "Very short content (31 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/freezed/json-to-freezed.md",
+        "issue": "Very short content (23 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/freezed/index.md",
+        "issue": "Very short content (24 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/freezed/Freezed-Class-Tool-Menu.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/en/freezed/code-generation.md",
+        "issue": "Very short content (39 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/settings/快速打开子目录文件夹.md",
+        "issue": "Very short content (25 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/settings/riverpod.md",
+        "issue": "Very short content (14 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/settings/index.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/settings/内联资产显示.md",
+        "issue": "Very short content (10 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/settings/Links.md",
+        "issue": "Very short content (7 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dart-file/资产图片预览功能.md",
+        "issue": "Very short content (4 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dart-file/资产字符串快速打开文件.md",
+        "issue": "Very short content (6 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dart-file/index.md",
+        "issue": "Very short content (17 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dart-file/参数类型内联显示.md",
+        "issue": "Very short content (20 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dart-file/Project-Library-scan.md",
+        "issue": "Very short content (29 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dart-file/资产文件路径检查功能.md",
+        "issue": "Very short content (6 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/pubspec/不再更新的三方包检测.md",
+        "issue": "Very short content (7 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/pubspec/第三方包工具.md",
+        "issue": "Very short content (35 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/pubspec/index.md",
+        "issue": "Very short content (11 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/other/flutter新版本检测.md",
+        "issue": "Very short content (27 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/other/index.md",
+        "issue": "Very short content (17 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/other/ios-17-隐私扫描工具.md",
+        "issue": "Very short content (25 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/other/flutter3-29-0安卓迁移gradle工具.md",
+        "issue": "Very short content (8 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/riverpod/Riverpod-Widget-Tool.md",
+        "issue": "Very short content (26 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/riverpod/index.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dio/index.md",
+        "issue": "Very short content (11 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/dio/接口信息截图.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/shared_p/index.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/shared_p/Shared_preferences.md",
+        "issue": "Very short content (23 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/hive/index.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/assets/资产预览.md",
+        "issue": "Very short content (7 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/assets/资产生成类调用.md",
+        "issue": "Very short content (10 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/assets/index.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/assets/资产预览窗口.md",
+        "issue": "Very short content (22 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/freezed/Json-to-Freezed.md",
+        "issue": "Very short content (23 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/freezed/generate.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/freezed/index.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/freezed/freezed-3-x版本迁移工具.md",
+        "issue": "Very short content (22 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/zh/freezed/Freezed-Class-Tool-Menu.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/settings/快速打开子目录文件夹.md",
+        "issue": "Very short content (25 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/settings/riverpod.md",
+        "issue": "Very short content (14 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/settings/index.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/settings/内联资产显示.md",
+        "issue": "Very short content (10 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/settings/Links.md",
+        "issue": "Very short content (7 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dart-file/资产图片预览功能.md",
+        "issue": "Very short content (4 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dart-file/资产字符串快速打开文件.md",
+        "issue": "Very short content (4 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dart-file/index.md",
+        "issue": "Very short content (17 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dart-file/参数类型内联显示.md",
+        "issue": "Very short content (16 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dart-file/Project-Library-scan.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dart-file/资产文件路径检查功能.md",
+        "issue": "Very short content (6 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/pubspec/不再更新的三方包检测.md",
+        "issue": "Very short content (6 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/pubspec/第三方包工具.md",
+        "issue": "Very short content (33 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/pubspec/index.md",
+        "issue": "Very short content (11 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/other/flutter新版本检测.md",
+        "issue": "Very short content (27 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/other/l10n-editor.md",
+        "issue": "Very short content (28 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/other/index.md",
+        "issue": "Very short content (17 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/other/ios-17-隐私扫描工具.md",
+        "issue": "Very short content (25 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/other/flutter3-29-0安卓迁移gradle工具.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/riverpod/Riverpod-Widget-Tool.md",
+        "issue": "Very short content (18 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/riverpod/index.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dio/index.md",
+        "issue": "Very short content (11 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/dio/接口信息截图.md",
+        "issue": "Very short content (16 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/shared_p/index.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/shared_p/Shared_preferences.md",
+        "issue": "Very short content (16 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/hive/index.md",
+        "issue": "Very short content (9 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/assets/资产预览.md",
+        "issue": "Very short content (7 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/assets/资产生成类调用.md",
+        "issue": "Very short content (10 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/assets/index.md",
+        "issue": "Very short content (13 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/assets/资产预览窗口.md",
+        "issue": "Very short content (19 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/freezed/json-to-freezed.md",
+        "issue": "Very short content (19 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/freezed/generate.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/freezed/index.md",
+        "issue": "Very short content (15 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/freezed/freezed-3-x版本迁移工具.md",
+        "issue": "Very short content (14 words)",
+        "severity": "info"
+      },
+      {
+        "file": "docs/ja/freezed/Freezed-Class-Tool-Menu.md",
+        "issue": "Very short content (6 words)",
+        "severity": "info"
+      }
+    ]
+  }
+}

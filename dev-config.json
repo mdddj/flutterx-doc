@@ -1,0 +1,56 @@
+{
+  "development": {
+    "server": {
+      "host": "127.0.0.1",
+      "port": 8000,
+      "auto_open_browser": true,
+      "live_reload": true
+    },
+    "watch": {
+      "patterns": ["*.md", "*.yml", "*.yaml", "*.css", "*.js", "*.html"],
+      "ignore_patterns": [
+        "site/*",
+        "*.pyc",
+        "__pycache__/*",
+        ".git/*",
+        "*.tmp"
+      ],
+      "directories": ["docs", "overrides", "mkdocs.yml"],
+      "reload_delay": 1.0
+    },
+    "build": {
+      "strict_mode": false,
+      "clean_build": false,
+      "validate_links": false
+    }
+  },
+  "production": {
+    "build": {
+      "strict_mode": true,
+      "clean_build": true,
+      "minify_html": true,
+      "minify_css": true,
+      "minify_js": true,
+      "optimize_images": true,
+      "generate_gzip": true,
+      "cache_busting": true,
+      "validate_links": true,
+      "generate_sitemap": true
+    },
+    "optimization": {
+      "compression_level": 9,
+      "image_quality": 85,
+      "remove_unused_css": false,
+      "inline_critical_css": false
+    }
+  },
+  "testing": {
+    "run_tests": true,
+    "test_suites": ["content_migration", "multilanguage", "framework"],
+    "performance_thresholds": {
+      "build_time_max": 300,
+      "site_size_max_mb": 100,
+      "page_load_time_max": 3000
+    }
+  }
+}

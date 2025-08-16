@@ -1,0 +1,189 @@
+{
+  "summary": {
+    "total_suites": 1,
+    "total_tests": 8,
+    "total_passed": 7,
+    "total_failed": 1,
+    "overall_success_rate": 87.5,
+    "timestamp": 1755242826.361849
+  },
+  "suites": [
+    {
+      "name": "Content Migration Tests",
+      "summary": {
+        "suite_name": "Content Migration Tests",
+        "total_tests": 8,
+        "passed": 7,
+        "failed": 1,
+        "success_rate": 87.5
+      },
+      "tests": [
+        {
+          "name": "directory_structure",
+          "passed": true,
+          "message": "All required directories exist",
+          "details": {
+            "missing_dirs": []
+          },
+          "timestamp": 1755242826.351609
+        },
+        {
+          "name": "language_directories",
+          "passed": true,
+          "message": "File counts per language: {'zh': 44, 'en': 44, 'ja': 44}",
+          "details": {
+            "zh": 44,
+            "en": 44,
+            "ja": 44
+          },
+          "timestamp": 1755242826.353055
+        },
+        {
+          "name": "markdown_files_migrated",
+          "passed": true,
+          "message": "Source: 132 files, Target: 133 files",
+          "details": {
+            "source_count": 132,
+            "target_count": 133
+          },
+          "timestamp": 1755242826.3563159
+        },
+        {
+          "name": "assets_migrated",
+          "passed": true,
+          "message": "Assets migrated: 282 images, 21 gifs",
+          "details": {
+            "image_count": 282,
+            "gif_count": 21
+          },
+          "timestamp": 1755242826.359021
+        },
+        {
+          "name": "file_count_consistency",
+          "passed": true,
+          "message": "File counts consistent across languages",
+          "details": {
+            "file_counts": {
+              "zh": {
+                ".": 6,
+                "settings": 5,
+                "dart-file": 6,
+                "pubspec": 3,
+                "other": 6,
+                "riverpod": 2,
+                "dio": 3,
+                "shared_p": 2,
+                "hive": 2,
+                "assets": 4,
+                "freezed": 5
+              },
+              "en": {
+                ".": 6,
+                "settings": 5,
+                "dart-file": 6,
+                "pubspec": 3,
+                "other": 6,
+                "riverpod": 2,
+                "dio": 3,
+                "shared_p": 2,
+                "hive": 2,
+                "assets": 4,
+                "freezed": 5
+              },
+              "ja": {
+                ".": 6,
+                "settings": 5,
+                "dart-file": 6,
+                "pubspec": 3,
+                "other": 6,
+                "riverpod": 2,
+                "dio": 3,
+                "shared_p": 2,
+                "hive": 2,
+                "assets": 4,
+                "freezed": 5
+              }
+            },
+            "discrepancies": []
+          },
+          "timestamp": 1755242826.3615239
+        },
+        {
+          "name": "content_preservation",
+          "passed": false,
+          "message": "Content preserved in 2/4 sample files",
+          "details": {
+            "content_checks": [
+              {
+                "file": "zh/index.md",
+                "has_title": false,
+                "has_content": true,
+                "length": 848
+              },
+              {
+                "file": "en/index.md",
+                "has_title": false,
+                "has_content": true,
+                "length": 1361
+              },
+              {
+                "file": "zh/安装.md",
+                "has_title": true,
+                "has_content": true,
+                "length": 1869
+              },
+              {
+                "file": "en/installation.md",
+                "has_title": true,
+                "has_content": true,
+                "length": 2485
+              }
+            ]
+          },
+          "timestamp": 1755242826.361692
+        },
+        {
+          "name": "image_references_updated",
+          "passed": true,
+          "message": "Image references: 2/2 properly formatted",
+          "details": {
+            "image_ref_checks": [
+              {
+                "file": "zh/安装.md",
+                "total_refs": 1,
+                "proper_refs": 1,
+                "references": [
+                  [
+                    "flutterx",
+                    "../assets/images/start_01.png"
+                  ]
+                ]
+              },
+              {
+                "file": "en/installation.md",
+                "total_refs": 1,
+                "proper_refs": 1,
+                "references": [
+                  [
+                    "flutterx",
+                    "../assets/images/start_01.png"
+                  ]
+                ]
+              }
+            ]
+          },
+          "timestamp": 1755242826.361805
+        },
+        {
+          "name": "navigation_files_exist",
+          "passed": true,
+          "message": "All navigation files exist",
+          "details": {
+            "missing_files": []
+          },
+          "timestamp": 1755242826.3618371
+        }
+      ]
+    }
+  ]
+}

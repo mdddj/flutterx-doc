@@ -1,0 +1,100 @@
+FlutterX Documentation Migration Summary
+==================================================
+
+Status: FAILED
+Completion time: 2025-08-15 15:27:06
+Total duration: 1.50 seconds
+Steps executed: 62
+Errors: 8
+Warnings: 3
+
+Errors encountered:
+--------------------
+- Missing Python dependencies: No module named 'yaml'
+- Step failed: Check prerequisites
+- ❌ Content validation failed: ...
+- ❌ Development build failed: ...
+- Step failed: Test build process
+- ❌ Content migration tests failed: ...
+- ❌ Comprehensive test suite failed
+- Step failed: Run comprehensive tests
+
+Warnings:
+--------------------
+- Content validation failed
+- Found 1 broken image references
+-   - docs/en/other/ios-privacy-scanning.md: ../../assets/images/scan_ios.png
+
+Detailed execution log:
+--------------------
+[15:27:04] [INFO] 🎯 Starting end-to-end migration test...
+[15:27:04] [INFO] 
+📋 Step: Check prerequisites
+[15:27:04] [INFO] 🔍 Checking prerequisites...
+[15:27:04] [ERROR] Missing Python dependencies: No module named 'yaml'
+[15:27:04] [ERROR] Step failed: Check prerequisites
+[15:27:04] [INFO] 
+📋 Step: Run full migration
+[15:27:04] [INFO] 🚀 Starting full migration process...
+[15:27:04] [INFO] Running: Content migration
+[15:27:05] [INFO] ✅ Content migration completed successfully
+[15:27:05] [INFO] Running: Asset migration
+[15:27:05] [INFO] ✅ Asset migration completed successfully
+[15:27:05] [INFO] Running: Navigation building
+[15:27:05] [INFO] ✅ Navigation building completed successfully
+[15:27:05] [INFO] Running: Image link fixing
+[15:27:05] [INFO] ✅ Image link fixing completed successfully
+[15:27:05] [INFO] Running: Cross-language link fixing
+[15:27:05] [INFO] ✅ Cross-language link fixing completed successfully
+[15:27:05] [INFO] Running: Theme customization
+[15:27:05] [INFO] ✅ Theme customization completed successfully
+[15:27:05] [INFO] ✅ Full migration process completed
+[15:27:05] [INFO] 
+📋 Step: Validate migration results
+[15:27:05] [INFO] 🔍 Validating migration results...
+[15:27:05] [INFO] Running: Content validation
+[15:27:05] [ERROR] ❌ Content validation failed: ...
+[15:27:05] [WARNING] Content validation failed
+[15:27:05] [INFO] Running: Navigation validation
+[15:27:05] [INFO] ✅ Navigation validation completed successfully
+[15:27:05] [INFO] Running: Asset validation
+[15:27:05] [INFO] ✅ Asset validation completed successfully
+[15:27:05] [INFO] ✅ Migration validation completed
+[15:27:05] [INFO] 
+📋 Step: Test build process
+[15:27:05] [INFO] 🔨 Testing build process...
+[15:27:05] [INFO] Running: Development build
+[15:27:06] [ERROR] ❌ Development build failed: ...
+[15:27:06] [ERROR] Step failed: Test build process
+[15:27:06] [INFO] 
+📋 Step: Test multi-language functionality
+[15:27:06] [INFO] 🌐 Testing multi-language functionality...
+[15:27:06] [INFO] Running: Multi-language tests
+[15:27:06] [INFO] ✅ Multi-language tests completed successfully
+[15:27:06] [INFO] ✅ Multi-language functionality test passed
+[15:27:06] [INFO] 
+📋 Step: Test image and asset loading
+[15:27:06] [INFO] 🖼️  Testing image and asset loading...
+[15:27:06] [INFO] Found 306 images in assets directory
+[15:27:06] [WARNING] Found 1 broken image references
+[15:27:06] [WARNING]   - docs/en/other/ios-privacy-scanning.md: ../../assets/images/scan_ios.png
+[15:27:06] [INFO] ✅ Image and asset loading test completed
+[15:27:06] [INFO] 
+📋 Step: Test navigation functionality
+[15:27:06] [INFO] 🧭 Testing navigation functionality...
+[15:27:06] [INFO] ✅ Navigation functionality test passed
+[15:27:06] [INFO] 
+📋 Step: Run comprehensive tests
+[15:27:06] [INFO] 🧪 Running comprehensive test suite...
+[15:27:06] [INFO] Running: Content migration tests
+[15:27:06] [ERROR] ❌ Content migration tests failed: ...
+[15:27:06] [INFO] Running: Multi-language tests
+[15:27:06] [INFO] ✅ Multi-language tests completed successfully
+[15:27:06] [INFO] Running: Framework tests
+[15:27:06] [INFO] ✅ Framework tests completed successfully
+[15:27:06] [INFO] Test suite results: 2/3 passed (66.7%)
+[15:27:06] [ERROR] ❌ Comprehensive test suite failed
+[15:27:06] [ERROR] Step failed: Run comprehensive tests
+[15:27:06] [INFO] 
+📋 Step: Generate final report
+[15:27:06] [INFO] 📊 Generating final report...

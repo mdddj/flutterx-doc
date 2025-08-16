@@ -1,0 +1,8 @@
+{
+  "migration_status": "FAILED",
+  "total_time": "1.50 seconds",
+  "total_steps": 62,
+  "errors": 8,
+  "warnings": 3,
+  "timestamp": "2025-08-15 15:27:06"
+}

@@ -1,0 +1,46 @@
+Navigation Optimization Report
+==================================================
+
+Optimization Log:
+------------------------------
+Starting navigation optimization...
+Updating section index files...
+✅ Updated: docs/zh/dio/index.md
+✅ Updated: docs/en/dio/index.md
+✅ Updated: docs/ja/dio/index.md
+✅ Updated: docs/zh/assets/index.md
+✅ Updated: docs/en/assets/index.md
+✅ Updated: docs/ja/assets/index.md
+✅ Updated: docs/zh/settings/index.md
+✅ Updated: docs/en/settings/index.md
+✅ Updated: docs/ja/settings/index.md
+✅ Updated: docs/zh/riverpod/index.md
+✅ Updated: docs/en/riverpod/index.md
+✅ Updated: docs/ja/riverpod/index.md
+✅ Updated: docs/zh/hive/index.md
+✅ Updated: docs/en/hive/index.md
+✅ Updated: docs/ja/hive/index.md
+✅ Updated: docs/zh/freezed/index.md
+✅ Updated: docs/en/freezed/index.md
+✅ Updated: docs/ja/freezed/index.md
+✅ Updated: docs/zh/dart-file/index.md
+✅ Updated: docs/en/dart-file/index.md
+✅ Updated: docs/ja/dart-file/index.md
+✅ Updated: docs/zh/pubspec/index.md
+✅ Updated: docs/en/pubspec/index.md
+✅ Updated: docs/ja/pubspec/index.md
+✅ Updated: docs/zh/other/index.md
+✅ Updated: docs/en/other/index.md
+✅ Updated: docs/ja/other/index.md
+✅ Updated: docs/zh/shared_p/index.md
+✅ Updated: docs/en/shared_p/index.md
+✅ Updated: docs/ja/shared_p/index.md
+Updated 30 section index files
+Checking orphaned files...
+🗑️  Removed: docs/ja/image_index.md
+🗑️  Removed: docs/zh/image_index.md
+🗑️  Removed: docs/en/image_index.md
+🗑️  Removed: docs/ja/hello.md
+🗑️  Removed: docs/zh/hello.md
+🗑️  Removed: docs/en/hello.md
+Removed 6 orphaned files
