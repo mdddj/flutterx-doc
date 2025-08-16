@@ -15,9 +15,17 @@
 
 ####  功能预览(StatelessWidget)
 
+<<<<<<< HEAD
 ![riverpod_1.gif](../../assets/gif/riverpod_1.gif)
+=======
+![riverpod_1.gif](/gif/riverpod_1.gif)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 
 ####  功能预览(StatefulWidget)
 
+<<<<<<< HEAD
 ![riverpod_2.gif](../../assets/gif/riverpod_2.gif)
+=======
+![riverpod_2.gif](/gif/riverpod_2.gif)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

@@ -9,7 +9,11 @@ freezed 3.0版本有改动，需要在 class 前面添加 sealed或者 abstract�
 > **注意** 它会在你的编辑器顶部显示一个操作通知栏，如果 bug失误显示了， 你可以关掉
 
 
+<<<<<<< HEAD
 ![image_16.png](../../assets/images/image_16.png)
+=======
+![image_16.png](/images/image_16.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 
 它支持修改当前文件，也支持全项目扫描修改。
@@ -18,6 +22,10 @@ freezed 3.0版本有改动，需要在 class 前面添加 sealed或者 abstract�
 > **注意**
 
 
+<<<<<<< HEAD
 ![image_17.png](../../assets/images/image_17.png)
+=======
+![image_17.png](/images/image_17.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 

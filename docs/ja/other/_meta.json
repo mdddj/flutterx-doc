@@ -1,0 +1,27 @@
+[
+  {
+    "type": "file",
+    "name": "Log",
+    "label": "ログツール"
+  },
+  {
+    "type": "file",
+    "name": "l10n-editor",
+    "label": "L10nエディター"
+  },
+  {
+    "type": "file",
+    "name": "flutter3-29-0安卓迁移gradle工具",
+    "label": "Flutter 3.29.0 Android移行Gradleツール"
+  },
+  {
+    "type": "file",
+    "name": "ios-17-隐私扫描工具",
+    "label": "iOS 17プライバシースキャンツール"
+  },
+  {
+    "type": "file",
+    "name": "flutter新版本检测",
+    "label": "Flutterバージョン検出"
+  }
+]

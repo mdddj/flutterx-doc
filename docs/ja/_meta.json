@@ -1,0 +1,12 @@
+[
+  {
+    "text": "ホーム",
+    "link": "/ja/",
+    "activeMatch": "^/ja/$"
+  },
+  {
+    "text": "ドキュメント",
+    "link": "/ja/安装",
+    "activeMatch": "^/ja/(?!$)"
+  }
+]

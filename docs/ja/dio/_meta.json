@@ -1,0 +1,12 @@
+[
+  {
+    "type": "file",
+    "name": "Starter",
+    "label": "Dioリクエスト監視"
+  },
+  {
+    "type": "file",
+    "name": "接口信息截图",
+    "label": "リクエスト情報スクリーンショット"
+  }
+]

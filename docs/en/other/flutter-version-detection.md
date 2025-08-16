@@ -10,9 +10,15 @@ Request URL
 
 ## Screenshot Preview
 
+<<<<<<< HEAD
 ![image_9.png](../../assets/images/image_9.png)
 
 ![image_10.png](../../assets/images/image_10.png)
+=======
+![image_9.png](/images/image_9.png)
+
+![image_10.png](/images/image_10.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 "What's new" will redirect to the CHANGELOG.md file in the Flutter GitHub repository
 
@@ -25,4 +31,8 @@ Version checking requires 2 conditions to be satisfied:
 
 ## Don't Need This Feature? Disable It Here
 
+<<<<<<< HEAD
 ![image_8.png](../../assets/images/image_8.png)
+=======
+![image_8.png](/images/image_8.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

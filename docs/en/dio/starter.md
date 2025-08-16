@@ -4,13 +4,21 @@
 
 If you can't find this window, it may not be displayed by default. You need to manually open it from the menu bar: `View -> Tool Windows -> Dio Request`
 
+<<<<<<< HEAD
 ![dio windows](../../assets/images/_dio_01.png)
+=======
+![dio windows](/images/dio/_dio_01.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 2. Service Running Status
 
 If you see a small green dot, it indicates the service is running and ready for connection.
 
+<<<<<<< HEAD
 ![status](../../assets/images/img_2.png)
+=======
+![status](/images/dio/img_2.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 3. Getting Started
 
@@ -63,7 +71,11 @@ Below are the parameter descriptions for the `DdCheckPlugin#init` function:
 
 The plugin will automatically recognize your IP address and provide suggestions.
 
+<<<<<<< HEAD
 ![img_3.png](../../assets/images/img_3.png)
+=======
+![img_3.png](/images/dio/img_3.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 5. Adding Notes to APIs
 
@@ -96,6 +108,7 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 
 As shown in the image, string arrays in `SendResponseModel#extendNotes` will be displayed as tags in a loop under the URL.
 
+<<<<<<< HEAD
 ![img_4.png](../../assets/images/img_4.png)
 
 If there are too many notes, it's recommended to use relaxed mode for display.
@@ -105,6 +118,17 @@ If there are too many notes, it's recommended to use relaxed mode for display.
 Here's my configuration:
 
 ![img_6.png](../../assets/images/img_6.png)
+=======
+![img_4.png](/images/dio/img_4.png)
+
+If there are too many notes, it's recommended to use relaxed mode for display.
+
+![img_5.png](/images/dio/img_5.png)
+
+Here's my configuration:
+
+![img_6.png](/images/dio/img_6.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## 6. Json to Freezed Model
 
@@ -113,8 +137,16 @@ Here's my configuration:
 After selecting an API, click this icon to open the JSON to Freezed model configuration dialog.
 Or right-click on the API to find this option in the context menu.
 
+<<<<<<< HEAD
 ![img_7.png](../../assets/images/img_7.png)
 
 ![img_8.png](../../assets/images/img_8.png)
 
 ![img_9.png](../../assets/images/img_9.png)
+=======
+![img_7.png](/images/dio/img_7.png)
+
+![img_8.png](/images/dio/img_8.png)
+
+![img_9.png](/images/dio/img_9.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a

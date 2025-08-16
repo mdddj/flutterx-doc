@@ -10,7 +10,11 @@
 有一些数据在控制台看起来不直观，也不方便，所以做了这个日志面板
 
 
+<<<<<<< HEAD
 ![image_32.png](../../assets/images/image_32.png)
+=======
+![image_32.png](/images/image_32.png)
+>>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 
 ## 怎么用?
