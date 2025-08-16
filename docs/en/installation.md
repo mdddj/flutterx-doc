@@ -9,11 +9,7 @@
 ## Install from IntelliJ IDEA Marketplace
 
 1. Open the IntelliJ IDEA plugin marketplace and search for `flutterx`, the first one is it
-<<<<<<< HEAD
 2. ![flutterx](../assets/images/start_01.png)
-=======
-2. ![flutterx](/images/start/start_01.png)
->>>>>>> 9bd2974a6a06cdcd4b0cf104e44238350abd1f8a
 
 ## Compile from Source Code
 
@@ -83,4 +79,3 @@ untilBuildVersion=233.*
 ideaVersion=2023.3
 ideaType=IU
 #===============================================
-```
