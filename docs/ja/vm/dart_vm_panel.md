@@ -1,5 +1,8 @@
 # Dart VMツールウィンドウ
 
+
+> v 6.0.0 で追加
+
 ## 情報パネル
 
 ![](../../assets/images/vm/vm1.png)

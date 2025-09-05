@@ -1,5 +1,7 @@
 # Dart VM ToolWindow
 
+> v6.0.0 Added
+
 ## Information Panel
 
 ![](../../assets/images/vm/vm1.png)
