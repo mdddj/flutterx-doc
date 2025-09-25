@@ -13,3 +13,7 @@
 ## Log Panel
 
 ![](../../assets/images/vm/vm3.png)
+
+
+## Disabled Window
+![](../../assets/images/vm/vm4.png)

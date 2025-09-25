@@ -19,3 +19,11 @@ If you're using a newer version (3.8.x), similar to the example below, it will a
 As shown in the image below
 
 ![_type_03.png](../../assets/images/_type_03.png)
+
+
+## Display location
+> v6.0.2 新增
+
+Types are supported to be displayed to the left of the variable name
+
+![inlay-to-left](../../assets/images/dart/inlay-to-left.png)

@@ -17,3 +17,5 @@
 ![](../../assets/images/vm/vm3.png)
 
 
+## 禁用窗口
+![](../../assets/images/vm/vm4.png)

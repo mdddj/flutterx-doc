@@ -37,3 +37,6 @@ pids/
 # Temporary files
 *.tmp
 *.temp
+
+
+scripts/syncchanglog/target

@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/mdddj/dd_flutter_idea_plugin/refs/heads/master/CHANGELOG.md",
+  "outputs": [
+    "docs/en/changelog.md",
+    "docs/ja/更新日志.md",
+    "docs/zh/更新日志.md"
+  ]
+}

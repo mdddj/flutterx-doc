@@ -14,3 +14,8 @@
 ## ログパネル
 
 ![](../../assets/images/vm/vm3.png)
+
+
+
+## 無効化ウィンドウ
+![](../../assets/images/vm/vm4.png)

@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="flutterx doc" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
-    <serverData>
-      <paths name="flutterx doc">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/opt/1panel/apps/openresty/openresty/www/sites/flutterx.itbug.shop/index" local="$PROJECT_DIR$/webHelpFLUTTERX2-all" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
   </component>
 </project>
