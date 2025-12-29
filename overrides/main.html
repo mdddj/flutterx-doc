@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block analytics %}
+  <script src="https://www.gstatic.com/firebasejs/12.7.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics-compat.js"></script>
+  <script>
+    if (!window.firebaseInitialized) {
+      const firebaseConfig = {
+        apiKey: "AIzaSyAAholiIQTLfGUB23uzJ7AdbM8rCh19K3w",
+        authDomain: "flutterx-doc.firebaseapp.com",
+        projectId: "flutterx-doc",
+        storageBucket: "flutterx-doc.firebasestorage.app",
+        messagingSenderId: "883380844982",
+        appId: "1:883380844982:web:747049ce741d4063ae6917",
+        measurementId: "G-G3WJSBLPN0"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      window.firebaseInitialized = true;
+    }
+  </script>
+{% endblock %}
