@@ -11,6 +11,7 @@ theme:
   language: zh
   logo: assets/images/logo.svg
   favicon: assets/images/logo.svg
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
