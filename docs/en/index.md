@@ -8,7 +8,7 @@ An IDE plugin to boost your Flutter development
 
 Dio request monitoring, JSON to Freezed, Hive visualization, SP management, asset management, code generation...
 
-[Get Started](./installation){ .md-button .md-button--primary }
+[Get Started](./installation.md){ .md-button .md-button--primary }
 [View on GitHub](https://github.com/mdddj/dd_flutter_idea_plugin){ .md-button .md-button--primary }
 
 ## Features

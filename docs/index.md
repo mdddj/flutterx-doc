@@ -22,6 +22,6 @@ FlutterX 是一个为 Flutter 开发者提供快速开发辅助功能的 IDE 插
 
 ## 语言选择
 
-- [简体中文](zh/)
-- [English](en/)
-- [日本語](ja/)
+- [简体中文](zh/index.md)
+- [English](en/index.md)
+- [日本語](ja/index.md)

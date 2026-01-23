@@ -8,7 +8,7 @@ Flutter開発を加速させるIDEプラグイン
 
 Dioリクエスト監視、JSONからFreezedへ、Hive可視化、SP管理、アセット管理、コード生成...
 
-[クイックスタート](./安装){ .md-button .md-button--primary }
+[クイックスタート](./安装.md){ .md-button .md-button--primary }
 [GitHubで見る](https://github.com/mdddj/dd_flutter_idea_plugin){ .md-button .md-button--primary }
 
 ## 機能

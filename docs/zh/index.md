@@ -8,7 +8,7 @@ title: FlutterX - 为 Flutter 开发提效的 IDE 插件
 
 Dio 请求监听、JSON 转 Freezed、Hive 可视化、SP 管理、资产管理、代码生成...
 
-[快速开始](./安装){ .md-button .md-button--primary }
+[快速开始](./安装.md){ .md-button .md-button--primary }
 [在 GitHub 上查看](https://github.com/mdddj/dd_flutter_idea_plugin){ .md-button .md-button--primary }
 
 ## 功能
