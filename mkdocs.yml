@@ -158,6 +158,7 @@ nav:
       - 内联资产显示: zh/settings/内联资产显示.md
     - 虚拟机:
       - Dart VM 面板: zh/vm/dart_vm_panel.md
+      - Drift: zh/vm/drift.md
     - 其他:
       - 打赏: zh/打赏.md
       - 更新日志: zh/更新日志.md
@@ -206,6 +207,7 @@ nav:
       - Inline Asset Display: en/settings/inline-asset-display.md
     - VM:
       - Dart VM Panel: en/vm/dart_vm_panel.md
+      - Drift: en/vm/drift.md
     - Others:
       - Donate: en/donate.md
       - Changelog: en/changelog.md
@@ -254,6 +256,7 @@ nav:
       - インラインアセット表示: ja/settings/内联资产显示.md
     - VM:
       - Dart VM パネル: ja/vm/dart_vm_panel.md
+      - Drift: ja/vm/drift.md
     - その他:
       - 打赏: ja/打赏.md
       - 更新日志: ja/更新日志.md
