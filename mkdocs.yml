@@ -48,9 +48,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
   icon:
     logo: material/flutter
     repo: fontawesome/brands/github
@@ -96,6 +94,7 @@ extra_css:
 
 extra:
   generator: false
+  enable_firebase_analytics: !ENV [ENABLE_FIREBASE_ANALYTICS, "false"]
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mdddj/dd_flutter_idea_plugin

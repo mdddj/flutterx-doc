@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block analytics %}
+  {% if config.extra.enable_firebase_analytics == "true" %}
   <script src="https://www.gstatic.com/firebasejs/12.7.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/12.7.0/firebase-analytics-compat.js"></script>
   <script>
@@ -20,4 +21,5 @@
       window.firebaseInitialized = true;
     }
   </script>
+  {% endif %}
 {% endblock %}
