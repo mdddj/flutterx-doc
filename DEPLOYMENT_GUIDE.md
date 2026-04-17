@@ -1,101 +1,59 @@
 # FlutterX 文档部署指南
 
-本文档详细说明如何将 FlutterX 文档项目部署到 GitHub Pages。
+当前站点使用 MkDocs，并通过 GitHub Actions 发布到 GitHub Pages。
 
 ## 项目结构
 
-FlutterX 文档项目是 git 仓库中的一个子目录，结构如下：
-
-```
+```text
 flutterx-doc/
 ├── docs/
-├── doc_build/
-├── .github/workflows/
-├── package.json
-├── rspress.config.ts
-└── ...
+├── overrides/
+├── mkdocs.yml
+├── requirements.txt
+└── .github/workflows/deploy.yml
 ```
 
 ## 自动部署
 
-### GitHub Actions 工作流
+工作流文件是 `.github/workflows/deploy.yml`，在推送到 `main` 分支时自动执行。
 
-项目包含一个 GitHub Actions 工作流文件 `.github/workflows/deploy-pages.yml`，它会在每次推送到 `main` 分支时自动触发部署。
+主要步骤：
 
-工作流包含以下步骤：
-1. 检出代码
-2. 设置 Node.js 环境
-3. 安装依赖
-4. 构建文档
-5. 上传构建产物
+1. 检出仓库
+2. 安装 Python
+3. 安装 `requirements.txt` 依赖
+4. 运行 `mkdocs build --clean --strict`
+5. 上传 `site/`
 6. 部署到 GitHub Pages
 
-### 配置要求
+GitHub 仓库的 Pages 设置里，部署来源应选择 `GitHub Actions`。
 
-要使自动部署正常工作，需要在 GitHub 仓库设置中正确配置 GitHub Pages：
+## 本地验证
 
-1. 访问仓库的 Settings 页面
-2. 在左侧菜单中点击 "Pages"
-3. 在 "Build and deployment" 部分：
-   - Source: 选择 "GitHub Actions"
-4. 保存设置
+```bash
+python -m pip install -r requirements.txt
+mkdocs build --clean --strict
+```
 
-## 手动部署
+构建成功后，静态文件位于 `site/`。
 
-### 使用部署脚本
-
-项目包含一个 `deploy.sh` 脚本，可以手动触发部署：
+## 手动触发部署
 
 ```bash
 ./deploy.sh
 ```
 
-该脚本会：
-1. 运行 `npm run build` 构建文档
-2. 如果安装了 GitHub CLI，会尝试触发 GitHub Actions 工作流
-3. 如果未安装 GitHub CLI，会提供手动触发工作流的链接
+该脚本会先本地执行一次 MkDocs 构建，然后在安装了 GitHub CLI 的情况下触发远端工作流。
 
-### 手动构建和部署
+## 故障排查
 
-如果需要手动构建和部署，可以按照以下步骤操作：
+如果部署失败，优先检查：
 
-1. 构建文档：
-   ```bash
-   npm run build
-   ```
+1. `mkdocs.yml` 配置是否有效
+2. `requirements.txt` 依赖是否完整
+3. GitHub Pages 是否配置为 `GitHub Actions`
+4. Actions 日志中是否有严格模式构建错误
 
-2. 构建产物将位于 `doc_build/` 目录中
+## 访问地址
 
-3. 可以手动将 `doc_build/` 目录的内容推送到 `gh-pages` 分支，或者通过 GitHub Actions 工作流进行部署
-
-## 故障排除
-
-### 工作流失败
-
-如果 GitHub Actions 工作流失败，请检查以下几点：
-
-1. 确保 `package.json` 中的构建脚本正确
-2. 检查 `rspress.config.ts` 配置是否正确
-3. 确认 GitHub Pages 设置正确
-4. 查看工作流运行日志以获取详细错误信息
-
-### GitHub Pages 未正确显示
-
-如果 GitHub Pages 未正确显示文档，请检查以下几点：
-
-1. 确保 GitHub Pages 设置中选择了正确的源（GitHub Actions）
-2. 确认工作流成功完成
-3. 检查自定义域名设置（如果使用）
-
-## 访问部署的文档
-
-部署成功后，可以通过以下链接访问文档：
 [https://mdddj.github.io/flutterx-doc/](https://mdddj.github.io/flutterx-doc/)
-
-## 相关文件
-
-- `.github/workflows/deploy-pages.yml` - GitHub Actions 部署工作流
-- `deploy.sh` - 手动部署脚本
-- `package.json` - 项目依赖和脚本
-- `rspress.config.ts` - Rspress 配置文件
-- `README.md` - 项目说明文件

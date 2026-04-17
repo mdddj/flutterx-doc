@@ -3,6 +3,7 @@ node_modules/
 
 # Build outputs
 doc_build/
+site/
 
 # IDE files
 .idea/
@@ -30,6 +31,8 @@ pids/
 
 # Environment files
 .env*
+.venv/
+venv/
 
 # IDE files
 .vscode/

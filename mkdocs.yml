@@ -227,7 +227,7 @@ nav:
       - Riverpod設定: ja/settings/riverpod.md
     - Freezed:
       - Freezed 3.x移行ツール: ja/freezed/freezed-3-x版本迁移工具.md
-      - JsonからFreezedへ: ja/freezed/json-to-freezed.md
+      - JsonからFreezedへ: ja/freezed/Json-to-Freezed.md
       - コード生成: ja/freezed/generate.md
       - Freezedクラスツールメニュー: ja/freezed/Freezed-Class-Tool-Menu.md
     - Dartファイル:
