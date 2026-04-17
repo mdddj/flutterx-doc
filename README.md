@@ -149,3 +149,43 @@ DOCKER_ALT_LINK_JA=/flutterx-doc/ja/
 docker compose pull
 docker compose up -d
 ```
+
+## GitHub Actions 直发服务器
+
+如果国内服务器拉 `ghcr.io` 太慢，更适合直接让 GitHub Actions 构建 `site/` 后通过 SSH 同步到服务器目录。
+
+工作流文件：
+
+[`deploy-server.yml`](/Users/ldd/WritersideProjects/flutterx/.github/workflows/deploy-server.yml)
+
+需要在 GitHub 仓库 `Settings -> Secrets and variables -> Actions` 里配置：
+
+Variables:
+
+- `ENABLE_SERVER_DEPLOY`
+- `DEPLOY_SERVER_HOST`
+- `DEPLOY_SERVER_PORT`
+- `DEPLOY_SERVER_USER`
+- `DEPLOY_TARGET_DIR`
+- `DEPLOY_SITE_URL`
+- `DEPLOY_ALT_LINK_ZH`
+- `DEPLOY_ALT_LINK_EN`
+- `DEPLOY_ALT_LINK_JA`
+
+Secrets:
+
+- `DEPLOY_SSH_PRIVATE_KEY`
+
+你的自定义域名这套建议值：
+
+```text
+ENABLE_SERVER_DEPLOY=true
+DEPLOY_SITE_URL=https://flutterx.itbug.shop/
+DEPLOY_ALT_LINK_ZH=/zh/
+DEPLOY_ALT_LINK_EN=/en/
+DEPLOY_ALT_LINK_JA=/ja/
+```
+
+服务器上的 Nginx 可以直接托管同步后的静态目录，示例见：
+
+[`nginx-static.example.conf`](/Users/ldd/WritersideProjects/flutterx/deploy/nginx-static.example.conf)

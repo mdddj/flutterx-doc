@@ -161,3 +161,62 @@ docker compose up -d
 ```bash
 echo "<github_pat>" | docker login ghcr.io -u <github_username> --password-stdin
 ```
+
+## GitHub Actions 直接同步到服务器
+
+如果国内服务器从 `ghcr.io` 拉镜像过慢，更推荐直接同步静态构建产物。
+
+工作流文件：
+
+```text
+.github/workflows/deploy-server.yml
+```
+
+工作流流程：
+
+1. GitHub Actions 构建 MkDocs
+2. 通过 SSH 连接你的服务器
+3. 用 `rsync --delete` 把 `site/` 同步到目标目录
+4. 由服务器上的 Nginx 直接托管静态文件
+
+### 需要配置的 GitHub Variables
+
+- `ENABLE_SERVER_DEPLOY`
+- `DEPLOY_SERVER_HOST`
+- `DEPLOY_SERVER_PORT`
+- `DEPLOY_SERVER_USER`
+- `DEPLOY_TARGET_DIR`
+- `DEPLOY_SITE_URL`
+- `DEPLOY_ALT_LINK_ZH`
+- `DEPLOY_ALT_LINK_EN`
+- `DEPLOY_ALT_LINK_JA`
+
+### 需要配置的 GitHub Secret
+
+- `DEPLOY_SSH_PRIVATE_KEY`
+
+### 你的域名推荐值
+
+```text
+ENABLE_SERVER_DEPLOY=true
+DEPLOY_SITE_URL=https://flutterx.itbug.shop/
+DEPLOY_ALT_LINK_ZH=/zh/
+DEPLOY_ALT_LINK_EN=/en/
+DEPLOY_ALT_LINK_JA=/ja/
+```
+
+### 服务器目录示例
+
+```text
+DEPLOY_TARGET_DIR=/var/www/flutterx-doc
+```
+
+### Nginx 静态站配置
+
+示例文件：
+
+```text
+deploy/nginx-static.example.conf
+```
+
+这个方案对静态文档站通常比 Docker 拉跨境镜像更快、更稳。

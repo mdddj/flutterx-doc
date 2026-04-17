@@ -1,0 +1,66 @@
+name: Deploy Static Site to Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.ENABLE_SERVER_DEPLOY == 'true' }}
+    runs-on: ubuntu-latest
+    env:
+      NO_MKDOCS_2_WARNING: "1"
+      SITE_URL: ${{ vars.DEPLOY_SITE_URL || vars.DOCKER_SITE_URL || 'https://flutterx.itbug.shop/' }}
+      ALT_LINK_ZH: ${{ vars.DEPLOY_ALT_LINK_ZH || vars.DOCKER_ALT_LINK_ZH || '/zh/' }}
+      ALT_LINK_EN: ${{ vars.DEPLOY_ALT_LINK_EN || vars.DOCKER_ALT_LINK_EN || '/en/' }}
+      ALT_LINK_JA: ${{ vars.DEPLOY_ALT_LINK_JA || vars.DOCKER_ALT_LINK_JA || '/ja/' }}
+      DEPLOY_HOST: ${{ vars.DEPLOY_SERVER_HOST }}
+      DEPLOY_PORT: ${{ vars.DEPLOY_SERVER_PORT || '22' }}
+      DEPLOY_USER: ${{ vars.DEPLOY_SERVER_USER }}
+      DEPLOY_TARGET_DIR: ${{ vars.DEPLOY_TARGET_DIR }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate deployment settings
+        run: |
+          test -n "${DEPLOY_HOST}" || { echo "Missing Actions variable: DEPLOY_SERVER_HOST"; exit 1; }
+          test -n "${DEPLOY_USER}" || { echo "Missing Actions variable: DEPLOY_SERVER_USER"; exit 1; }
+          test -n "${DEPLOY_TARGET_DIR}" || { echo "Missing Actions variable: DEPLOY_TARGET_DIR"; exit 1; }
+          test -n "${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}" || { echo "Missing Actions secret: DEPLOY_SSH_PRIVATE_KEY"; exit 1; }
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build site
+        run: mkdocs build --clean --strict
+
+      - name: Configure SSH
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p "${DEPLOY_PORT}" -H "${DEPLOY_HOST}" >> ~/.ssh/known_hosts
+
+      - name: Ensure target directory exists
+        run: |
+          ssh -p "${DEPLOY_PORT}" "${DEPLOY_USER}@${DEPLOY_HOST}" \
+            "mkdir -p '${DEPLOY_TARGET_DIR}'"
+
+      - name: Upload site with rsync
+        run: |
+          rsync -az --delete \
+            -e "ssh -p ${DEPLOY_PORT}" \
+            site/ "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_TARGET_DIR}/"
