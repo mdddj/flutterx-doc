@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NO_MKDOCS_2_WARNING: "1"
-      SITE_URL: ${{ vars.DEPLOY_SITE_URL || vars.DOCKER_SITE_URL || 'https://flutterx.itbug.shop/' }}
-      ALT_LINK_ZH: ${{ vars.DEPLOY_ALT_LINK_ZH || vars.DOCKER_ALT_LINK_ZH || '/zh/' }}
-      ALT_LINK_EN: ${{ vars.DEPLOY_ALT_LINK_EN || vars.DOCKER_ALT_LINK_EN || '/en/' }}
-      ALT_LINK_JA: ${{ vars.DEPLOY_ALT_LINK_JA || vars.DOCKER_ALT_LINK_JA || '/ja/' }}
+      SITE_URL: ${{ vars.DEPLOY_SITE_URL || 'https://flutterx.itbug.shop/' }}
+      ALT_LINK_ZH: ${{ vars.DEPLOY_ALT_LINK_ZH || '/zh/' }}
+      ALT_LINK_EN: ${{ vars.DEPLOY_ALT_LINK_EN || '/en/' }}
+      ALT_LINK_JA: ${{ vars.DEPLOY_ALT_LINK_JA || '/ja/' }}
       DEPLOY_HOST: ${{ vars.DEPLOY_SERVER_HOST }}
       DEPLOY_PORT: ${{ vars.DEPLOY_SERVER_PORT || '22' }}
       DEPLOY_USER: ${{ vars.DEPLOY_SERVER_USER }}
