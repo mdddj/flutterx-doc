@@ -14,7 +14,7 @@ You can also enable or disable it here
 
 ## Auto Import
 
-![Kapture_2024-10-30_at_11.24.11.gif](../../assets/gif/Kapture_2024-10-30_at_11.24.11.gif)
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Riverpod settings auto import demo" src="../../assets/videos/gif/Kapture_2024-10-30_at_11.24.11.mp4"></video>
 
 > Customize import content in settings, can also be other packages
 

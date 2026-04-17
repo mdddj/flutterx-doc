@@ -27,11 +27,11 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 ## Sorting
 
-![](../../assets/images/vm/drift/drift_排序.gif)
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift sorting demo" src="../../assets/videos/vm/drift/drift_排序.mp4"></video>
 
 ## Filtering
 
-![](../../assets/images/vm/drift/drift_过滤.gif)
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift filtering demo" src="../../assets/videos/vm/drift/drift_过滤.mp4"></video>
 
 ## Preview Data Tables in Editor
 
@@ -42,7 +42,7 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 ## Edit Column Data
 
-![](../../assets/images/vm/drift/drift_edit_column_data.gif)
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift edit column data demo" src="../../assets/videos/vm/drift/drift_edit_column_data.mp4"></video>
 
 ## Export CSV
 
@@ -54,7 +54,7 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 ## Resizable Columns
 
-![](../../assets/images/vm/drift/drift_move_column_resize.gif)
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift resizable columns demo" src="../../assets/videos/vm/drift/drift_move_column_resize.mp4"></video>
 
 ## Others
 
