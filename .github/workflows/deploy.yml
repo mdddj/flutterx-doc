@@ -13,6 +13,8 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      NO_MKDOCS_2_WARNING: "1"
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
