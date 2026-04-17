@@ -15,7 +15,7 @@ Find the FlutterX tool window and open the privacy scanning tool window
 
 > If the list doesn't display, click the scan button - it may take some time to scan
 
-![ios隐私扫描窗口.png](../../assets/images/ios隐私扫描窗口.png)
+![ios隐私扫描窗口.png](../../assets/images/ios隐私扫描窗口.webp)
 
 ## Execute Batch Fix Function
 

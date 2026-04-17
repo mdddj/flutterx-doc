@@ -7,7 +7,7 @@
 
 Some data in the console doesn't look intuitive and is not convenient, so this log panel was created.
 
-![image_32.png](../../assets/images/image_32.png)
+![image_32.png](../../assets/images/image_32.webp)
 
 ## How to use?
 

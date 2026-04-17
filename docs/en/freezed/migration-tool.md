@@ -6,10 +6,10 @@ Since my own project makes extensive use of freezed, I created this tool to faci
 
 > **Note** It will display an action notification bar at the top of your editor. If it shows up due to a bug, you can close it.
 
-![image_16.png](../../assets/images/image_16.png)
+![image_16.png](../../assets/images/image_16.webp)
 
 It supports modifying the current file as well as scanning and modifying the entire project.
 
 > **Note**
 
-![image_17.png](../../assets/images/image_17.png)
+![image_17.png](../../assets/images/image_17.webp)

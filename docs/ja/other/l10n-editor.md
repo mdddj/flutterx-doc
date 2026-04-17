@@ -5,9 +5,9 @@
 
 Flutterx設定パネルを開く
 
-![image_23.png](../../assets/images/image_23.png)
+![image_23.png](../../assets/images/image_23.webp)
 
-![image_24.png](../../assets/images/image_24.png)
+![image_24.png](../../assets/images/image_24.webp)
 
 > **注意**
 >
@@ -15,17 +15,17 @@ Flutterx設定パネルを開く
 
 ## 2.l10nパネルの使用
 
-![image_25.png](../../assets/images/image_25.png)
+![image_25.png](../../assets/images/image_25.webp)
 
-![image_26.png](../../assets/images/image_26.png)
+![image_26.png](../../assets/images/image_26.webp)
 
 新しいキーを入力
 
-![image_27.png](../../assets/images/image_27.png)
+![image_27.png](../../assets/images/image_27.webp)
 
 OKボタンをクリックすると、すべてのarbファイルにキーが挿入されます。
 
-![image_28.png](../../assets/images/image_28.png)
+![image_28.png](../../assets/images/image_28.webp)
 
 
 ## l10nキーの抽出
@@ -34,15 +34,15 @@ OKボタンをクリックすると、すべてのarbファイルにキーが挿
 文字列をl10nキーとして素早く抽出
 
 
-![image_29.png](../../assets/images/image_29.png)
+![image_29.png](../../assets/images/image_29.webp)
 
-![image_30.png](../../assets/images/image_30.png)
+![image_30.png](../../assets/images/image_30.webp)
 
 
 app_en.arbに新しいJSONノードが挿入されます。
 
 
-![image_31.png](../../assets/images/image_31.png)
+![image_31.png](../../assets/images/image_31.webp)
 
 
 ## さらなる機能が追加中..

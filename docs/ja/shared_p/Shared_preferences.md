@@ -11,7 +11,7 @@
 
 右側にはキーに対応する値が表示されます。
 
-![_sp_main.png](../../assets/images/_sp_main.png)
+![_sp_main.png](../../assets/images/_sp_main.webp)
 
 
 ## 右クリックメニュー
@@ -20,4 +20,4 @@
 
 ここでSPキャッシュを操作できます。
 
-![f9eec0d177a511a1333ac284043f2246.png](../../assets/images/f9eec0d177a511a1333ac284043f2246.png)
+![f9eec0d177a511a1333ac284043f2246.png](../../assets/images/f9eec0d177a511a1333ac284043f2246.webp)

@@ -2,15 +2,15 @@
 
 Whether to display the riverpod quick switch tool in the editor
 
-![image_s_r_1.png](../../assets/images/image_s_r_1.png)
+![image_s_r_1.png](../../assets/images/image_s_r_1.webp)
 
 When disabled, this will not be displayed
 
-![image_s_r_2.png](../../assets/images/image_s_r_2.png)
+![image_s_r_2.png](../../assets/images/image_s_r_2.webp)
 
 You can also enable or disable it here
 
-![image_s_r_3.png](../../assets/images/image_s_r_3.png)
+![image_s_r_3.png](../../assets/images/image_s_r_3.webp)
 
 ## Auto Import
 
@@ -18,4 +18,4 @@ You can also enable or disable it here
 
 > Customize import content in settings, can also be other packages
 
-![image_s_r_4.png](../../assets/images/image_s_r_4.png)
+![image_s_r_4.png](../../assets/images/image_s_r_4.webp)

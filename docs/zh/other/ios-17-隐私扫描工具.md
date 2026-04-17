@@ -15,7 +15,7 @@
 
 > 如果没有显示列表,点击扫描按钮,它可能需要一点时间来扫描
 
-![scan_ios.png](../../assets/images/ios隐私扫描窗口.png)
+![scan_ios.png](../../assets/images/ios隐私扫描窗口.webp)
 
 ## 执行批量修复功能
 

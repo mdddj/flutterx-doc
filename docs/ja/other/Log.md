@@ -10,7 +10,7 @@
 コンソールでデータを見ると直感的でなく、不便なので、このログパネルを作成しました。
 
 
-![image_32.png](../../assets/images/image_32.png)
+![image_32.png](../../assets/images/image_32.webp)
 
 
 ## 使い方?

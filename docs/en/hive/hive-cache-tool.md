@@ -43,7 +43,7 @@ The panel has 3 columns: the first column is the box list, the second column sho
 
 > If you want to change the value corresponding to a key, you can override its toString function.
 
-![_hive_img_01.png](../../assets/images/_hive_img_01.png)
+![_hive_img_01.png](../../assets/images/_hive_img_01.webp)
 
 Corresponding code:
 

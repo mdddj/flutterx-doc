@@ -5,17 +5,17 @@
 
 ## 情報パネル
 
-![](../../assets/images/vm/vm1.png)
+![](../../assets/images/vm/vm1.webp)
 
 ## HTTPリクエスト監視パネル
 
-![](../../assets/images/vm/vm2.png)
+![](../../assets/images/vm/vm2.webp)
 
 ## ログパネル
 
-![](../../assets/images/vm/vm3.png)
+![](../../assets/images/vm/vm3.webp)
 
 
 
 ## 無効化ウィンドウ
-![](../../assets/images/vm/vm4.png)
+![](../../assets/images/vm/vm4.webp)

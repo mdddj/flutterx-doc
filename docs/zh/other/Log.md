@@ -10,7 +10,7 @@
 有一些数据在控制台看起来不直观，也不方便，所以做了这个日志面板
 
 
-![image_32.png](../../assets/images/image_32.png)
+![image_32.png](../../assets/images/image_32.webp)
 
 
 ## 怎么用?

@@ -11,7 +11,7 @@
 
 右侧显示的key对应的value值
 
-![_sp_main.png](../../assets/images/_sp_main.png)
+![_sp_main.png](../../assets/images/_sp_main.webp)
 
 
 ## 右键菜单
@@ -20,5 +20,5 @@
 
 你可以在这里操作 SP 缓存
 
-![f9eec0d177a511a1333ac284043f2246.png](../../assets/images/f9eec0d177a511a1333ac284043f2246.png)
+![f9eec0d177a511a1333ac284043f2246.png](../../assets/images/f9eec0d177a511a1333ac284043f2246.webp)
 

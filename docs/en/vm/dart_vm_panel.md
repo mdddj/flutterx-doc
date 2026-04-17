@@ -4,16 +4,16 @@
 
 ## Information Panel
 
-![](../../assets/images/vm/vm1.png)
+![](../../assets/images/vm/vm1.webp)
 
 ## HTTP Request Monitoring Panel
 
-![](../../assets/images/vm/vm2.png)
+![](../../assets/images/vm/vm2.webp)
 
 ## Log Panel
 
-![](../../assets/images/vm/vm3.png)
+![](../../assets/images/vm/vm3.webp)
 
 
 ## Disabled Window
-![](../../assets/images/vm/vm4.png)
+![](../../assets/images/vm/vm4.webp)

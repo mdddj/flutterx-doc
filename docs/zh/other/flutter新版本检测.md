@@ -14,9 +14,9 @@
 
 ## 截图预览
 
-![image_9.png](../../assets/images/image_9.png)
+![image_9.png](../../assets/images/image_9.webp)
 
-![image_10.png](../../assets/images/image_10.png)
+![image_10.png](../../assets/images/image_10.webp)
 
 whats new 会跳转到flutter github仓库的CHANGELOG.md文件
 
@@ -29,4 +29,4 @@ whats new 会跳转到flutter github仓库的CHANGELOG.md文件
 
 ## 不需要这个功能,在这里关闭它
 
-![image_8.png](../../assets/images/image_8.png)
+![image_8.png](../../assets/images/image_8.webp)

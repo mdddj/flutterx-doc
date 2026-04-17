@@ -48,7 +48,7 @@ abstract class DdPluginHiveBox<T> {
 > 如果想改变key对应的 value值,可以重写它的 toString 函数
 
 
-![_hive_img_01.png](../../assets/images/_hive_img_01.png)
+![_hive_img_01.png](../../assets/images/_hive_img_01.webp)
 
 对应的代码
 

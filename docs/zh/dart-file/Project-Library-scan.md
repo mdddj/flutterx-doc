@@ -16,4 +16,4 @@ enter the `part` trigger recommendations
 
 ## How to close
 
-![close](../../assets/images/close.png)
+![close](../../assets/images/close.webp)

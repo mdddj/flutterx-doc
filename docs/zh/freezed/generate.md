@@ -9,7 +9,7 @@ Flutterx内置了一些自动补全的语句
 键入`pf`,自动生成`文件名.freezed.dart`
 
 
-![1](../../assets/images/pd.png)
+![1](../../assets/images/pd.webp)
 
 
 ## pg
@@ -18,7 +18,7 @@ Flutterx内置了一些自动补全的语句
 键入`pg`,自动生成`文件名.g.dart`
 
 
-![1](../../assets/images/pg.png)
+![1](../../assets/images/pg.webp)
 
 
 ## ff
@@ -27,6 +27,6 @@ Flutterx内置了一些自动补全的语句
 键入`ff`,自动生成`freezed的fromJson方法`
 
 
-![1](../../assets/images/ff.png)
+![1](../../assets/images/ff.webp)
 
 

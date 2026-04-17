@@ -23,7 +23,7 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 ## Screenshot Preview
 
-![](../../assets/images/vm/drift/1.png)
+![](../../assets/images/vm/drift/1.webp)
 
 ## Sorting
 
@@ -35,8 +35,8 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 ## Preview Data Tables in Editor
 
-![](../../assets/images/vm/drift/preview_csv.png)
-![](../../assets/images/vm/drift/preview_csv_edit.png)
+![](../../assets/images/vm/drift/preview_csv.webp)
+![](../../assets/images/vm/drift/preview_csv_edit.webp)
 
 > This requires IDE plugin support; tested successfully in version 2025.2.3 without additional plugins.
 
@@ -46,11 +46,11 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 ## Export CSV
 
-![](../../assets/images/vm/drift/export_csv.png)
+![](../../assets/images/vm/drift/export_csv.webp)
 
 ## Export as SQLite
 
-![](../../assets/images/vm/drift/export_sqlite.png)
+![](../../assets/images/vm/drift/export_sqlite.webp)
 
 ## Resizable Columns
 
@@ -60,4 +60,4 @@ You need to add Drift-related dependencies to your project and execute code rela
 
 There are also some common features like copying values, opening text in the editor, opening values as JSON, etc.
 
-![](../../assets/images/vm/drift/menu.png)
+![](../../assets/images/vm/drift/menu.webp)

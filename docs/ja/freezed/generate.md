@@ -9,7 +9,7 @@ Flutterxにはいくつかの自動補完ステートメントが内蔵されて
 `pf`と入力すると、`ファイル名.freezed.dart`が自動生成されます。
 
 
-![1](../../assets/images/pd.png)
+![1](../../assets/images/pd.webp)
 
 
 ## pg
@@ -18,7 +18,7 @@ Flutterxにはいくつかの自動補完ステートメントが内蔵されて
 `pg`と入力すると、`ファイル名.g.dart`が自動生成されます。
 
 
-![1](../../assets/images/pg.png)
+![1](../../assets/images/pg.webp)
 
 
 ## ff
@@ -27,4 +27,4 @@ Flutterxにはいくつかの自動補完ステートメントが内蔵されて
 `ff`と入力すると、`freezedのfromJsonメソッド`が自動生成されます。
 
 
-![1](../../assets/images/ff.png)
+![1](../../assets/images/ff.webp)

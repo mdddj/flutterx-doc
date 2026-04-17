@@ -4,13 +4,13 @@
 
 If you can't find this window, it may not be displayed by default. You need to manually open it from the menu bar: `View -> Tool Windows -> Dio Request`
 
-![dio windows](../../assets/images/_dio_01.png)
+![dio windows](../../assets/images/_dio_01.webp)
 
 ## 2. Service Running Status
 
 If you see a small green dot, it indicates the service is running and ready for connection.
 
-![status](../../assets/images/img_2.png)
+![status](../../assets/images/img_2.webp)
 
 ## 3. Getting Started
 
@@ -63,7 +63,7 @@ Below are the parameter descriptions for the `DdCheckPlugin#init` function:
 
 The plugin will automatically recognize your IP address and provide suggestions.
 
-![img_3.png](../../assets/images/img_3.png)
+![img_3.png](../../assets/images/img_3.webp)
 
 ## 5. Adding Notes to APIs
 
@@ -96,15 +96,15 @@ SendResponseModel _customCoverterResponseData(SendResponseModel sendResponseMode
 
 As shown in the image, string arrays in `SendResponseModel#extendNotes` will be displayed as tags in a loop under the URL.
 
-![img_4.png](../../assets/images/img_4.png)
+![img_4.png](../../assets/images/img_4.webp)
 
 If there are too many notes, it's recommended to use relaxed mode for display.
 
-![img_5.png](../../assets/images/img_5.png)
+![img_5.png](../../assets/images/img_5.webp)
 
 Here's my configuration:
 
-![img_6.png](../../assets/images/img_6.png)
+![img_6.png](../../assets/images/img_6.webp)
 
 ## 6. Json to Freezed Model
 
@@ -113,8 +113,8 @@ Here's my configuration:
 After selecting an API, click this icon to open the JSON to Freezed model configuration dialog.
 Or right-click on the API to find this option in the context menu.
 
-![img_7.png](../../assets/images/img_7.png)
+![img_7.png](../../assets/images/img_7.webp)
 
-![img_8.png](../../assets/images/img_8.png)
+![img_8.png](../../assets/images/img_8.webp)
 
-![img_9.png](../../assets/images/img_9.png)
+![img_9.png](../../assets/images/img_9.webp)

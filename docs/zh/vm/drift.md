@@ -24,7 +24,7 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 
 ## 截图预览
 
-![](../../assets/images/vm/drift/1.png)
+![](../../assets/images/vm/drift/1.webp)
 
 ## 排序
 
@@ -36,8 +36,8 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 
 ## 在编辑器中预览数据表
 
-![](../../assets/images/vm/drift/preview_csv.png)
-![](../../assets/images/vm/drift/preview_csv_edit.png)
+![](../../assets/images/vm/drift/preview_csv.webp)
+![](../../assets/images/vm/drift/preview_csv_edit.webp)
 
 > 这里需要 idea 插件支持,我在 2025.2.3 版本中测试成功,不需要装额外的插件
 
@@ -50,12 +50,12 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 ## 导出 CSV
 
 
-![](../../assets/images/vm/drift/export_csv.png)
+![](../../assets/images/vm/drift/export_csv.webp)
 
 
 ## 导出为sqlite
 
-![](../../assets/images/vm/drift/export_sqlite.png)
+![](../../assets/images/vm/drift/export_sqlite.webp)
 
 ## 移动列宽度
 
@@ -66,4 +66,4 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 
 还有一些常见功能,复制值,在编辑器中打开文本,将值打开为 json 等等
 
-![](../../assets/images/vm/drift/menu.png)
+![](../../assets/images/vm/drift/menu.webp)

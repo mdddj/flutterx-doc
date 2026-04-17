@@ -16,4 +16,4 @@ Dartライブラリの自動サジェスト補完
 
 ## 閉じる方法
 
-![close](../../assets/images/close.png)
+![close](../../assets/images/close.webp)

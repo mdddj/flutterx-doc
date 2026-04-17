@@ -9,7 +9,7 @@ freezed 3.0バージョンには変更があり、classの前にsealedまたはa
 > **注意** エディタの上部に操作通知バーが表示されますが、バグや誤って表示された場合は閉じることができます。
 
 
-![image_16.png](../../assets/images/image_16.png)
+![image_16.png](../../assets/images/image_16.webp)
 
 
 現在のファイルの修正と、プロジェクト全体のスキャン修正をサポートしています。
@@ -18,4 +18,4 @@ freezed 3.0バージョンには変更があり、classの前にsealedまたはa
 > **注意**
 
 
-![image_17.png](../../assets/images/image_17.png)
+![image_17.png](../../assets/images/image_17.webp)

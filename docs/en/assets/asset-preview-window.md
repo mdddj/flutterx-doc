@@ -8,15 +8,15 @@ This allows you to conveniently browse all image files, SVG icons, etc. in your 
 
 Supports filtering search by filename
 
-![image_20.png](../../assets/images/image_20.png)
+![image_20.png](../../assets/images/image_20.webp)
 
 ## 2. Right-click Menu, Copy Component
 
-![image_21.png](../../assets/images/image_21.png)
+![image_21.png](../../assets/images/image_21.webp)
 
 ## 3. Settings
 
 * You can configure the item size here and whether to enable this feature
 * You can configure your custom assets file directory, the default is the assets folder
 
-![image_22.png](../../assets/images/image_22.png)
+![image_22.png](../../assets/images/image_22.webp)

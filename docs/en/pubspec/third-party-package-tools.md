@@ -6,9 +6,9 @@ Here's an introduction to the related features of the `pubspec.yaml` file
 
 Search packages directly within the plugin
 
-![pubspec_01.png](../../assets/images/pubspec_01.png)
+![pubspec_01.png](../../assets/images/pubspec_01.webp)
 
-![pubspec_02.png](../../assets/images/pubspec_02.png)
+![pubspec_02.png](../../assets/images/pubspec_02.webp)
 
 ## Plugin Version Detection
 
@@ -18,30 +18,30 @@ Search packages directly within the plugin
 
 > If you don't need version detection, click the Dart icon on the left, then click "Don't detect new versions". It will automatically ignore this the next time you enter the file.
 
-![pubspec_04.png](../../assets/images/pubspec_04.png)
+![pubspec_04.png](../../assets/images/pubspec_04.webp)
 
 ## Plugin Information Panel
 
 Hover your mouse over the plugin name to display the plugin details panel
 
-![pubspec_03.png](../../assets/images/pubspec_03.png)
+![pubspec_03.png](../../assets/images/pubspec_03.webp)
 
 ## Quick Jump to Package Homepage
 
 Click the icon to jump to the pub.dev package homepage
 
-![pubspec_05.png](../../assets/images/pubspec_05.png)
+![pubspec_05.png](../../assets/images/pubspec_05.webp)
 
 ## Detect Unused Packages
 
-![image_check_2.png](../../assets/images/image_check_2.png)
+![image_check_2.png](../../assets/images/image_check_2.webp)
 
-![image_pubspec.chaeck_package.png](../../assets/images/image_pubspec.chaeck_package.png)
+![image_pubspec.chaeck_package.png](../../assets/images/image_pubspec.chaeck_package.webp)
 
 ## Check Package Information
 
 Here you can view the package update date. It's recommended to replace packages that haven't been updated for a long time.
 
-![image_view_1.png](../../assets/images/image_view_1.png)
+![image_view_1.png](../../assets/images/image_view_1.webp)
 
-![image_view_2.png](../../assets/images/image_view_2.png)
+![image_view_2.png](../../assets/images/image_view_2.webp)
