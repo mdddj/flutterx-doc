@@ -1,0 +1,22 @@
+services:
+  flutterx-doc:
+    container_name: flutterx-doc
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # 自定义域名部署示例:
+        SITE_URL: https://docs.example.com/
+        ALT_LINK_ZH: /zh/
+        ALT_LINK_EN: /en/
+        ALT_LINK_JA: /ja/
+
+        # 如果你要部署在子路径，例如 https://example.com/flutterx-doc/，
+        # 改成下面这种形式:
+        # SITE_URL: https://example.com/flutterx-doc/
+        # ALT_LINK_ZH: /flutterx-doc/zh/
+        # ALT_LINK_EN: /flutterx-doc/en/
+        # ALT_LINK_JA: /flutterx-doc/ja/
+    ports:
+      - "8083:80"
+    restart: unless-stopped

@@ -61,3 +61,91 @@ mkdocs build --clean --strict
 ```
 
 GitHub Pages 仓库设置中应选择 `GitHub Actions` 作为部署来源。
+
+## Docker 部署
+
+仓库内置了源码构建镜像的 Docker 方案，构建时会自动执行 `mkdocs build --clean --strict`。
+
+### 直接构建
+
+自定义域名部署：
+
+```bash
+docker build \
+  --build-arg SITE_URL="https://docs.example.com/" \
+  --build-arg ALT_LINK_ZH="/zh/" \
+  --build-arg ALT_LINK_EN="/en/" \
+  --build-arg ALT_LINK_JA="/ja/" \
+  -t flutterx-doc:latest .
+```
+
+部署到子路径，例如 `https://example.com/flutterx-doc/`：
+
+```bash
+docker build \
+  --build-arg SITE_URL="https://example.com/flutterx-doc/" \
+  --build-arg ALT_LINK_ZH="/flutterx-doc/zh/" \
+  --build-arg ALT_LINK_EN="/flutterx-doc/en/" \
+  --build-arg ALT_LINK_JA="/flutterx-doc/ja/" \
+  -t flutterx-doc:latest .
+```
+
+运行：
+
+```bash
+docker run -d \
+  --name flutterx-doc \
+  --restart unless-stopped \
+  -p 8083:80 \
+  flutterx-doc:latest
+```
+
+### Compose
+
+可以直接复制 [`docker-compose.example.yml`](/Users/ldd/WritersideProjects/flutterx/docker-compose.example.yml) 为 `docker-compose.yml` 后修改域名参数，再执行：
+
+```bash
+docker compose up -d --build
+```
+
+如果服务器前面还有 Nginx，反向代理示例见 [`deploy/nginx-proxy.example.conf`](/Users/ldd/WritersideProjects/flutterx/deploy/nginx-proxy.example.conf)。
+
+### GitHub Actions 自动推送 GHCR
+
+仓库还内置了 [`.github/workflows/docker-image.yml`](/Users/ldd/WritersideProjects/flutterx/.github/workflows/docker-image.yml)，会在推送到 `main` 时自动构建并推送到：
+
+```text
+ghcr.io/mdddj/flutterx-doc:latest
+```
+
+在 GitHub 仓库 `Settings -> Secrets and variables -> Actions -> Variables` 里配置这些变量：
+
+- `DOCKER_SITE_URL`
+- `DOCKER_ALT_LINK_ZH`
+- `DOCKER_ALT_LINK_EN`
+- `DOCKER_ALT_LINK_JA`
+
+自定义域名示例：
+
+```text
+DOCKER_SITE_URL=https://docs.example.com/
+DOCKER_ALT_LINK_ZH=/zh/
+DOCKER_ALT_LINK_EN=/en/
+DOCKER_ALT_LINK_JA=/ja/
+```
+
+子路径部署示例：
+
+```text
+DOCKER_SITE_URL=https://example.com/flutterx-doc/
+DOCKER_ALT_LINK_ZH=/flutterx-doc/zh/
+DOCKER_ALT_LINK_EN=/flutterx-doc/en/
+DOCKER_ALT_LINK_JA=/flutterx-doc/ja/
+```
+
+服务器如果直接拉 GHCR 镜像，可以复制 [`docker-compose.ghcr.example.yml`](/Users/ldd/WritersideProjects/flutterx/docker-compose.ghcr.example.yml) 为 `docker-compose.yml` 后执行：
+
+```bash
+docker compose pull
+docker compose up -d
+```

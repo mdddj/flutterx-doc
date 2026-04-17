@@ -57,3 +57,107 @@ mkdocs build --clean --strict
 ## 访问地址
 
 [https://mdddj.github.io/flutterx-doc/](https://mdddj.github.io/flutterx-doc/)
+
+## Docker 部署
+
+当前仓库也支持直接构建 Docker 镜像。镜像构建阶段会自动执行 MkDocs 构建，因此服务器不需要预先生成 `site/`。
+
+### 构建参数
+
+- `SITE_URL`: 文档站完整地址，决定 canonical 和 sitemap
+- `ALT_LINK_ZH`
+- `ALT_LINK_EN`
+- `ALT_LINK_JA`
+
+自定义域名示例：
+
+```bash
+docker build \
+  --build-arg SITE_URL="https://docs.example.com/" \
+  --build-arg ALT_LINK_ZH="/zh/" \
+  --build-arg ALT_LINK_EN="/en/" \
+  --build-arg ALT_LINK_JA="/ja/" \
+  -t flutterx-doc:latest .
+```
+
+子路径部署示例：
+
+```bash
+docker build \
+  --build-arg SITE_URL="https://example.com/flutterx-doc/" \
+  --build-arg ALT_LINK_ZH="/flutterx-doc/zh/" \
+  --build-arg ALT_LINK_EN="/flutterx-doc/en/" \
+  --build-arg ALT_LINK_JA="/flutterx-doc/ja/" \
+  -t flutterx-doc:latest .
+```
+
+### 运行
+
+```bash
+docker run -d \
+  --name flutterx-doc \
+  --restart unless-stopped \
+  -p 8083:80 \
+  flutterx-doc:latest
+```
+
+### Compose 和反向代理
+
+- Compose 示例: `docker-compose.example.yml`
+- Nginx 反向代理示例: `deploy/nginx-proxy.example.conf`
+
+## GitHub Actions 自动推送 GHCR
+
+工作流文件：
+
+```text
+.github/workflows/docker-image.yml
+```
+
+它会在推送到 `main` 时自动构建 Docker 镜像并推送到：
+
+```text
+ghcr.io/mdddj/flutterx-doc:latest
+```
+
+### 需要配置的 GitHub Variables
+
+在仓库的 `Settings -> Secrets and variables -> Actions -> Variables` 中添加：
+
+- `DOCKER_SITE_URL`
+- `DOCKER_ALT_LINK_ZH`
+- `DOCKER_ALT_LINK_EN`
+- `DOCKER_ALT_LINK_JA`
+
+自定义域名示例：
+
+```text
+DOCKER_SITE_URL=https://docs.example.com/
+DOCKER_ALT_LINK_ZH=/zh/
+DOCKER_ALT_LINK_EN=/en/
+DOCKER_ALT_LINK_JA=/ja/
+```
+
+子路径部署示例：
+
+```text
+DOCKER_SITE_URL=https://example.com/flutterx-doc/
+DOCKER_ALT_LINK_ZH=/flutterx-doc/zh/
+DOCKER_ALT_LINK_EN=/flutterx-doc/en/
+DOCKER_ALT_LINK_JA=/flutterx-doc/ja/
+```
+
+### 服务器拉取配置
+
+直接使用 `docker-compose.ghcr.example.yml`：
+
+```bash
+docker compose pull
+docker compose up -d
+```
+
+如果 GHCR 包是私有的，先在服务器登录：
+
+```bash
+echo "<github_pat>" | docker login ghcr.io -u <github_username> --password-stdin
+```

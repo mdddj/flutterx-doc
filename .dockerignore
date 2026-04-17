@@ -1,0 +1,13 @@
+.git
+.github
+.idea
+.run
+.DS_Store
+venv
+site
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+node_modules

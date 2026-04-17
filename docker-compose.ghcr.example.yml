@@ -1,0 +1,7 @@
+services:
+  flutterx-doc:
+    image: ghcr.io/mdddj/flutterx-doc:latest
+    container_name: flutterx-doc
+    restart: unless-stopped
+    ports:
+      - "8083:80"
