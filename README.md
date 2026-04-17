@@ -30,6 +30,26 @@ mkdocs build --clean --strict
 
 构建产物默认输出到 `site/`。
 
+如果需要兼容不同部署根地址，可以在构建时覆盖这些环境变量：
+
+```bash
+SITE_URL="https://mdddj.github.io/flutterx-doc/" \
+ALT_LINK_ZH="/flutterx-doc/zh/" \
+ALT_LINK_EN="/flutterx-doc/en/" \
+ALT_LINK_JA="/flutterx-doc/ja/" \
+mkdocs build --clean --strict
+```
+
+自定义域名部署时改成：
+
+```bash
+SITE_URL="https://flutterx.itbug.shop/" \
+ALT_LINK_ZH="/zh/" \
+ALT_LINK_EN="/en/" \
+ALT_LINK_JA="/ja/" \
+mkdocs build --clean --strict
+```
+
 ## 部署
 
 推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages。

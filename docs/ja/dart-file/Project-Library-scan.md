@@ -11,7 +11,7 @@ Dartライブラリの自動サジェスト補完
 
 `part`を入力してトリガーの推奨事項を表示
 
-<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Project Library Scan preview" src="../../assets/videos/gif/DartLibraryScanGif.mp4"></video>
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Project Library Scan preview" src="../../../assets/videos/gif/DartLibraryScanGif.mp4"></video>
 
 
 ## 閉じる方法

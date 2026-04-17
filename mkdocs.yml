@@ -1,6 +1,6 @@
 site_name: FlutterX
 site_description: FlutterX - Flutter开发者快速开发的辅助工具插件
-site_url: https://itbug.shop
+site_url: !ENV [SITE_URL, "https://mdddj.github.io/flutterx-doc/"]
 repo_url: https://github.com/mdddj/dd_flutter_idea_plugin
 repo_name: mdddj/dd_flutter_idea_plugin
 edit_uri: edit/main/mkdocs-flutterx/docs/
@@ -102,13 +102,13 @@ extra:
       name: GitHub Repository
   alternate:
     - name: 简体中文
-      link: /zh/
+      link: !ENV [ALT_LINK_ZH, "/flutterx-doc/zh/"]
       lang: zh
     - name: English
-      link: /en/
+      link: !ENV [ALT_LINK_EN, "/flutterx-doc/en/"]
       lang: en
     - name: 日本語
-      link: /ja/
+      link: !ENV [ALT_LINK_JA, "/flutterx-doc/ja/"]
       lang: ja
 
 # Multi-language navigation structure

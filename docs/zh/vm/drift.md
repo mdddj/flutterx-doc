@@ -28,11 +28,11 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 
 ## 排序
 
-<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift sorting demo" src="../../assets/videos/vm/drift/drift_排序.mp4"></video>
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift sorting demo" src="../../../assets/videos/vm/drift/drift_排序.mp4"></video>
 
 ## 过滤
 
-<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift filtering demo" src="../../assets/videos/vm/drift/drift_过滤.mp4"></video>
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift filtering demo" src="../../../assets/videos/vm/drift/drift_过滤.mp4"></video>
 
 ## 在编辑器中预览数据表
 
@@ -44,7 +44,7 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 
 ## 编辑列数据
 
-<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift edit column data demo" src="../../assets/videos/vm/drift/drift_edit_column_data.mp4"></video>
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift edit column data demo" src="../../../assets/videos/vm/drift/drift_edit_column_data.mp4"></video>
 
 
 ## 导出 CSV
@@ -59,7 +59,7 @@ Drift 数据库查看器，支持对数据库进行可视化操作。
 
 ## 移动列宽度
 
-<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift resizable columns demo" src="../../assets/videos/vm/drift/drift_move_column_resize.mp4"></video>
+<video controls autoplay loop muted playsinline style="max-width: 100%; height: auto;" aria-label="Drift resizable columns demo" src="../../../assets/videos/vm/drift/drift_move_column_resize.mp4"></video>
 
 
 ## 其他

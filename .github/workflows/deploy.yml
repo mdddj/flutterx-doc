@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NO_MKDOCS_2_WARNING: "1"
+      SITE_URL: "https://mdddj.github.io/flutterx-doc/"
+      ALT_LINK_ZH: "/flutterx-doc/zh/"
+      ALT_LINK_EN: "/flutterx-doc/en/"
+      ALT_LINK_JA: "/flutterx-doc/ja/"
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
