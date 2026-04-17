@@ -94,7 +94,7 @@ extra_css:
 
 extra:
   generator: false
-  enable_firebase_analytics: !ENV [ENABLE_FIREBASE_ANALYTICS, "false"]
+  enable_firebase_analytics: !ENV [ENABLE_FIREBASE_ANALYTICS, "true"]
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/mdddj/dd_flutter_idea_plugin
